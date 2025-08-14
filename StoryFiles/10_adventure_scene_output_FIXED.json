@@ -1,0 +1,41 @@
+{
+  "original_story": "\"In the heart of the sizzling Sahara, intrepid explorer, Amelia, unearthed a golden amulet buried in the sun-drenched sand. Guided by the amulet’s mystical powers, she traversed treacherous dunes, facing venomous creatures and sandstorms. Finally, she reached an ancient, hidden pyramid, where she unlocked a forgotten civilization’s secrets, forever changing history.\"",
+  "time_frames": [
+    {
+      "title": "Amelia discovers the golden amulet",
+      "scene_relations": [
+        "Amelia [stands over] buried amulet",
+        "Sahara sunlight [beams on] golden amulet"
+      ]
+    },
+    {
+      "title": "Amelia navigates the treacherous dunes",
+      "scene_relations": [
+        "Sand dunes [surround] Amelia",
+        "Amelia [follows] amulet's glow",
+        "Venomous creature [lurks behind] sand dune"
+      ]
+    },
+    {
+      "title": "Amelia unlocks the secrets of the hidden pyramid",
+      "scene_relations": [
+        "Hidden pyramid [holds] civilization's secrets",
+        "Amelia [stands before] ancient pyramid",
+        "Amulet [fits into] pyramid lock"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "\"In the heart of the sizzling Sahara, intrepid explorer, Amelia, unearthed a golden amulet buried in the sun": "drenched sand. Guided by the amulet’s mystical powers, she traversed treacherous dunes, facing venomous creatures and sandstorms. Finally, she reached an ancient, hidden pyramid, where she unlocked a forgotten civilization’s secrets, forever changing history.\"",
+    "Golden amulet [is buried in] sun": "drenched sand",
+    "is buried in": "below",
+    "stands over": "above",
+    "beams on": "above",
+    "surround": "at the right of, at the left of",
+    "follows": "below",
+    "lurks behind": "at the left of",
+    "holds": "below",
+    "stands before": "at the right of",
+    "fits into": "below"
+  }
+}

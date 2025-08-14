@@ -1,0 +1,53 @@
+[
+  {
+    "scene_title": "Jack discovers the cryptic compass",
+    "triples": [
+      {
+        "source": "Captain Jack",
+        "target": "cryptic compass",
+        "relation": "on top of",
+        "original_predicate": "holds"
+      }
+    ]
+  },
+  {
+    "scene_title": "Jack battles the perilous sea",
+    "triples": [
+      {
+        "source": "Merciless waves",
+        "target": "ship",
+        "relation": "below",
+        "original_predicate": "crash against"
+      },
+      {
+        "source": "Mystical sea creatures",
+        "target": "Captain Jack",
+        "relation": "at the right of",
+        "original_predicate": "attack"
+      }
+    ]
+  },
+  {
+    "scene_title": "Jack finds El Dorado",
+    "triples": [
+      {
+        "source": "Radiant moonlight",
+        "target": "El Dorado",
+        "relation": "above",
+        "original_predicate": "illuminates"
+      },
+      {
+        "source": "Captain Jack",
+        "target": "ship's deck",
+        "relation": "on top of",
+        "original_predicate": "stands on"
+      },
+      {
+        "source": "Golden city",
+        "target": "distance",
+        "relation": "at the left of",
+        "original_predicate": "glistens in"
+      }
+    ]
+  }
+]

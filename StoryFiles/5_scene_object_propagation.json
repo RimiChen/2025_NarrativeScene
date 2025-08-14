@@ -1,0 +1,16 @@
+{
+  "Jax discovers the emerald amulet": {
+    "base": "cobblestone street",
+    "propagated_objects": [
+      "streetlights"
+    ]
+  },
+  "Jax unlocks the power of the amulet": {
+    "base": "ancient ruins",
+    "propagated_objects": []
+  },
+  "Jax battles the sinister sorcerer": {
+    "base": "urban",
+    "propagated_objects": []
+  }
+}

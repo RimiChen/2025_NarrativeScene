@@ -1,0 +1,33 @@
+[
+  {
+    "scene_title": "Jax discovers the emerald amulet",
+    "base": "cobblestone street",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "emerald amulet"
+    ]
+  },
+  {
+    "scene_title": "Jax unlocks the power of the amulet",
+    "base": "ancient ruins",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "Emerald amulet",
+      "emerald amulet"
+    ]
+  },
+  {
+    "scene_title": "Jax battles the sinister sorcerer",
+    "base": "urban",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "Emerald amulet"
+    ]
+  }
+]

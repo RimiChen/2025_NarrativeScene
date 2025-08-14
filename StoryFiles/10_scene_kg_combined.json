@@ -1,0 +1,112 @@
+[
+  {
+    "scene_title": "Amelia discovers the golden amulet",
+    "triples": [
+      [
+        "Amelia discovers the golden amulet",
+        "has_base",
+        "sand"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_environment_object",
+        "ancient_pyramid"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_environment_object",
+        "hidden_pyramid"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_character",
+        "Amelia"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_item",
+        "Amulet"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_item",
+        "golden amulet"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_interactive_object",
+        "Pyramid lock"
+      ],
+      [
+        "Amelia discovers the golden amulet",
+        "has_interactive_object",
+        "buried amulet"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Amelia navigates the treacherous dunes",
+    "triples": [
+      [
+        "Amelia navigates the treacherous dunes",
+        "has_base",
+        "sand dunes"
+      ],
+      [
+        "Amelia navigates the treacherous dunes",
+        "has_character",
+        "Amelia"
+      ],
+      [
+        "Amelia navigates the treacherous dunes",
+        "has_character",
+        "Venomous creature"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+    "triples": [
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_base",
+        "sand"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_environment_object",
+        "ancient_pyramid"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_environment_object",
+        "hidden_pyramid"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_character",
+        "Amelia"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_item",
+        "Amulet"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_item",
+        "golden amulet"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_interactive_object",
+        "Pyramid lock"
+      ],
+      [
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "has_interactive_object",
+        "buried amulet"
+      ]
+    ]
+  }
+]

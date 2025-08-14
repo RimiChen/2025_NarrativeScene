@@ -1,0 +1,35 @@
+{
+  "scene_title": "Forest Scene",
+  "characters": [],
+  "items": [],
+  "interactive_objects": [],
+  "environment_objects": [
+    "Flower",
+    "House",
+    "Tree",
+    "Tree stump",
+    "barrel"
+  ],
+  "spatial_relations": [
+    {
+      "source": "House",
+      "target": "Tree",
+      "relation": "below"
+    },
+    {
+      "source": "Tree",
+      "target": "barrel",
+      "relation": "at the right of"
+    },
+    {
+      "source": "Flower",
+      "target": "Tree",
+      "relation": "above"
+    },
+    {
+      "source": "Tree",
+      "target": "Tree stump",
+      "relation": "at the left of"
+    }
+  ]
+}

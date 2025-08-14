@@ -1,0 +1,20 @@
+{
+  "Amelia discovers the golden amulet": {
+    "base": "sand",
+    "propagated_objects": [
+      "ancient_pyramid",
+      "hidden_pyramid"
+    ]
+  },
+  "Amelia navigates the treacherous dunes": {
+    "base": "sand dunes",
+    "propagated_objects": []
+  },
+  "Amelia unlocks the secrets of the hidden pyramid": {
+    "base": "sand",
+    "propagated_objects": [
+      "ancient_pyramid",
+      "hidden_pyramid"
+    ]
+  }
+}

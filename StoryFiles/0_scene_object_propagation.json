@@ -1,0 +1,21 @@
+{
+  "Elara discovers the ancient map": {
+    "base": "forest",
+    "propagated_objects": [
+      "hollow_oak"
+    ]
+  },
+  "Elara faces the treacherous paths": {
+    "base": "mountain",
+    "propagated_objects": [
+      "crystal_cavern",
+      "dense_bushes"
+    ]
+  },
+  "Elara meets the Guardian dragon": {
+    "base": "rocky",
+    "propagated_objects": [
+      "crystal_cavern_entrance"
+    ]
+  }
+}

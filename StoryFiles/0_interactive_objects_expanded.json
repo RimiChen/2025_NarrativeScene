@@ -1,0 +1,30 @@
+[
+  {
+    "scene_title": "Elara discovers the ancient map",
+    "base": "forest",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Elara faces the treacherous paths",
+    "base": "mountain",
+    "patch": [
+      "crystal_cavern",
+      "rocky_path",
+      "treacherous_paths"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Elara meets the Guardian dragon",
+    "base": "rocky",
+    "patch": [
+      "crystal_cavern_entrance"
+    ],
+    "interactive_objects": [
+      "crystal throne"
+    ]
+  }
+]

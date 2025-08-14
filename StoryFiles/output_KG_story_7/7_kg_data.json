@@ -1,0 +1,265 @@
+{
+  "story_id": "7",
+  "scene_kgs": {
+    "Jack discovers the cryptic compass": {
+      "nodes": [
+        "ship deck",
+        "Captain Jack",
+        "Jack discovers the cryptic compass",
+        "el_dorado",
+        "Cryptic compass"
+      ],
+      "edges": [
+        {
+          "source": "Jack discovers the cryptic compass",
+          "target": "ship deck",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jack discovers the cryptic compass",
+          "target": "el_dorado",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jack discovers the cryptic compass",
+          "target": "Captain Jack",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jack discovers the cryptic compass",
+          "target": "Cryptic compass",
+          "relation": "has_item"
+        },
+        {
+          "source": "Captain Jack",
+          "target": "Cryptic compass",
+          "relation": "on top of"
+        }
+      ]
+    },
+    "Jack battles the perilous sea": {
+      "nodes": [
+        "bermuda_triangle",
+        "Captain Jack",
+        "Ship",
+        "sea",
+        "Merciless waves",
+        "Mystical sea creatures",
+        "Jack battles the perilous sea"
+      ],
+      "edges": [
+        {
+          "source": "Jack battles the perilous sea",
+          "target": "sea",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jack battles the perilous sea",
+          "target": "bermuda_triangle",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jack battles the perilous sea",
+          "target": "Captain Jack",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jack battles the perilous sea",
+          "target": "Mystical sea creatures",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jack battles the perilous sea",
+          "target": "Ship",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Mystical sea creatures",
+          "target": "Captain Jack",
+          "relation": "at the right of"
+        },
+        {
+          "source": "Merciless waves",
+          "target": "Ship",
+          "relation": "below"
+        }
+      ]
+    },
+    "Jack finds El Dorado": {
+      "nodes": [
+        "Radiant moonlight",
+        "Captain Jack",
+        "distance",
+        "ship's deck",
+        "golden_city",
+        "El Dorado",
+        "Jack finds El Dorado"
+      ],
+      "edges": [
+        {
+          "source": "Jack finds El Dorado",
+          "target": "ship's deck",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jack finds El Dorado",
+          "target": "golden_city",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jack finds El Dorado",
+          "target": "Captain Jack",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jack finds El Dorado",
+          "target": "El Dorado",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "golden_city",
+          "target": "distance",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Captain Jack",
+          "target": "ship's deck",
+          "relation": "on top of"
+        },
+        {
+          "source": "Radiant moonlight",
+          "target": "El Dorado",
+          "relation": "above"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "ship deck",
+      "Captain Jack",
+      "Jack discovers the cryptic compass",
+      "el_dorado",
+      "Cryptic compass",
+      "bermuda_triangle",
+      "Ship",
+      "sea",
+      "Merciless waves",
+      "Mystical sea creatures",
+      "Jack battles the perilous sea",
+      "Radiant moonlight",
+      "distance",
+      "ship's deck",
+      "golden_city",
+      "El Dorado",
+      "Jack finds El Dorado"
+    ],
+    "edges": [
+      {
+        "source": "Captain Jack",
+        "target": "Cryptic compass",
+        "relation": "on top of"
+      },
+      {
+        "source": "Captain Jack",
+        "target": "ship's deck",
+        "relation": "on top of"
+      },
+      {
+        "source": "Jack discovers the cryptic compass",
+        "target": "ship deck",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jack discovers the cryptic compass",
+        "target": "el_dorado",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jack discovers the cryptic compass",
+        "target": "Captain Jack",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jack discovers the cryptic compass",
+        "target": "Cryptic compass",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jack discovers the cryptic compass",
+        "target": "Jack battles the perilous sea",
+        "relation": "precedes"
+      },
+      {
+        "source": "Merciless waves",
+        "target": "Ship",
+        "relation": "below"
+      },
+      {
+        "source": "Mystical sea creatures",
+        "target": "Captain Jack",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "sea",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "bermuda_triangle",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "Captain Jack",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "Mystical sea creatures",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "Ship",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jack battles the perilous sea",
+        "target": "Jack finds El Dorado",
+        "relation": "precedes"
+      },
+      {
+        "source": "Radiant moonlight",
+        "target": "El Dorado",
+        "relation": "above"
+      },
+      {
+        "source": "golden_city",
+        "target": "distance",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Jack finds El Dorado",
+        "target": "ship's deck",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jack finds El Dorado",
+        "target": "golden_city",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jack finds El Dorado",
+        "target": "Captain Jack",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jack finds El Dorado",
+        "target": "El Dorado",
+        "relation": "has_interactive_object"
+      }
+    ]
+  }
+}

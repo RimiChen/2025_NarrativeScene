@@ -1,0 +1,97 @@
+[
+  {
+    "scene_title": "Dr. Alexander discovers the mystical artifact",
+    "triples": [
+      [
+        "Dr. Alexander discovers the mystical artifact",
+        "has_base",
+        "desert"
+      ],
+      [
+        "Dr. Alexander discovers the mystical artifact",
+        "has_environment_object",
+        "ancient_tomb"
+      ],
+      [
+        "Dr. Alexander discovers the mystical artifact",
+        "has_character",
+        "Dr. Alexander"
+      ],
+      [
+        "Dr. Alexander discovers the mystical artifact",
+        "has_item",
+        "mystical artifact"
+      ],
+      [
+        "Dr. Alexander discovers the mystical artifact",
+        "has_interactive_object",
+        "Torchlight"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander navigates through treacherous traps",
+    "triples": [
+      [
+        "Dr. Alexander navigates through treacherous traps",
+        "has_base",
+        "ruins"
+      ],
+      [
+        "Dr. Alexander navigates through treacherous traps",
+        "has_environment_object",
+        "ancient_walls"
+      ],
+      [
+        "Dr. Alexander navigates through treacherous traps",
+        "has_character",
+        "Dr. Alexander"
+      ],
+      [
+        "Dr. Alexander navigates through treacherous traps",
+        "has_item",
+        "Mystical artifact"
+      ],
+      [
+        "Dr. Alexander navigates through treacherous traps",
+        "has_interactive_object",
+        "Treacherous traps"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander confronts the Guardian of the Tomb",
+    "triples": [
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_base",
+        "stone"
+      ],
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_character",
+        "Dr. Alexander"
+      ],
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_character",
+        "Guardian of the Tomb"
+      ],
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_item",
+        "Mystical artifact"
+      ],
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_interactive_object",
+        "Chamber doors"
+      ],
+      [
+        "Dr. Alexander confronts the Guardian of the Tomb",
+        "has_interactive_object",
+        "ancient mechanism"
+      ]
+    ]
+  }
+]

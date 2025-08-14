@@ -1,0 +1,22 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "base": "indoor",
+    "propagated_objects": [
+      "neon_lights"
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "base": "office",
+    "propagated_objects": []
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "base": "urban",
+    "propagated_objects": [
+      "kenji's_tiny_apartment",
+      "skyscrapers"
+    ]
+  }
+]

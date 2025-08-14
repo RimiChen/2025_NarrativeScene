@@ -1,0 +1,97 @@
+[
+  {
+    "scene_title": "Iris discovers the cryptic message",
+    "base": "urban",
+    "patch": [],
+    "characters": [
+      "Iris"
+    ],
+    "items": [
+      "cryptic message"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [
+      "decrepit_library",
+      "dilapidated_ceiling"
+    ],
+    "spatial_relations": [
+      {
+        "source": "decrepit_library",
+        "target": "cryptic message",
+        "relation": "at the right of"
+      },
+      {
+        "source": "dilapidated_ceiling",
+        "target": "Iris",
+        "relation": "above"
+      },
+      {
+        "source": "Iris",
+        "target": "decrepit_library",
+        "relation": "at the left of"
+      }
+    ],
+    "next_scenes": [
+      "Iris journeying through wastelands"
+    ]
+  },
+  {
+    "scene_title": "Iris journeying through wastelands",
+    "base": "wasteland",
+    "patch": [],
+    "characters": [
+      "Iris",
+      "Mutant creatures"
+    ],
+    "items": [],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Iris",
+        "target": "perilous wastelands",
+        "relation": "on top of"
+      },
+      {
+        "source": "Mutant creatures",
+        "target": "Iris",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Barren landscape",
+        "target": "Iris",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": [
+      "Iris uncovers the oasis"
+    ]
+  },
+  {
+    "scene_title": "Iris uncovers the oasis",
+    "base": "desert",
+    "patch": [],
+    "characters": [
+      "Iris"
+    ],
+    "items": [],
+    "interactive_objects": [],
+    "environment_objects": [
+      "hidden_oasis",
+      "oasis"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Iris",
+        "target": "hidden_oasis",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Revitalized hope",
+        "target": "humanity",
+        "relation": "at the right of"
+      }
+    ],
+    "next_scenes": []
+  }
+]

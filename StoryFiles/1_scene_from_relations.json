@@ -1,0 +1,65 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "triples": [
+      {
+        "source": "Trash can",
+        "target": "cryptic note",
+        "relation": "at the right of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Jake",
+        "target": "trash can",
+        "relation": "at the left of",
+        "original_predicate": "stands near"
+      },
+      {
+        "source": "Streetlight",
+        "target": "trash can",
+        "relation": "above",
+        "original_predicate": "shines upon"
+      }
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "triples": [
+      {
+        "source": "Gangsters",
+        "target": "Jake",
+        "relation": "below",
+        "original_predicate": "chase"
+      },
+      {
+        "source": "Jake",
+        "target": "dark alley",
+        "relation": "on top of",
+        "original_predicate": "runs through"
+      },
+      {
+        "source": "Moonlight",
+        "target": "dark alley",
+        "relation": "above",
+        "original_predicate": "illuminates"
+      }
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "triples": [
+      {
+        "source": "Statue of Liberty's crown",
+        "target": "treasure",
+        "relation": "below",
+        "original_predicate": "hides"
+      },
+      {
+        "source": "Jake",
+        "target": "Statue of Liberty's crown",
+        "relation": "on top of",
+        "original_predicate": "stands within"
+      }
+    ]
+  }
+]

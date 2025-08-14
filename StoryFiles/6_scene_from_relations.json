@@ -1,0 +1,46 @@
+[
+  {
+    "scene_title": "Captain Redbeard discovers the mysterious artifact",
+    "triples": [
+      {
+        "source": "Deep ocean floor",
+        "target": "mysterious artifact",
+        "relation": "below",
+        "original_predicate": "holds"
+      },
+      {
+        "source": "Captain Redbeard",
+        "target": "The Sea Serpent",
+        "relation": "on top of",
+        "original_predicate": "is on"
+      },
+      {
+        "source": "The Sea Serpent",
+        "target": "ocean surface",
+        "relation": "on top of",
+        "original_predicate": "floats on"
+      }
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard fights sea monsters",
+    "triples": []
+  },
+  {
+    "scene_title": "Captain Redbeard unlocks the artifact's power",
+    "triples": [
+      {
+        "source": "Mysterious artifact",
+        "target": "ancient prophecy",
+        "relation": "above",
+        "original_predicate": "projects"
+      },
+      {
+        "source": "Ocean",
+        "target": "prophecy's light",
+        "relation": "below",
+        "original_predicate": "reflects"
+      }
+    ]
+  }
+]

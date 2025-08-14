@@ -1,0 +1,15 @@
+000. "Mixed RPG tiles" by [Anonymous] licensed CC0: https://opengameart.org/content/mixed-rpg-tiles
+001. "Zelda-like tilesets and sprites" by [ArMM1998] licensed CC0: https://opengameart.org/content/zelda-like-tilesets-and-sprites
+002. "LPC Tile Atlas" by [Casper Nilsson,Daniel Eddeland,Johann CHARLOT,Skyler Robert Colladay,Lanea Zimmerman,Stephen Challener,Charles Sanchez,Manuel Riecke,Daniel Armstrong] licensed CC BY-SA 3.0: https://opengameart.org/content/lpc-tile-atlas
+003. "Castle Tiles for RPG's" by [Hyptosis, Zabin, Daniel Cook] licensed CC-BY 3.0: https://opengameart.org/content/castle-tiles-for-rpgs
+004. "RPG Tiles: Cobble stone paths & town objects" by [Zabin, Daneeklu, Jetrel, Hyptosis, Redshrike, Bertram] licensed CC-BY-SA 3.0: https://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects
+005. "Roguelike Tiles (large collection)" by [David E. Gervais] licensed CC-BY 3.0: https://opengameart.org/content/roguelike-tiles-large-collection
+006. "Liberated Pixel Cup (LPC) Base Assets (sprites & map tiles)" by [Lanea Zimmerman,Stephen Challener,Charles Sanchez,Manuel Riecke,Daniel Armstrong] licensed CC-BY-SA 3.0: https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+007. "[LPC] Animated water and fire" by [Sharm,Curt] licensed CC-BY 3.0: https://opengameart.org/content/lpc-animated-water-and-fire
+008. "ZRPG Beach" by [Guillauma Lecollinet,Leonard Pabin,Johann Charlot,Yar,Buch,cynicmusic,Hyptosis,bluecarrot16,Surt,vk,Jetrel,Zabin,Sharms,Frode Lindeijer,William Thompsonj,Daniel Eddeland] licensed CC-BY-SA 3.0: https://opengameart.org/content/zrpg-beach
+009. "Simple duotone tileset" by [Eris] licensed CC0: https://opengameart.org/content/simple-duotone-tileset
+010. "Lemcraft" by [Matt Hackett] licensed CC0: https://opengameart.org/content/lemcraft
+011. "Goblin Caves" by [Hyptosis] licensed CC0: https://opengameart.org/content/goblin-caves
+012. "2d Lost Garden Zelda style tiles resized to 32x32 with additions" by [Daniel Cook, Jetrel, Saphy (TMW), Zabin, Bertram] licensed CC-BY 3.0: https://opengameart.org/content/2d-lost-garden-zelda-style-tiles-resized-to-32x32-with-additions
+013. "16x16 JRPG tilesets enlarged 2x" by [MrBeast,RedShrike,Surt,Blarumyrran,Sharm] licensed CC BY 3.0: https://opengameart.org/content/16x16-jrpg-tilesets-enlarged-2x
+014. "Space Merc Redux: Giant Jungle Environment" by [surt,KnoblePersona,Emcee Flesher,ansimuz] licensed CC BY 4.0: https://opengameart.org/content/space-merc-redux-giant-jungle-environment

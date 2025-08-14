@@ -1,0 +1,238 @@
+{
+  "global_object_affordances": {
+    "Captain Redbeard": {
+      "object": "Captain Redbeard",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.95
+    },
+    "Deep ocean floor": {
+      "object": "Deep ocean floor",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "underwater",
+      "confidence": 1.0
+    },
+    "The Sea Serpent": {
+      "object": "The Sea Serpent",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "underwater",
+      "confidence": 0.9
+    },
+    "mysterious artifact": {
+      "object": "mysterious artifact",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "underwater",
+      "confidence": 0.85
+    },
+    "ocean surface": {
+      "object": "ocean surface",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "water",
+      "confidence": 1.0
+    },
+    "Captain Redbeard's hand": {
+      "object": "Captain Redbeard's hand",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.7
+    },
+    "Mysterious artifact": {
+      "object": "Mysterious artifact",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.9
+    },
+    "Sea monsters": {
+      "object": "Sea monsters",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "ocean",
+      "confidence": 0.95
+    },
+    "ocean depths": {
+      "object": "ocean depths",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "ocean",
+      "confidence": 1.0
+    },
+    "sea monsters": {
+      "object": "sea monsters",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "ocean",
+      "confidence": 0.95
+    },
+    "Ocean": {
+      "object": "Ocean",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1.0
+    },
+    "ancient prophecy": {
+      "object": "ancient prophecy",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.8
+    },
+    "projected prophecy": {
+      "object": "projected prophecy",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.8
+    },
+    "prophecy's light": {
+      "object": "prophecy's light",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.8
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Captain Redbeard discovers the mysterious artifact",
+      "objects": [
+        {
+          "object": "Captain Redbeard",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.95
+        },
+        {
+          "object": "Deep ocean floor",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "underwater",
+          "confidence": 1.0
+        },
+        {
+          "object": "The Sea Serpent",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "underwater",
+          "confidence": 0.9
+        },
+        {
+          "object": "mysterious artifact",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "underwater",
+          "confidence": 0.85
+        },
+        {
+          "object": "ocean surface",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "water",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "scene_title": "Captain Redbeard fights sea monsters",
+      "objects": [
+        {
+          "object": "Captain Redbeard",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.95
+        },
+        {
+          "object": "Captain Redbeard's hand",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.7
+        },
+        {
+          "object": "Mysterious artifact",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.9
+        },
+        {
+          "object": "Sea monsters",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ocean",
+          "confidence": 0.95
+        },
+        {
+          "object": "ocean depths",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "ocean",
+          "confidence": 1.0
+        },
+        {
+          "object": "sea monsters",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ocean",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Captain Redbeard unlocks the artifact's power",
+      "objects": [
+        {
+          "object": "Captain Redbeard",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.95
+        },
+        {
+          "object": "Mysterious artifact",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.9
+        },
+        {
+          "object": "Ocean",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1.0
+        },
+        {
+          "object": "ancient prophecy",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.8
+        },
+        {
+          "object": "projected prophecy",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.8
+        },
+        {
+          "object": "prophecy's light",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}

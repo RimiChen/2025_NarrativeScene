@@ -1,0 +1,71 @@
+[
+  {
+    "scene_title": "Elara discovers the ancient map",
+    "triples": [
+      {
+        "source": "Hollow oak",
+        "target": "ancient map",
+        "relation": "at the right of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Elara",
+        "target": "hollow oak",
+        "relation": "at the left of",
+        "original_predicate": "stands near"
+      },
+      {
+        "source": "Sunlight",
+        "target": "forest canopy",
+        "relation": "above",
+        "original_predicate": "filters through"
+      }
+    ]
+  },
+  {
+    "scene_title": "Elara faces the treacherous paths",
+    "triples": [
+      {
+        "source": "Elara",
+        "target": "rocky path",
+        "relation": "on top of",
+        "original_predicate": "walks along"
+      },
+      {
+        "source": "Wild creatures",
+        "target": "dense bushes",
+        "relation": "below",
+        "original_predicate": "hide behind"
+      },
+      {
+        "source": "Treacherous paths",
+        "target": "Crystal Cavern",
+        "relation": "at the right of",
+        "original_predicate": "lead to"
+      }
+    ]
+  },
+  {
+    "scene_title": "Elara meets the Guardian dragon",
+    "triples": [
+      {
+        "source": "Crystal Cavern entrance",
+        "target": "shimmering light",
+        "relation": "above",
+        "original_predicate": "glows with"
+      },
+      {
+        "source": "Guardian dragon",
+        "target": "crystal throne",
+        "relation": "on top of",
+        "original_predicate": "sits atop"
+      },
+      {
+        "source": "Elara",
+        "target": "Guardian dragon",
+        "relation": "at the left of",
+        "original_predicate": "stands before"
+      }
+    ]
+  }
+]

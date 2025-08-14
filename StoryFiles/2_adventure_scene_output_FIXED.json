@@ -1,0 +1,41 @@
+{
+  "original_story": "\"In the bustling city of Neo-Tokyo, hacker prodigy Kenji unearthed encrypted files from a derelict mainframe...\"",
+  "time_frames": [
+    {
+      "title": "Kenji discovers the encrypted files",
+      "scene_relations": [
+        "Derelict mainframe [contains] encrypted files",
+        "Kenji [stands near] derelict mainframe",
+        "Neon lights [illuminate] dusty room"
+      ]
+    },
+    {
+      "title": "Kenji deciphers the encrypted files",
+      "scene_relations": [
+        "Kenji [sits at] computer",
+        "Computer screen [displays] complex codes",
+        "Kenji's fingers [dance over] keyboard"
+      ]
+    },
+    {
+      "title": "Kenji uncovers a corporate conspiracy",
+      "scene_relations": [
+        "Screen [reveals] sinister plot",
+        "Kenji [stares at] shocking revelation",
+        "Skyscrapers [tower over] Kenji's tiny apartment"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "\"In the bustling city of Neo": "Tokyo, hacker prodigy Kenji unearthed encrypted files from a derelict mainframe...\"",
+    "contains": "at the right of",
+    "stands near": "at the right of",
+    "illuminate": "above",
+    "sits at": "below",
+    "displays": "at the left of",
+    "dance over": "on top of",
+    "reveals": "at the left of",
+    "stares at": "at the left of",
+    "tower over": "above"
+  }
+}

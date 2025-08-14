@@ -1,0 +1,21 @@
+{
+  "Jack discovers the cryptic compass": {
+    "base": "ship deck",
+    "propagated_objects": [
+      "el_dorado"
+    ]
+  },
+  "Jack battles the perilous sea": {
+    "base": "sea",
+    "propagated_objects": [
+      "bermuda_triangle"
+    ]
+  },
+  "Jack finds El Dorado": {
+    "base": "ship's deck",
+    "propagated_objects": [
+      "golden_city",
+      "ship's_deck"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "base": "indoor",
+    "patch": [
+      "dusty_room"
+    ],
+    "interactive_objects": [
+      "Derelict mainframe"
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "base": "office",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "Computer screen",
+      "computer",
+      "keyboard"
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "base": "urban",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "Screen"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "scene_title": "Jax discovers the emerald amulet",
+    "base": "cobblestone street",
+    "patch": [],
+    "characters": [
+      "Jax"
+    ],
+    "items": [
+      "emerald amulet"
+    ],
+    "interactive_objects": [
+      "Loose cobblestone"
+    ],
+    "environment_objects": [
+      "streetlights"
+    ],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Jax unlocks the power of the amulet"
+    ]
+  },
+  {
+    "scene_title": "Jax unlocks the power of the amulet",
+    "base": "ancient ruins",
+    "patch": [],
+    "characters": [
+      "Jax"
+    ],
+    "items": [
+      "Emerald amulet"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Jax battles the sinister sorcerer"
+    ]
+  },
+  {
+    "scene_title": "Jax battles the sinister sorcerer",
+    "base": "urban",
+    "patch": [],
+    "characters": [
+      "Jax",
+      "Sinister sorcerer"
+    ],
+    "items": [
+      "Emerald amulet"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [],
+    "next_scenes": []
+  }
+]

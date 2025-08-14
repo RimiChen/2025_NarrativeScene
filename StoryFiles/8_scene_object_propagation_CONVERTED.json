@@ -1,0 +1,19 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "base": "sahara desert",
+    "propagated_objects": []
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "base": "desert",
+    "propagated_objects": [
+      "cross"
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "base": "stone",
+    "propagated_objects": []
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "characters": [
+      "Jake"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ],
+    "interactive_objects": [
+      "Statue of Liberty's crown",
+      "Trash can"
+    ],
+    "environment_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ],
+    "spatial_relations": [
+      {
+        "source": "streetlight",
+        "target": "Trash can",
+        "relation": "above"
+      },
+      {
+        "source": "Jake",
+        "target": "Trash can",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Trash can",
+        "target": "cryptic note",
+        "relation": "at the right of"
+      }
+    ],
+    "next_scenes": [
+      "Jake evades gangsters"
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "characters": [
+      "Gangsters",
+      "Jake"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ],
+    "interactive_objects": [
+      "Statue of Liberty's crown",
+      "Trash can"
+    ],
+    "environment_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Gangsters",
+        "target": "Jake",
+        "relation": "below"
+      },
+      {
+        "source": "Jake",
+        "target": "dark_alley",
+        "relation": "on top of"
+      },
+      {
+        "source": "Moonlight",
+        "target": "dark_alley",
+        "relation": "above"
+      }
+    ],
+    "next_scenes": [
+      "Jake finds the treasure"
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "characters": [
+      "Jake"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ],
+    "interactive_objects": [
+      "Statue of Liberty's crown",
+      "Trash can"
+    ],
+    "environment_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Jake",
+        "target": "Statue of Liberty's crown",
+        "relation": "on top of"
+      },
+      {
+        "source": "Statue of Liberty's crown",
+        "target": "treasure",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": []
+  }
+]

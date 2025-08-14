@@ -1,0 +1,20 @@
+{
+  "Iris discovers the cryptic message": {
+    "base": "urban",
+    "propagated_objects": [
+      "decrepit_library",
+      "dilapidated_ceiling"
+    ]
+  },
+  "Iris journeying through wastelands": {
+    "base": "wasteland",
+    "propagated_objects": []
+  },
+  "Iris uncovers the oasis": {
+    "base": "desert",
+    "propagated_objects": [
+      "hidden_oasis",
+      "oasis"
+    ]
+  }
+}

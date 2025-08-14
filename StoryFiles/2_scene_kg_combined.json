@@ -1,0 +1,102 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "triples": [
+      [
+        "Kenji discovers the encrypted files",
+        "has_base",
+        "indoor"
+      ],
+      [
+        "Kenji discovers the encrypted files",
+        "has_patch",
+        "dusty_room"
+      ],
+      [
+        "Kenji discovers the encrypted files",
+        "has_environment_object",
+        "neon_lights"
+      ],
+      [
+        "Kenji discovers the encrypted files",
+        "has_character",
+        "Kenji"
+      ],
+      [
+        "Kenji discovers the encrypted files",
+        "has_item",
+        "encrypted files"
+      ],
+      [
+        "Kenji discovers the encrypted files",
+        "has_interactive_object",
+        "Derelict mainframe"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "triples": [
+      [
+        "Kenji deciphers the encrypted files",
+        "has_base",
+        "office"
+      ],
+      [
+        "Kenji deciphers the encrypted files",
+        "has_character",
+        "Kenji"
+      ],
+      [
+        "Kenji deciphers the encrypted files",
+        "has_item",
+        "complex codes"
+      ],
+      [
+        "Kenji deciphers the encrypted files",
+        "has_interactive_object",
+        "Computer screen"
+      ],
+      [
+        "Kenji deciphers the encrypted files",
+        "has_interactive_object",
+        "computer"
+      ],
+      [
+        "Kenji deciphers the encrypted files",
+        "has_interactive_object",
+        "keyboard"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "triples": [
+      [
+        "Kenji uncovers a corporate conspiracy",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Kenji uncovers a corporate conspiracy",
+        "has_environment_object",
+        "kenji's_tiny_apartment"
+      ],
+      [
+        "Kenji uncovers a corporate conspiracy",
+        "has_environment_object",
+        "skyscrapers"
+      ],
+      [
+        "Kenji uncovers a corporate conspiracy",
+        "has_character",
+        "Kenji"
+      ],
+      [
+        "Kenji uncovers a corporate conspiracy",
+        "has_interactive_object",
+        "Screen"
+      ]
+    ]
+  }
+]

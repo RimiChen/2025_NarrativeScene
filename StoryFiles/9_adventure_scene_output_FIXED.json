@@ -1,0 +1,40 @@
+{
+  "original_story": "\"In the abyss of the Forgotten City, brave archaeologist, Dr. Alexander, unearthed a mystical artifact within an ancient tomb.\"",
+  "time_frames": [
+    {
+      "title": "Dr. Alexander discovers the mystical artifact",
+      "scene_relations": [
+        "Ancient tomb [conceals] mystical artifact",
+        "Dr. Alexander [kneels beside] ancient tomb",
+        "Torchlight [illuminates] forgotten city"
+      ]
+    },
+    {
+      "title": "Dr. Alexander navigates through treacherous traps",
+      "scene_relations": [
+        "Treacherous traps [surround] Dr. Alexander",
+        "Mystical artifact [guides] Dr. Alexander",
+        "Ancient walls [echo] eerie whispers"
+      ]
+    },
+    {
+      "title": "Dr. Alexander confronts the Guardian of the Tomb",
+      "scene_relations": [
+        "Guardian of the Tomb [stands before] Dr. Alexander",
+        "Mystical artifact [activates] ancient mechanism",
+        "Chamber doors [crash behind] Dr. Alexander"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "Conceals": "below",
+    "Kneels beside": "at the right of",
+    "Illuminates": "above",
+    "Surround": "above, below, at the right of, at the left of",
+    "Guides": "in front of",
+    "Echo": "around",
+    "Stands before": "in front of",
+    "Activates": "above",
+    "Crash behind": "at the left of"
+  }
+}

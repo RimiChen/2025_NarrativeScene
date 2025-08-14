@@ -1,0 +1,45 @@
+[
+  {
+    "scene_title": "Elara discovers the ancient map",
+    "suggested_terrains": [
+      "forest"
+    ],
+    "chosen_base": "forest",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Elara faces the treacherous paths",
+    "suggested_terrains": [
+      "forest",
+      "mountain"
+    ],
+    "chosen_base": "mountain",
+    "terrain_objects_detected": [
+      "crystal_cavern",
+      "treacherous_paths",
+      "rocky_path"
+    ],
+    "final_patch_for_base": [
+      "crystal_cavern",
+      "rocky_path",
+      "treacherous_paths"
+    ]
+  },
+  {
+    "scene_title": "Elara meets the Guardian dragon",
+    "suggested_terrains": [
+      "cave",
+      "rocky"
+    ],
+    "chosen_base": "rocky",
+    "terrain_objects_detected": [
+      "crystal_cavern_entrance"
+    ],
+    "final_patch_for_base": [
+      "crystal_cavern_entrance"
+    ]
+  }
+]

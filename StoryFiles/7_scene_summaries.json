@@ -1,0 +1,92 @@
+[
+  {
+    "scene_title": "Jack discovers the cryptic compass",
+    "base": "ship deck",
+    "patch": [],
+    "characters": [
+      "Captain Jack"
+    ],
+    "items": [
+      "Cryptic compass"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [
+      "el_dorado"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Captain Jack",
+        "target": "Cryptic compass",
+        "relation": "on top of"
+      }
+    ],
+    "next_scenes": [
+      "Jack battles the perilous sea"
+    ]
+  },
+  {
+    "scene_title": "Jack battles the perilous sea",
+    "base": "sea",
+    "patch": [],
+    "characters": [
+      "Captain Jack",
+      "Mystical sea creatures"
+    ],
+    "items": [],
+    "interactive_objects": [
+      "Ship"
+    ],
+    "environment_objects": [
+      "bermuda_triangle"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Mystical sea creatures",
+        "target": "Captain Jack",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Merciless waves",
+        "target": "Ship",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": [
+      "Jack finds El Dorado"
+    ]
+  },
+  {
+    "scene_title": "Jack finds El Dorado",
+    "base": null,
+    "patch": [],
+    "characters": [
+      "Captain Jack"
+    ],
+    "items": [],
+    "interactive_objects": [
+      "El Dorado"
+    ],
+    "environment_objects": [
+      "ship's deck",
+      "golden_city"
+    ],
+    "spatial_relations": [
+      {
+        "source": "golden_city",
+        "target": "distance",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Captain Jack",
+        "target": "ship's deck",
+        "relation": "on top of"
+      },
+      {
+        "source": "Radiant moonlight",
+        "target": "El Dorado",
+        "relation": "above"
+      }
+    ],
+    "next_scenes": []
+  }
+]

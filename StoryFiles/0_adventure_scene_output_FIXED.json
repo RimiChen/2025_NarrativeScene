@@ -1,0 +1,40 @@
+{
+  "original_story": "In the heart of the Enchanted Forest, young Elara discovered an ancient map hidden within a hollow oak. It led her to the legendary Crystal Cavern, rumored to grant the finder a single wish. Braving treacherous paths and wild creatures, Elara reached the cavern's shimmering entrance. Inside, she faced the Guardian, a majestic dragon. With courage and wit, she solved the Guardian’s riddle, earning her the wish. Elara wished for peace in her war-torn village. As she exited the cavern, the skies cleared, and harmony was restored, proving that bravery and hope could transform the world.",
+  "time_frames": [
+    {
+      "title": "Elara discovers the ancient map",
+      "scene_relations": [
+        "Hollow oak [contains] ancient map",
+        "Elara [stands near] hollow oak",
+        "Sunlight [filters through] forest canopy"
+      ]
+    },
+    {
+      "title": "Elara faces the treacherous paths",
+      "scene_relations": [
+        "Elara [walks along] rocky path",
+        "Wild creatures [hide behind] dense bushes",
+        "Treacherous paths [lead to] Crystal Cavern"
+      ]
+    },
+    {
+      "title": "Elara meets the Guardian dragon",
+      "scene_relations": [
+        "Crystal Cavern entrance [glows with] shimmering light",
+        "Guardian dragon [sits atop] crystal throne",
+        "Elara [stands before] Guardian dragon"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "contains": "at the right of",
+    "stands near": "at the left of",
+    "filters through": "above",
+    "walks along": "on top of",
+    "hide behind": "below",
+    "lead to": "at the right of",
+    "glows with": "above",
+    "sits atop": "on top of",
+    "stands before": "at the left of"
+  }
+}

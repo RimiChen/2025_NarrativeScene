@@ -1,0 +1,186 @@
+{
+  "story_id": "5",
+  "scene_kgs": {
+    "Jax discovers the emerald amulet": {
+      "nodes": [
+        "emerald amulet",
+        "cobblestone street",
+        "Jax discovers the emerald amulet",
+        "Loose cobblestone",
+        "streetlights",
+        "Jax"
+      ],
+      "edges": [
+        {
+          "source": "Jax discovers the emerald amulet",
+          "target": "cobblestone street",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jax discovers the emerald amulet",
+          "target": "streetlights",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jax discovers the emerald amulet",
+          "target": "Jax",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jax discovers the emerald amulet",
+          "target": "emerald amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jax discovers the emerald amulet",
+          "target": "Loose cobblestone",
+          "relation": "has_interactive_object"
+        }
+      ]
+    },
+    "Jax unlocks the power of the amulet": {
+      "nodes": [
+        "Emerald amulet",
+        "Jax unlocks the power of the amulet",
+        "ancient ruins",
+        "Jax"
+      ],
+      "edges": [
+        {
+          "source": "Jax unlocks the power of the amulet",
+          "target": "ancient ruins",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jax unlocks the power of the amulet",
+          "target": "Jax",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jax unlocks the power of the amulet",
+          "target": "Emerald amulet",
+          "relation": "has_item"
+        }
+      ]
+    },
+    "Jax battles the sinister sorcerer": {
+      "nodes": [
+        "Emerald amulet",
+        "Jax battles the sinister sorcerer",
+        "Sinister sorcerer",
+        "Jax",
+        "urban"
+      ],
+      "edges": [
+        {
+          "source": "Jax battles the sinister sorcerer",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jax battles the sinister sorcerer",
+          "target": "Jax",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jax battles the sinister sorcerer",
+          "target": "Sinister sorcerer",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jax battles the sinister sorcerer",
+          "target": "Emerald amulet",
+          "relation": "has_item"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "emerald amulet",
+      "cobblestone street",
+      "Jax discovers the emerald amulet",
+      "Loose cobblestone",
+      "streetlights",
+      "Jax",
+      "Emerald amulet",
+      "Jax unlocks the power of the amulet",
+      "ancient ruins",
+      "Jax battles the sinister sorcerer",
+      "Sinister sorcerer",
+      "urban"
+    ],
+    "edges": [
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "cobblestone street",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "streetlights",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "Jax",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "emerald amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "Loose cobblestone",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jax discovers the emerald amulet",
+        "target": "Jax unlocks the power of the amulet",
+        "relation": "precedes"
+      },
+      {
+        "source": "Jax unlocks the power of the amulet",
+        "target": "ancient ruins",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jax unlocks the power of the amulet",
+        "target": "Jax",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jax unlocks the power of the amulet",
+        "target": "Emerald amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jax unlocks the power of the amulet",
+        "target": "Jax battles the sinister sorcerer",
+        "relation": "precedes"
+      },
+      {
+        "source": "Jax battles the sinister sorcerer",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jax battles the sinister sorcerer",
+        "target": "Jax",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jax battles the sinister sorcerer",
+        "target": "Sinister sorcerer",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jax battles the sinister sorcerer",
+        "target": "Emerald amulet",
+        "relation": "has_item"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "scene_title": "Captain Redbeard discovers the mysterious artifact",
+    "triples": [
+      [
+        "Captain Redbeard discovers the mysterious artifact",
+        "has_base",
+        "underwater"
+      ],
+      [
+        "Captain Redbeard discovers the mysterious artifact",
+        "has_character",
+        "Captain Redbeard"
+      ],
+      [
+        "Captain Redbeard discovers the mysterious artifact",
+        "has_character",
+        "The Sea Serpent"
+      ],
+      [
+        "Captain Redbeard discovers the mysterious artifact",
+        "has_item",
+        "mysterious artifact"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard fights sea monsters",
+    "triples": [
+      [
+        "Captain Redbeard fights sea monsters",
+        "has_base",
+        "ship deck"
+      ],
+      [
+        "Captain Redbeard fights sea monsters",
+        "has_character",
+        "Captain Redbeard"
+      ],
+      [
+        "Captain Redbeard fights sea monsters",
+        "has_character",
+        "Sea monsters"
+      ],
+      [
+        "Captain Redbeard fights sea monsters",
+        "has_character",
+        "sea monsters"
+      ],
+      [
+        "Captain Redbeard fights sea monsters",
+        "has_item",
+        "Mysterious artifact"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard unlocks the artifact's power",
+    "triples": [
+      [
+        "Captain Redbeard unlocks the artifact's power",
+        "has_base",
+        "ship deck"
+      ],
+      [
+        "Captain Redbeard unlocks the artifact's power",
+        "has_character",
+        "Captain Redbeard"
+      ],
+      [
+        "Captain Redbeard unlocks the artifact's power",
+        "has_item",
+        "Mysterious artifact"
+      ]
+    ]
+  }
+]

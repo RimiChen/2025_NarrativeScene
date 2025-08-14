@@ -1,0 +1,238 @@
+{
+  "global_object_affordances": {
+    "Captain Jack": {
+      "object": "Captain Jack",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "ship's deck",
+      "confidence": 1.0
+    },
+    "Cryptic compass": {
+      "object": "Cryptic compass",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.9
+    },
+    "El Dorado": {
+      "object": "El Dorado",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "golden city",
+      "confidence": 0.9
+    },
+    "Stormy sea": {
+      "object": "Stormy sea",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "sea",
+      "confidence": 1
+    },
+    "cryptic compass": {
+      "object": "cryptic compass",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "ship deck",
+      "confidence": 0.9
+    },
+    "Bermuda Triangle": {
+      "object": "Bermuda Triangle",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "sea",
+      "confidence": 0.9
+    },
+    "Merciless waves": {
+      "object": "Merciless waves",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "sea",
+      "confidence": 0.9
+    },
+    "Mystical sea creatures": {
+      "object": "Mystical sea creatures",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "sea",
+      "confidence": 0.85
+    },
+    "Ship": {
+      "object": "Ship",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "sea",
+      "confidence": 0.95
+    },
+    "ship": {
+      "object": "ship",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "sea",
+      "confidence": 0.95
+    },
+    "Golden city": {
+      "object": "Golden city",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "forest",
+      "confidence": 0.8
+    },
+    "Radiant moonlight": {
+      "object": "Radiant moonlight",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "open sky",
+      "confidence": 0.7
+    },
+    "distance": {
+      "object": "distance",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "open sea",
+      "confidence": 0.9
+    },
+    "ship's deck": {
+      "object": "ship's deck",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "water",
+      "confidence": 1.0
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Jack discovers the cryptic compass",
+      "objects": [
+        {
+          "object": "Captain Jack",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.95
+        },
+        {
+          "object": "Cryptic compass",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.9
+        },
+        {
+          "object": "El Dorado",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "jungle",
+          "confidence": 0.85
+        },
+        {
+          "object": "Stormy sea",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "sea",
+          "confidence": 1
+        },
+        {
+          "object": "cryptic compass",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ship deck",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Jack battles the perilous sea",
+      "objects": [
+        {
+          "object": "Bermuda Triangle",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "sea",
+          "confidence": 0.9
+        },
+        {
+          "object": "Captain Jack",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship",
+          "confidence": 0.95
+        },
+        {
+          "object": "Merciless waves",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "sea",
+          "confidence": 0.9
+        },
+        {
+          "object": "Mystical sea creatures",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sea",
+          "confidence": 0.85
+        },
+        {
+          "object": "Ship",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "sea",
+          "confidence": 0.95
+        },
+        {
+          "object": "ship",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "sea",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Jack finds El Dorado",
+      "objects": [
+        {
+          "object": "Captain Jack",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ship's deck",
+          "confidence": 1.0
+        },
+        {
+          "object": "El Dorado",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "golden city",
+          "confidence": 0.9
+        },
+        {
+          "object": "Golden city",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "forest",
+          "confidence": 0.8
+        },
+        {
+          "object": "Radiant moonlight",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "open sky",
+          "confidence": 0.7
+        },
+        {
+          "object": "distance",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "open sea",
+          "confidence": 0.9
+        },
+        {
+          "object": "ship's deck",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "water",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ]
+}

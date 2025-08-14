@@ -1,0 +1,16 @@
+{
+  "Cross discovers the amulet": {
+    "base": "sahara desert",
+    "propagated_objects": []
+  },
+  "Cross navigates the perilous journey": {
+    "base": "desert",
+    "propagated_objects": [
+      "cross"
+    ]
+  },
+  "Cross escapes the pyramid trap": {
+    "base": "stone",
+    "propagated_objects": []
+  }
+}

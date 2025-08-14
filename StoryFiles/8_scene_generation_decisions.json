@@ -1,0 +1,37 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "suggested_terrains": [
+      "sahara desert"
+    ],
+    "chosen_base": "sahara desert",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "suggested_terrains": [
+      "ancient ruins",
+      "desert"
+    ],
+    "chosen_base": "desert",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "suggested_terrains": [
+      "sand",
+      "stone"
+    ],
+    "chosen_base": "stone",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

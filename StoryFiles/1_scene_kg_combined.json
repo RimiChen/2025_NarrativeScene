@@ -1,0 +1,172 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "triples": [
+      [
+        "Jake discovers the cryptic note",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_patch",
+        "dark_alley"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_environment_object",
+        "city_skyline"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_environment_object",
+        "statue_of_liberty"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_environment_object",
+        "streetlight"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_character",
+        "Jake"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_item",
+        "cryptic note"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_item",
+        "treasure"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_interactive_object",
+        "Statue of Liberty's crown"
+      ],
+      [
+        "Jake discovers the cryptic note",
+        "has_interactive_object",
+        "Trash can"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "triples": [
+      [
+        "Jake evades gangsters",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_patch",
+        "dark_alley"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_environment_object",
+        "city_skyline"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_environment_object",
+        "statue_of_liberty"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_environment_object",
+        "streetlight"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_character",
+        "Gangsters"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_character",
+        "Jake"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_item",
+        "cryptic note"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_item",
+        "treasure"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_interactive_object",
+        "Statue of Liberty's crown"
+      ],
+      [
+        "Jake evades gangsters",
+        "has_interactive_object",
+        "Trash can"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "triples": [
+      [
+        "Jake finds the treasure",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_patch",
+        "dark_alley"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_environment_object",
+        "city_skyline"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_environment_object",
+        "statue_of_liberty"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_environment_object",
+        "streetlight"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_character",
+        "Jake"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_item",
+        "cryptic note"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_item",
+        "treasure"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_interactive_object",
+        "Statue of Liberty's crown"
+      ],
+      [
+        "Jake finds the treasure",
+        "has_interactive_object",
+        "Trash can"
+      ]
+    ]
+  }
+]

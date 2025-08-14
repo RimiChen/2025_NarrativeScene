@@ -1,0 +1,29 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "base": "urban",
+    "propagated_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "base": "urban",
+    "propagated_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "base": "urban",
+    "propagated_objects": [
+      "city_skyline",
+      "statue_of_liberty",
+      "streetlight"
+    ]
+  }
+]

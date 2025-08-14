@@ -1,0 +1,59 @@
+[
+  {
+    "scene_title": "Amelia discovers the golden amulet",
+    "triples": [
+      {
+        "source": "Amelia",
+        "target": "buried amulet",
+        "relation": "above",
+        "original_predicate": "stands over"
+      },
+      {
+        "source": "Sahara sunlight",
+        "target": "golden amulet",
+        "relation": "above",
+        "original_predicate": "beams on"
+      }
+    ]
+  },
+  {
+    "scene_title": "Amelia navigates the treacherous dunes",
+    "triples": [
+      {
+        "source": "Amelia",
+        "target": "amulet's glow",
+        "relation": "below",
+        "original_predicate": "follows"
+      },
+      {
+        "source": "Venomous creature",
+        "target": "sand dune",
+        "relation": "at the left of",
+        "original_predicate": "lurks behind"
+      }
+    ]
+  },
+  {
+    "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+    "triples": [
+      {
+        "source": "Hidden pyramid",
+        "target": "civilization's secrets",
+        "relation": "below",
+        "original_predicate": "holds"
+      },
+      {
+        "source": "Amelia",
+        "target": "ancient pyramid",
+        "relation": "at the right of",
+        "original_predicate": "stands before"
+      },
+      {
+        "source": "Amulet",
+        "target": "pyramid lock",
+        "relation": "below",
+        "original_predicate": "fits into"
+      }
+    ]
+  }
+]

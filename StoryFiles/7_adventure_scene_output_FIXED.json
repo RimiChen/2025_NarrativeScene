@@ -1,0 +1,41 @@
+{
+  "original_story": "\"In the heart of the storm-tossed sea, brave Captain Jack uncovered a cryptic compass, pointing to the legendary island of El Dorado, veiled by the Bermuda Triangle. Battling merciless waves and mystical sea creatures, Jack and his crew faced perilous trials. Finally, under the radiant moonlight, El Dorado emerged, its golden city shimmering in the distance.\"",
+  "time_frames": [
+    {
+      "title": "Jack discovers the cryptic compass",
+      "scene_relations": [
+        "Stormy sea [surrounds] Captain Jack",
+        "Captain Jack [holds] cryptic compass",
+        "Cryptic compass [points to] El Dorado"
+      ]
+    },
+    {
+      "title": "Jack battles the perilous sea",
+      "scene_relations": [
+        "Merciless waves [crash against] ship",
+        "Mystical sea creatures [attack] Captain Jack",
+        "Ship [sails through] Bermuda Triangle"
+      ]
+    },
+    {
+      "title": "Jack finds El Dorado",
+      "scene_relations": [
+        "Radiant moonlight [illuminates] El Dorado",
+        "Captain Jack [stands on] ship's deck",
+        "Golden city [glistens in] distance"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "\"In the heart of the storm": "tossed sea, brave Captain Jack uncovered a cryptic compass, pointing to the legendary island of El Dorado, veiled by the Bermuda Triangle. Battling merciless waves and mystical sea creatures, Jack and his crew faced perilous trials. Finally, under the radiant moonlight, El Dorado emerged, its golden city shimmering in the distance.\"",
+    "surrounds": "around",
+    "holds": "on top of",
+    "points to": "ahead of",
+    "crash against": "below",
+    "attack": "at the right of",
+    "sails through": "inside of",
+    "illuminates": "above",
+    "stands on": "on top of",
+    "glistens in": "at the left of"
+  }
+}

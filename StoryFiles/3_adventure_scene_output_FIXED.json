@@ -1,0 +1,41 @@
+{
+  "original_story": "\"In a dystopian future, brave-hearted Iris stumbles upon a cryptic message in a decrepit library. It reveals a hidden oasis, a haven in the desolate world. Iris ventures through perilous wastelands, fights mutant creatures, and uncovers the oasis, restoring hope for humanity.\"",
+  "time_frames": [
+    {
+      "title": "Iris discovers the cryptic message",
+      "scene_relations": [
+        "Decrepit library [contains] cryptic message",
+        "Iris [stands near] decrepit library",
+        "Dilapidated ceiling [hangs above] Iris"
+      ]
+    },
+    {
+      "title": "Iris journeying through wastelands",
+      "scene_relations": [
+        "Iris [travels across] perilous wastelands",
+        "Mutant creatures [confront] Iris",
+        "Barren landscape [stretches beneath] Iris"
+      ]
+    },
+    {
+      "title": "Iris uncovers the oasis",
+      "scene_relations": [
+        "Iris [stands before] hidden oasis",
+        "Revitalized hope [blooms within] humanity",
+        "Oasis [sprouts amidst] desolate world"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "\"In a dystopian future, brave": "hearted Iris stumbles upon a cryptic message in a decrepit library. It reveals a hidden oasis, a haven in the desolate world. Iris ventures through perilous wastelands, fights mutant creatures, and uncovers the oasis, restoring hope for humanity.\"",
+    "contains": "at the right of",
+    "stands near": "at the left of",
+    "hangs above": "above",
+    "travels across": "on top of",
+    "confront": "at the left of",
+    "stretches beneath": "below",
+    "stands before": "at the right of",
+    "blooms within": "at the right of",
+    "sprouts amidst": "in the middle of"
+  }
+}

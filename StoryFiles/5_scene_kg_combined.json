@@ -1,0 +1,87 @@
+[
+  {
+    "scene_title": "Jax discovers the emerald amulet",
+    "triples": [
+      [
+        "Jax discovers the emerald amulet",
+        "has_base",
+        "cobblestone street"
+      ],
+      [
+        "Jax discovers the emerald amulet",
+        "has_environment_object",
+        "streetlights"
+      ],
+      [
+        "Jax discovers the emerald amulet",
+        "has_character",
+        "Jax"
+      ],
+      [
+        "Jax discovers the emerald amulet",
+        "has_item",
+        "emerald amulet"
+      ],
+      [
+        "Jax discovers the emerald amulet",
+        "has_interactive_object",
+        "Loose cobblestone"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jax unlocks the power of the amulet",
+    "triples": [
+      [
+        "Jax unlocks the power of the amulet",
+        "has_base",
+        "ancient ruins"
+      ],
+      [
+        "Jax unlocks the power of the amulet",
+        "has_character",
+        "Jax"
+      ],
+      [
+        "Jax unlocks the power of the amulet",
+        "has_item",
+        "Emerald amulet"
+      ],
+      [
+        "Jax unlocks the power of the amulet",
+        "has_item",
+        "emerald amulet"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jax battles the sinister sorcerer",
+    "triples": [
+      [
+        "Jax battles the sinister sorcerer",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Jax battles the sinister sorcerer",
+        "has_character",
+        "Jax"
+      ],
+      [
+        "Jax battles the sinister sorcerer",
+        "has_character",
+        "Sinister sorcerer"
+      ],
+      [
+        "Jax battles the sinister sorcerer",
+        "has_character",
+        "Sinister sorcerer"
+      ],
+      [
+        "Jax battles the sinister sorcerer",
+        "has_item",
+        "Emerald amulet"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "global_object_affordances": {
+    "Elara": {
+      "object": "Elara",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "rocky",
+      "confidence": 0.99
+    },
+    "Hollow oak": {
+      "object": "Hollow oak",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "forest",
+      "confidence": 0.95
+    },
+    "Sunlight": {
+      "object": "Sunlight",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "forest",
+      "confidence": 0.85
+    },
+    "ancient map": {
+      "object": "ancient map",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "forest",
+      "confidence": 0.9
+    },
+    "forest canopy": {
+      "object": "forest canopy",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "forest",
+      "confidence": 0.99
+    },
+    "hollow oak": {
+      "object": "hollow oak",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "forest",
+      "confidence": 0.95
+    },
+    "Crystal Cavern": {
+      "object": "Crystal Cavern",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "mountain",
+      "confidence": 0.9
+    },
+    "Treacherous paths": {
+      "object": "Treacherous paths",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "mountain",
+      "confidence": 0.9
+    },
+    "Wild creatures": {
+      "object": "Wild creatures",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "forest",
+      "confidence": 0.9
+    },
+    "dense bushes": {
+      "object": "dense bushes",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "forest",
+      "confidence": 0.9
+    },
+    "rocky path": {
+      "object": "rocky path",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "mountain",
+      "confidence": 0.9
+    },
+    "Crystal Cavern entrance": {
+      "object": "Crystal Cavern entrance",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "rocky",
+      "confidence": 0.95
+    },
+    "Guardian dragon": {
+      "object": "Guardian dragon",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "rocky",
+      "confidence": 0.99
+    },
+    "crystal throne": {
+      "object": "crystal throne",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "cave",
+      "confidence": 0.85
+    },
+    "shimmering light": {
+      "object": "shimmering light",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "cave",
+      "confidence": 0.75
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Elara discovers the ancient map",
+      "objects": [
+        {
+          "object": "Elara",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "forest",
+          "confidence": 0.95
+        },
+        {
+          "object": "Hollow oak",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "forest",
+          "confidence": 0.95
+        },
+        {
+          "object": "Sunlight",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "forest",
+          "confidence": 0.85
+        },
+        {
+          "object": "ancient map",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "forest",
+          "confidence": 0.9
+        },
+        {
+          "object": "forest canopy",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "forest",
+          "confidence": 0.99
+        },
+        {
+          "object": "hollow oak",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "forest",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Elara faces the treacherous paths",
+      "objects": [
+        {
+          "object": "Crystal Cavern",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "mountain",
+          "confidence": 0.9
+        },
+        {
+          "object": "Elara",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "any",
+          "confidence": 1.0
+        },
+        {
+          "object": "Treacherous paths",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "mountain",
+          "confidence": 0.9
+        },
+        {
+          "object": "Wild creatures",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "forest",
+          "confidence": 0.9
+        },
+        {
+          "object": "dense bushes",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "forest",
+          "confidence": 0.9
+        },
+        {
+          "object": "rocky path",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "mountain",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Elara meets the Guardian dragon",
+      "objects": [
+        {
+          "object": "Crystal Cavern entrance",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "rocky",
+          "confidence": 0.95
+        },
+        {
+          "object": "Elara",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "rocky",
+          "confidence": 0.99
+        },
+        {
+          "object": "Guardian dragon",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "rocky",
+          "confidence": 0.99
+        },
+        {
+          "object": "crystal throne",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "cave",
+          "confidence": 0.85
+        },
+        {
+          "object": "shimmering light",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "cave",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

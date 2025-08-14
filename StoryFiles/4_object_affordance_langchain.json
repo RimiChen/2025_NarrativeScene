@@ -1,0 +1,224 @@
+{
+  "global_object_affordances": {
+    "Alex": {
+      "object": "Alex",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "urban",
+      "confidence": 0.95
+    },
+    "Bookshelf": {
+      "object": "Bookshelf",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "Public library",
+      "confidence": 0.9
+    },
+    "Old Book": {
+      "object": "Old Book",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "Public library",
+      "confidence": 0.8
+    },
+    "Public library": {
+      "object": "Public library",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1.0
+    },
+    "encrypted note": {
+      "object": "encrypted note",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "indoor",
+      "confidence": 0.9
+    },
+    "Alex's desk": {
+      "object": "Alex's desk",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "indoor",
+      "confidence": 1.0
+    },
+    "Desk": {
+      "object": "Desk",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "indoor",
+      "confidence": 1.0
+    },
+    "Moonlight": {
+      "object": "Moonlight",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "outdoor",
+      "confidence": 0.7
+    },
+    "scattered papers": {
+      "object": "scattered papers",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "indoor",
+      "confidence": 0.9
+    },
+    "Secret society": {
+      "object": "Secret society",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "urban",
+      "confidence": 0.95
+    },
+    "Streetlights": {
+      "object": "Streetlights",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "urban",
+      "confidence": 0.9
+    },
+    "abandoned warehouse": {
+      "object": "abandoned warehouse",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "urban",
+      "confidence": 0.9
+    },
+    "warehouse exterior": {
+      "object": "warehouse exterior",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "urban",
+      "confidence": 0.9
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Alex discovers the encrypted note",
+      "objects": [
+        {
+          "object": "Alex",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "Public library",
+          "confidence": 1.0
+        },
+        {
+          "object": "Bookshelf",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "Public library",
+          "confidence": 0.9
+        },
+        {
+          "object": "Old Book",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "Public library",
+          "confidence": 0.8
+        },
+        {
+          "object": "Public library",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1.0
+        },
+        {
+          "object": "encrypted note",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "Public library",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Alex deciphers the secret code",
+      "objects": [
+        {
+          "object": "Alex",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "indoor",
+          "confidence": 1.0
+        },
+        {
+          "object": "Alex's desk",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "indoor",
+          "confidence": 1.0
+        },
+        {
+          "object": "Desk",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "indoor",
+          "confidence": 1.0
+        },
+        {
+          "object": "Moonlight",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "outdoor",
+          "confidence": 0.7
+        },
+        {
+          "object": "encrypted note",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "indoor",
+          "confidence": 0.9
+        },
+        {
+          "object": "scattered papers",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "indoor",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Alex confronts the secret society",
+      "objects": [
+        {
+          "object": "Alex",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "urban",
+          "confidence": 0.95
+        },
+        {
+          "object": "Secret society",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "urban",
+          "confidence": 0.95
+        },
+        {
+          "object": "Streetlights",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "urban",
+          "confidence": 0.9
+        },
+        {
+          "object": "abandoned warehouse",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "urban",
+          "confidence": 0.9
+        },
+        {
+          "object": "warehouse exterior",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "urban",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

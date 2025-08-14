@@ -1,0 +1,340 @@
+{
+  "story_id": "10",
+  "scene_kgs": {
+    "Amelia discovers the golden amulet": {
+      "nodes": [
+        "ancient_pyramid",
+        "Amelia",
+        "sand",
+        "Sahara sunlight",
+        "Pyramid lock",
+        "Amelia discovers the golden amulet",
+        "hidden_pyramid",
+        "golden amulet",
+        "Amulet",
+        "buried amulet"
+      ],
+      "edges": [
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "sand",
+          "relation": "has_base"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "ancient_pyramid",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "hidden_pyramid",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "Amelia",
+          "relation": "has_character"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "Amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "golden amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "Pyramid lock",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Amelia discovers the golden amulet",
+          "target": "buried amulet",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Amelia",
+          "target": "buried amulet",
+          "relation": "above"
+        },
+        {
+          "source": "Sahara sunlight",
+          "target": "golden amulet",
+          "relation": "above"
+        }
+      ]
+    },
+    "Amelia navigates the treacherous dunes": {
+      "nodes": [
+        "Venomous creature",
+        "Amelia",
+        "sand dunes",
+        "amulet's glow",
+        "Amelia navigates the treacherous dunes"
+      ],
+      "edges": [
+        {
+          "source": "Amelia navigates the treacherous dunes",
+          "target": "sand dunes",
+          "relation": "has_base"
+        },
+        {
+          "source": "Amelia navigates the treacherous dunes",
+          "target": "Amelia",
+          "relation": "has_character"
+        },
+        {
+          "source": "Amelia navigates the treacherous dunes",
+          "target": "Venomous creature",
+          "relation": "has_character"
+        },
+        {
+          "source": "Amelia",
+          "target": "amulet's glow",
+          "relation": "below"
+        },
+        {
+          "source": "Venomous creature",
+          "target": "sand dunes",
+          "relation": "at the left of"
+        }
+      ]
+    },
+    "Amelia unlocks the secrets of the hidden pyramid": {
+      "nodes": [
+        "ancient_pyramid",
+        "Amelia",
+        "sand",
+        "civilization's secrets",
+        "Pyramid lock",
+        "hidden_pyramid",
+        "golden amulet",
+        "Amulet",
+        "Amelia unlocks the secrets of the hidden pyramid",
+        "buried amulet"
+      ],
+      "edges": [
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "sand",
+          "relation": "has_base"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "ancient_pyramid",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "hidden_pyramid",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "Amelia",
+          "relation": "has_character"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "Amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "golden amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "Pyramid lock",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Amelia unlocks the secrets of the hidden pyramid",
+          "target": "buried amulet",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "hidden_pyramid",
+          "target": "civilization's secrets",
+          "relation": "below"
+        },
+        {
+          "source": "Amelia",
+          "target": "ancient_pyramid",
+          "relation": "at the right of"
+        },
+        {
+          "source": "Amulet",
+          "target": "Pyramid lock",
+          "relation": "below"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "ancient_pyramid",
+      "Amelia",
+      "sand",
+      "Sahara sunlight",
+      "Pyramid lock",
+      "Amelia discovers the golden amulet",
+      "hidden_pyramid",
+      "golden amulet",
+      "Amulet",
+      "buried amulet",
+      "Venomous creature",
+      "sand dunes",
+      "amulet's glow",
+      "Amelia navigates the treacherous dunes",
+      "civilization's secrets",
+      "Amelia unlocks the secrets of the hidden pyramid"
+    ],
+    "edges": [
+      {
+        "source": "Amelia",
+        "target": "buried amulet",
+        "relation": "above"
+      },
+      {
+        "source": "Amelia",
+        "target": "amulet's glow",
+        "relation": "below"
+      },
+      {
+        "source": "Amelia",
+        "target": "ancient_pyramid",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Sahara sunlight",
+        "target": "golden amulet",
+        "relation": "above"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "sand",
+        "relation": "has_base"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "ancient_pyramid",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "hidden_pyramid",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "Amelia",
+        "relation": "has_character"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "Amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "golden amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "Pyramid lock",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "buried amulet",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Amelia discovers the golden amulet",
+        "target": "Amelia navigates the treacherous dunes",
+        "relation": "precedes"
+      },
+      {
+        "source": "hidden_pyramid",
+        "target": "civilization's secrets",
+        "relation": "below"
+      },
+      {
+        "source": "Amulet",
+        "target": "Pyramid lock",
+        "relation": "below"
+      },
+      {
+        "source": "Venomous creature",
+        "target": "sand dunes",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Amelia navigates the treacherous dunes",
+        "target": "sand dunes",
+        "relation": "has_base"
+      },
+      {
+        "source": "Amelia navigates the treacherous dunes",
+        "target": "Amelia",
+        "relation": "has_character"
+      },
+      {
+        "source": "Amelia navigates the treacherous dunes",
+        "target": "Venomous creature",
+        "relation": "has_character"
+      },
+      {
+        "source": "Amelia navigates the treacherous dunes",
+        "target": "Amelia unlocks the secrets of the hidden pyramid",
+        "relation": "precedes"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "sand",
+        "relation": "has_base"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "ancient_pyramid",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "hidden_pyramid",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "Amelia",
+        "relation": "has_character"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "Amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "golden amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "Pyramid lock",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Amelia unlocks the secrets of the hidden pyramid",
+        "target": "buried amulet",
+        "relation": "has_interactive_object"
+      }
+    ]
+  }
+}

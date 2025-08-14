@@ -1,0 +1,217 @@
+{
+  "global_object_affordances": {
+    "Amelia": {
+      "object": "Amelia",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "sand",
+      "confidence": 0.95
+    },
+    "Sahara sunlight": {
+      "object": "Sahara sunlight",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "sand",
+      "confidence": 0.85
+    },
+    "buried amulet": {
+      "object": "buried amulet",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "sand",
+      "confidence": 0.9
+    },
+    "golden amulet": {
+      "object": "golden amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "sand",
+      "confidence": 0.95
+    },
+    "Sand dunes": {
+      "object": "Sand dunes",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1.0
+    },
+    "Venomous creature": {
+      "object": "Venomous creature",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "sand dunes",
+      "confidence": 0.9
+    },
+    "amulet's glow": {
+      "object": "amulet's glow",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "sand dunes",
+      "confidence": 0.7
+    },
+    "sand dune": {
+      "object": "sand dune",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1.0
+    },
+    "Amulet": {
+      "object": "Amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "stone",
+      "confidence": 0.9
+    },
+    "Hidden pyramid": {
+      "object": "Hidden pyramid",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "sand",
+      "confidence": 0.95
+    },
+    "Ancient pyramid": {
+      "object": "Ancient pyramid",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "sand",
+      "confidence": 0.95
+    },
+    "Civilization's secrets": {
+      "object": "Civilization's secrets",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "unknown",
+      "confidence": 0.5
+    },
+    "Pyramid lock": {
+      "object": "Pyramid lock",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "stone",
+      "confidence": 0.9
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Amelia discovers the golden amulet",
+      "objects": [
+        {
+          "object": "Amelia",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        },
+        {
+          "object": "Sahara sunlight",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "sand",
+          "confidence": 0.85
+        },
+        {
+          "object": "buried amulet",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "sand",
+          "confidence": 0.9
+        },
+        {
+          "object": "golden amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Amelia navigates the treacherous dunes",
+      "objects": [
+        {
+          "object": "Amelia",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sand dunes",
+          "confidence": 1.0
+        },
+        {
+          "object": "Sand dunes",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1.0
+        },
+        {
+          "object": "Venomous creature",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sand dunes",
+          "confidence": 0.9
+        },
+        {
+          "object": "amulet's glow",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "sand dunes",
+          "confidence": 0.7
+        },
+        {
+          "object": "sand dune",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+      "objects": [
+        {
+          "object": "Amelia",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        },
+        {
+          "object": "Amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "stone",
+          "confidence": 0.9
+        },
+        {
+          "object": "Hidden pyramid",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        },
+        {
+          "object": "Ancient pyramid",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        },
+        {
+          "object": "Civilization's secrets",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "unknown",
+          "confidence": 0.5
+        },
+        {
+          "object": "Pyramid lock",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "stone",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

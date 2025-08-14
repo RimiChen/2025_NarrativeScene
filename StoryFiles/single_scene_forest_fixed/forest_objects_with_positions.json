@@ -1,0 +1,32 @@
+{
+  "tree": {
+    "position": [
+      6,
+      2
+    ]
+  },
+  "house": {
+    "position": [
+      9,
+      2
+    ]
+  },
+  "flower": {
+    "position": [
+      3,
+      2
+    ]
+  },
+  "barrel": {
+    "position": [
+      12,
+      8
+    ]
+  },
+  "tree stump": {
+    "position": [
+      10,
+      7
+    ]
+  }
+}

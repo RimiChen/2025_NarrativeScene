@@ -1,0 +1,112 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "base": "indoor",
+    "patch": [
+      "dusty_room"
+    ],
+    "characters": [
+      "Kenji"
+    ],
+    "items": [
+      "encrypted files"
+    ],
+    "interactive_objects": [
+      "Derelict mainframe"
+    ],
+    "environment_objects": [
+      "neon_lights"
+    ],
+    "spatial_relations": [
+      {
+        "source": "neon_lights",
+        "target": "dusty_room",
+        "relation": "above"
+      },
+      {
+        "source": "Kenji",
+        "target": "Derelict mainframe",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Derelict mainframe",
+        "target": "encrypted files",
+        "relation": "at the right of"
+      }
+    ],
+    "next_scenes": [
+      "Kenji deciphers the encrypted files"
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "base": "office",
+    "patch": [],
+    "characters": [
+      "Kenji"
+    ],
+    "items": [
+      "complex codes"
+    ],
+    "interactive_objects": [
+      "Computer screen",
+      "computer",
+      "keyboard"
+    ],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Kenji",
+        "target": "computer",
+        "relation": "below"
+      },
+      {
+        "source": "Computer screen",
+        "target": "complex codes",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Kenji's fingers",
+        "target": "keyboard",
+        "relation": "on top of"
+      }
+    ],
+    "next_scenes": [
+      "Kenji uncovers a corporate conspiracy"
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "base": "urban",
+    "patch": [],
+    "characters": [
+      "Kenji"
+    ],
+    "items": [],
+    "interactive_objects": [
+      "Screen"
+    ],
+    "environment_objects": [
+      "kenji's_tiny_apartment",
+      "skyscrapers"
+    ],
+    "spatial_relations": [
+      {
+        "source": "skyscrapers",
+        "target": "kenji's_tiny_apartment",
+        "relation": "above"
+      },
+      {
+        "source": "Kenji",
+        "target": "shocking revelation",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Screen",
+        "target": "sinister plot",
+        "relation": "at the left of"
+      }
+    ],
+    "next_scenes": []
+  }
+]

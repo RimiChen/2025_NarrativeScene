@@ -1,0 +1,109 @@
+[
+  {
+    "scene_title": "Elara discovers the ancient map",
+    "base": "forest",
+    "patch": [],
+    "characters": [
+      "Elara"
+    ],
+    "items": [
+      "ancient map"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [
+      "hollow_oak"
+    ],
+    "spatial_relations": [
+      {
+        "source": "hollow_oak",
+        "target": "ancient map",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Elara",
+        "target": "hollow_oak",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Sunlight",
+        "target": "forest canopy",
+        "relation": "above"
+      }
+    ],
+    "next_scenes": [
+      "Elara faces the treacherous paths"
+    ]
+  },
+  {
+    "scene_title": "Elara faces the treacherous paths",
+    "base": "mountain",
+    "patch": [
+      "rocky_path",
+      "treacherous_paths"
+    ],
+    "characters": [
+      "Elara",
+      "Wild creatures"
+    ],
+    "items": [],
+    "interactive_objects": [],
+    "environment_objects": [
+      "crystal_cavern",
+      "dense_bushes"
+    ],
+    "spatial_relations": [
+      {
+        "source": "treacherous_paths",
+        "target": "crystal_cavern",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Elara",
+        "target": "rocky_path",
+        "relation": "on top of"
+      },
+      {
+        "source": "Wild creatures",
+        "target": "dense_bushes",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": [
+      "Elara meets the Guardian dragon"
+    ]
+  },
+  {
+    "scene_title": "Elara meets the Guardian dragon",
+    "base": "rocky",
+    "patch": [],
+    "characters": [
+      "Elara",
+      "Guardian dragon"
+    ],
+    "items": [],
+    "interactive_objects": [
+      "crystal throne"
+    ],
+    "environment_objects": [
+      "crystal_cavern_entrance"
+    ],
+    "spatial_relations": [
+      {
+        "source": "crystal_cavern_entrance",
+        "target": "shimmering light",
+        "relation": "above"
+      },
+      {
+        "source": "Elara",
+        "target": "Guardian dragon",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Guardian dragon",
+        "target": "crystal throne",
+        "relation": "on top of"
+      }
+    ],
+    "next_scenes": []
+  }
+]

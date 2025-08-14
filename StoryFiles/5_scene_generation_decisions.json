@@ -1,0 +1,35 @@
+[
+  {
+    "scene_title": "Jax discovers the emerald amulet",
+    "suggested_terrains": [
+      "cobblestone street"
+    ],
+    "chosen_base": "cobblestone street",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Jax unlocks the power of the amulet",
+    "suggested_terrains": [
+      "ancient ruins"
+    ],
+    "chosen_base": "ancient ruins",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Jax battles the sinister sorcerer",
+    "suggested_terrains": [
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

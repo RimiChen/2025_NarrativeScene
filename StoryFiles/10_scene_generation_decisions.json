@@ -1,0 +1,37 @@
+[
+  {
+    "scene_title": "Amelia discovers the golden amulet",
+    "suggested_terrains": [
+      "sand"
+    ],
+    "chosen_base": "sand",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Amelia navigates the treacherous dunes",
+    "suggested_terrains": [
+      "sand dunes"
+    ],
+    "chosen_base": "sand dunes",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+    "suggested_terrains": [
+      "sand",
+      "stone",
+      "unknown"
+    ],
+    "chosen_base": "sand",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

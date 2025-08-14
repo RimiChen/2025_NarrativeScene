@@ -1,0 +1,275 @@
+{
+  "story_id": "3",
+  "scene_kgs": {
+    "Iris discovers the cryptic message": {
+      "nodes": [
+        "Iris discovers the cryptic message",
+        "urban",
+        "dilapidated_ceiling",
+        "Iris",
+        "cryptic message",
+        "decrepit_library"
+      ],
+      "edges": [
+        {
+          "source": "Iris discovers the cryptic message",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Iris discovers the cryptic message",
+          "target": "decrepit_library",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Iris discovers the cryptic message",
+          "target": "dilapidated_ceiling",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Iris discovers the cryptic message",
+          "target": "Iris",
+          "relation": "has_character"
+        },
+        {
+          "source": "Iris discovers the cryptic message",
+          "target": "cryptic message",
+          "relation": "has_item"
+        },
+        {
+          "source": "decrepit_library",
+          "target": "cryptic message",
+          "relation": "at the right of"
+        },
+        {
+          "source": "dilapidated_ceiling",
+          "target": "Iris",
+          "relation": "above"
+        },
+        {
+          "source": "Iris",
+          "target": "decrepit_library",
+          "relation": "at the left of"
+        }
+      ]
+    },
+    "Iris journeying through wastelands": {
+      "nodes": [
+        "Barren landscape",
+        "Mutant creatures",
+        "perilous wastelands",
+        "Iris",
+        "Iris journeying through wastelands",
+        "wasteland"
+      ],
+      "edges": [
+        {
+          "source": "Iris journeying through wastelands",
+          "target": "wasteland",
+          "relation": "has_base"
+        },
+        {
+          "source": "Iris journeying through wastelands",
+          "target": "Iris",
+          "relation": "has_character"
+        },
+        {
+          "source": "Iris journeying through wastelands",
+          "target": "Mutant creatures",
+          "relation": "has_character"
+        },
+        {
+          "source": "Iris",
+          "target": "perilous wastelands",
+          "relation": "on top of"
+        },
+        {
+          "source": "Mutant creatures",
+          "target": "Iris",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Barren landscape",
+          "target": "Iris",
+          "relation": "below"
+        }
+      ]
+    },
+    "Iris uncovers the oasis": {
+      "nodes": [
+        "Iris",
+        "humanity",
+        "Revitalized hope",
+        "hidden_oasis",
+        "desert",
+        "oasis",
+        "Iris uncovers the oasis"
+      ],
+      "edges": [
+        {
+          "source": "Iris uncovers the oasis",
+          "target": "desert",
+          "relation": "has_base"
+        },
+        {
+          "source": "Iris uncovers the oasis",
+          "target": "hidden_oasis",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Iris uncovers the oasis",
+          "target": "oasis",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Iris uncovers the oasis",
+          "target": "Iris",
+          "relation": "has_character"
+        },
+        {
+          "source": "Iris",
+          "target": "hidden_oasis",
+          "relation": "at the right of"
+        },
+        {
+          "source": "Revitalized hope",
+          "target": "humanity",
+          "relation": "at the right of"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "Iris discovers the cryptic message",
+      "urban",
+      "dilapidated_ceiling",
+      "Iris",
+      "cryptic message",
+      "decrepit_library",
+      "Barren landscape",
+      "Mutant creatures",
+      "perilous wastelands",
+      "Iris journeying through wastelands",
+      "wasteland",
+      "humanity",
+      "Revitalized hope",
+      "hidden_oasis",
+      "desert",
+      "oasis",
+      "Iris uncovers the oasis"
+    ],
+    "edges": [
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "decrepit_library",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "dilapidated_ceiling",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "Iris",
+        "relation": "has_character"
+      },
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "cryptic message",
+        "relation": "has_item"
+      },
+      {
+        "source": "Iris discovers the cryptic message",
+        "target": "Iris journeying through wastelands",
+        "relation": "precedes"
+      },
+      {
+        "source": "dilapidated_ceiling",
+        "target": "Iris",
+        "relation": "above"
+      },
+      {
+        "source": "Iris",
+        "target": "decrepit_library",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Iris",
+        "target": "perilous wastelands",
+        "relation": "on top of"
+      },
+      {
+        "source": "Iris",
+        "target": "hidden_oasis",
+        "relation": "at the right of"
+      },
+      {
+        "source": "decrepit_library",
+        "target": "cryptic message",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Barren landscape",
+        "target": "Iris",
+        "relation": "below"
+      },
+      {
+        "source": "Mutant creatures",
+        "target": "Iris",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Iris journeying through wastelands",
+        "target": "wasteland",
+        "relation": "has_base"
+      },
+      {
+        "source": "Iris journeying through wastelands",
+        "target": "Iris",
+        "relation": "has_character"
+      },
+      {
+        "source": "Iris journeying through wastelands",
+        "target": "Mutant creatures",
+        "relation": "has_character"
+      },
+      {
+        "source": "Iris journeying through wastelands",
+        "target": "Iris uncovers the oasis",
+        "relation": "precedes"
+      },
+      {
+        "source": "Revitalized hope",
+        "target": "humanity",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Iris uncovers the oasis",
+        "target": "desert",
+        "relation": "has_base"
+      },
+      {
+        "source": "Iris uncovers the oasis",
+        "target": "hidden_oasis",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Iris uncovers the oasis",
+        "target": "oasis",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Iris uncovers the oasis",
+        "target": "Iris",
+        "relation": "has_character"
+      }
+    ]
+  }
+}

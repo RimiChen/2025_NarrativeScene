@@ -1,0 +1,40 @@
+{
+  "original_story": "\"In the bustling city of New York, young detective Alex found an encrypted note hidden in an old, mysterious book at the public library...\"",
+  "time_frames": [
+    {
+      "title": "Alex discovers the encrypted note",
+      "scene_relations": [
+        "Old Book [contains] encrypted note",
+        "Alex [stands near] Bookshelf",
+        "Public library [surrounds] Alex"
+      ]
+    },
+    {
+      "title": "Alex deciphers the secret code",
+      "scene_relations": [
+        "Alex [holds] encrypted note",
+        "Moonlight [illuminates] Alex's desk",
+        "Desk [supports] scattered papers"
+      ]
+    },
+    {
+      "title": "Alex confronts the secret society",
+      "scene_relations": [
+        "Secret society [gathers around] Alex",
+        "Alex [stands in] abandoned warehouse",
+        "Streetlights [cast shadows on] warehouse exterior"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "Contains": "at the right of",
+    "Stands near": "at the left of",
+    "Surrounds": "below",
+    "Holds": "on top of",
+    "Illuminates": "above",
+    "Supports": "below",
+    "Gathers around": "below",
+    "Stands in": "on top of",
+    "Cast shadows on": "above"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Kenji discovers the encrypted files": {
+    "base": "indoor",
+    "propagated_objects": [
+      "neon_lights"
+    ]
+  },
+  "Kenji deciphers the encrypted files": {
+    "base": "office",
+    "propagated_objects": []
+  },
+  "Kenji uncovers a corporate conspiracy": {
+    "base": "urban",
+    "propagated_objects": [
+      "kenji's_tiny_apartment",
+      "skyscrapers"
+    ]
+  }
+}

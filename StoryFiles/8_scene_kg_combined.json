@@ -1,0 +1,82 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "triples": [
+      [
+        "Cross discovers the amulet",
+        "has_base",
+        "sahara desert"
+      ],
+      [
+        "Cross discovers the amulet",
+        "has_character",
+        "Cross"
+      ],
+      [
+        "Cross discovers the amulet",
+        "has_item",
+        "ancient amulet"
+      ],
+      [
+        "Cross discovers the amulet",
+        "has_item",
+        "unearthed amulet"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "triples": [
+      [
+        "Cross navigates the perilous journey",
+        "has_base",
+        "desert"
+      ],
+      [
+        "Cross navigates the perilous journey",
+        "has_environment_object",
+        "cross"
+      ],
+      [
+        "Cross navigates the perilous journey",
+        "has_character",
+        "Tomb raiders"
+      ],
+      [
+        "Cross navigates the perilous journey",
+        "has_interactive_object",
+        "cryptic hieroglyphs"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "triples": [
+      [
+        "Cross escapes the pyramid trap",
+        "has_base",
+        "stone"
+      ],
+      [
+        "Cross escapes the pyramid trap",
+        "has_character",
+        "Cross"
+      ],
+      [
+        "Cross escapes the pyramid trap",
+        "has_item",
+        "fabled treasure"
+      ],
+      [
+        "Cross escapes the pyramid trap",
+        "has_interactive_object",
+        "deadly trap"
+      ],
+      [
+        "Cross escapes the pyramid trap",
+        "has_interactive_object",
+        "pyramid trap"
+      ]
+    ]
+  }
+]

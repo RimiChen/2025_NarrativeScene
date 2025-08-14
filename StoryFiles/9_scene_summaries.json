@@ -1,0 +1,63 @@
+[
+  {
+    "scene_title": "Dr. Alexander discovers the mystical artifact",
+    "base": "desert",
+    "patch": [],
+    "characters": [
+      "Dr. Alexander"
+    ],
+    "items": [
+      "mystical artifact"
+    ],
+    "interactive_objects": [
+      "Torchlight"
+    ],
+    "environment_objects": [
+      "ancient_tomb"
+    ],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Dr. Alexander navigates through treacherous traps"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander navigates through treacherous traps",
+    "base": "ruins",
+    "patch": [],
+    "characters": [
+      "Dr. Alexander"
+    ],
+    "items": [
+      "Mystical artifact"
+    ],
+    "interactive_objects": [
+      "Treacherous traps"
+    ],
+    "environment_objects": [
+      "ancient_walls"
+    ],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Dr. Alexander confronts the Guardian of the Tomb"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander confronts the Guardian of the Tomb",
+    "base": "stone",
+    "patch": [],
+    "characters": [
+      "Dr. Alexander",
+      "Guardian of the Tomb"
+    ],
+    "items": [
+      "Mystical artifact"
+    ],
+    "interactive_objects": [
+      "Chamber doors",
+      "ancient mechanism"
+    ],
+    "environment_objects": [],
+    "spatial_relations": [],
+    "next_scenes": []
+  }
+]

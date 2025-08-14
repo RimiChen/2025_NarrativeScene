@@ -1,0 +1,62 @@
+{
+  "forest": [
+    "000_001_complete/combined_0_6.png"
+  ],
+  "forest canopy": [
+    "000_001_complete/combined_0_6.png"
+  ],
+  "Sunlight": [
+    "Monsters/FloatingEyeGreen.png"
+  ],
+  "ancient map": [
+    "001_005_complete/combined_11_17.png"
+  ],
+  "hollow_oak": [
+    "000_003_complete/combined_5_3.png"
+  ],
+  "Elara discovers the ancient map": [
+    "001_005_complete/combined_11_17.png"
+  ],
+  "Elara": [
+    "player/cleric.png"
+  ],
+  "treacherous_paths": [
+    "tiles/road31.png"
+  ],
+  "crystal_cavern": [
+    "tiles/openRoomSecretDoor31.png"
+  ],
+  "Wild creatures": [
+    "Monsters/Wolf.png"
+  ],
+  "Elara faces the treacherous paths": [
+    "tiles/road31.png"
+  ],
+  "mountain": [
+    "terrain/boulder.png"
+  ],
+  "rocky_path": [
+    "tiles/roadNW.png"
+  ],
+  "dense_bushes": [
+    "001_004_complete/combined_12_12.png"
+  ],
+  "Elara meets the Guardian dragon": [
+    "Monsters/DragonSpirit.png"
+  ],
+  "shimmering light": [
+    "001_004_complete/combined_1_5.png"
+  ],
+  "crystal_cavern_entrance": [
+    "tiles/openSecretDoor21.png"
+  ],
+  "crystal throne": [
+    "terrain/throne.png"
+  ],
+  "Guardian dragon": [
+    "Monsters/acidDragon.png"
+  ],
+  "rocky": [
+    "001_005_complete/combined_10_5.png"
+  ]
+}

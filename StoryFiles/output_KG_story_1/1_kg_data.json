@@ -1,0 +1,479 @@
+{
+  "story_id": "1",
+  "scene_kgs": {
+    "Jake discovers the cryptic note": {
+      "nodes": [
+        "dark_alley",
+        "cryptic note",
+        "Trash can",
+        "statue_of_liberty",
+        "Statue of Liberty's crown",
+        "streetlight",
+        "treasure",
+        "urban",
+        "city_skyline",
+        "Jake discovers the cryptic note",
+        "Jake"
+      ],
+      "edges": [
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "dark_alley",
+          "relation": "has_patch"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "city_skyline",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "statue_of_liberty",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "streetlight",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "Jake",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "cryptic note",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "treasure",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "Statue of Liberty's crown",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Jake discovers the cryptic note",
+          "target": "Trash can",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "streetlight",
+          "target": "Trash can",
+          "relation": "above"
+        },
+        {
+          "source": "Jake",
+          "target": "Trash can",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Trash can",
+          "target": "cryptic note",
+          "relation": "at the right of"
+        }
+      ]
+    },
+    "Jake evades gangsters": {
+      "nodes": [
+        "dark_alley",
+        "cryptic note",
+        "Jake evades gangsters",
+        "Trash can",
+        "statue_of_liberty",
+        "Statue of Liberty's crown",
+        "Moonlight",
+        "streetlight",
+        "treasure",
+        "urban",
+        "city_skyline",
+        "Gangsters",
+        "Jake"
+      ],
+      "edges": [
+        {
+          "source": "Jake evades gangsters",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "dark_alley",
+          "relation": "has_patch"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "city_skyline",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "statue_of_liberty",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "streetlight",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "Gangsters",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "Jake",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "cryptic note",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "treasure",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "Statue of Liberty's crown",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Jake evades gangsters",
+          "target": "Trash can",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Gangsters",
+          "target": "Jake",
+          "relation": "below"
+        },
+        {
+          "source": "Jake",
+          "target": "dark_alley",
+          "relation": "on top of"
+        },
+        {
+          "source": "Moonlight",
+          "target": "dark_alley",
+          "relation": "above"
+        }
+      ]
+    },
+    "Jake finds the treasure": {
+      "nodes": [
+        "dark_alley",
+        "cryptic note",
+        "Trash can",
+        "statue_of_liberty",
+        "Statue of Liberty's crown",
+        "streetlight",
+        "treasure",
+        "urban",
+        "city_skyline",
+        "Jake finds the treasure",
+        "Jake"
+      ],
+      "edges": [
+        {
+          "source": "Jake finds the treasure",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "dark_alley",
+          "relation": "has_patch"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "city_skyline",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "statue_of_liberty",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "streetlight",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "Jake",
+          "relation": "has_character"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "cryptic note",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "treasure",
+          "relation": "has_item"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "Statue of Liberty's crown",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Jake finds the treasure",
+          "target": "Trash can",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Jake",
+          "target": "Statue of Liberty's crown",
+          "relation": "on top of"
+        },
+        {
+          "source": "Statue of Liberty's crown",
+          "target": "treasure",
+          "relation": "below"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "dark_alley",
+      "cryptic note",
+      "Trash can",
+      "statue_of_liberty",
+      "Statue of Liberty's crown",
+      "streetlight",
+      "treasure",
+      "urban",
+      "city_skyline",
+      "Jake discovers the cryptic note",
+      "Jake",
+      "Jake evades gangsters",
+      "Moonlight",
+      "Gangsters",
+      "Jake finds the treasure"
+    ],
+    "edges": [
+      {
+        "source": "Trash can",
+        "target": "cryptic note",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Statue of Liberty's crown",
+        "target": "treasure",
+        "relation": "below"
+      },
+      {
+        "source": "streetlight",
+        "target": "Trash can",
+        "relation": "above"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "dark_alley",
+        "relation": "has_patch"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "city_skyline",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "statue_of_liberty",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "streetlight",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "Jake",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "cryptic note",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "treasure",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "Statue of Liberty's crown",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "Trash can",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jake discovers the cryptic note",
+        "target": "Jake evades gangsters",
+        "relation": "precedes"
+      },
+      {
+        "source": "Jake",
+        "target": "Trash can",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Jake",
+        "target": "dark_alley",
+        "relation": "on top of"
+      },
+      {
+        "source": "Jake",
+        "target": "Statue of Liberty's crown",
+        "relation": "on top of"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "dark_alley",
+        "relation": "has_patch"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "city_skyline",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "statue_of_liberty",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "streetlight",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "Gangsters",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "Jake",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "cryptic note",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "treasure",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "Statue of Liberty's crown",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "Trash can",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jake evades gangsters",
+        "target": "Jake finds the treasure",
+        "relation": "precedes"
+      },
+      {
+        "source": "Moonlight",
+        "target": "dark_alley",
+        "relation": "above"
+      },
+      {
+        "source": "Gangsters",
+        "target": "Jake",
+        "relation": "below"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "dark_alley",
+        "relation": "has_patch"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "city_skyline",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "statue_of_liberty",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "streetlight",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "Jake",
+        "relation": "has_character"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "cryptic note",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "treasure",
+        "relation": "has_item"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "Statue of Liberty's crown",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Jake finds the treasure",
+        "target": "Trash can",
+        "relation": "has_interactive_object"
+      }
+    ]
+  }
+}

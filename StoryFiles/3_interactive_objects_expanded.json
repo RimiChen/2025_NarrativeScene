@@ -1,0 +1,26 @@
+[
+  {
+    "scene_title": "Iris discovers the cryptic message",
+    "base": "urban",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Iris journeying through wastelands",
+    "base": "wasteland",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Iris uncovers the oasis",
+    "base": "desert",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  }
+]

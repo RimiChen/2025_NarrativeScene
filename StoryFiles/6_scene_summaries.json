@@ -1,0 +1,80 @@
+[
+  {
+    "scene_title": "Captain Redbeard discovers the mysterious artifact",
+    "base": "underwater",
+    "patch": [],
+    "characters": [
+      "Captain Redbeard",
+      "The Sea Serpent"
+    ],
+    "items": [
+      "mysterious artifact"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Captain Redbeard",
+        "target": "The Sea Serpent",
+        "relation": "on top of"
+      },
+      {
+        "source": "The Sea Serpent",
+        "target": "ocean surface",
+        "relation": "on top of"
+      },
+      {
+        "source": "Deep ocean floor",
+        "target": "mysterious artifact",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": [
+      "Captain Redbeard fights sea monsters"
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard fights sea monsters",
+    "base": "ship deck",
+    "patch": [],
+    "characters": [
+      "Captain Redbeard",
+      "Sea monsters"
+    ],
+    "items": [
+      "Mysterious artifact"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Captain Redbeard unlocks the artifact's power"
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard unlocks the artifact's power",
+    "base": "ship deck",
+    "patch": [],
+    "characters": [
+      "Captain Redbeard"
+    ],
+    "items": [
+      "Mysterious artifact"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Mysterious artifact",
+        "target": "ancient prophecy",
+        "relation": "above"
+      },
+      {
+        "source": "Ocean",
+        "target": "prophecy's light",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": []
+  }
+]

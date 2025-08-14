@@ -1,0 +1,39 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "suggested_terrains": [
+      "indoor",
+      "concrete"
+    ],
+    "chosen_base": "indoor",
+    "terrain_objects_detected": [
+      "dusty_room"
+    ],
+    "final_patch_for_base": [
+      "dusty_room"
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "suggested_terrains": [
+      "office"
+    ],
+    "chosen_base": "office",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "suggested_terrains": [
+      "indoor",
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

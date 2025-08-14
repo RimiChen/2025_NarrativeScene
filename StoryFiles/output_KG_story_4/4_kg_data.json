@@ -1,0 +1,234 @@
+{
+  "story_id": "4",
+  "scene_kgs": {
+    "Alex discovers the encrypted note": {
+      "nodes": [
+        "public library",
+        "encrypted note",
+        "bookshelf",
+        "Old Book",
+        "Alex",
+        "Alex discovers the encrypted note"
+      ],
+      "edges": [
+        {
+          "source": "Alex discovers the encrypted note",
+          "target": "public library",
+          "relation": "has_base"
+        },
+        {
+          "source": "Alex discovers the encrypted note",
+          "target": "bookshelf",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Alex discovers the encrypted note",
+          "target": "Alex",
+          "relation": "has_character"
+        },
+        {
+          "source": "Alex discovers the encrypted note",
+          "target": "encrypted note",
+          "relation": "has_item"
+        },
+        {
+          "source": "Alex discovers the encrypted note",
+          "target": "Old Book",
+          "relation": "has_interactive_object"
+        }
+      ]
+    },
+    "Alex deciphers the secret code": {
+      "nodes": [
+        "encrypted note",
+        "desk",
+        "Alex deciphers the secret code",
+        "indoor",
+        "Alex",
+        "alex's_desk",
+        "scattered papers"
+      ],
+      "edges": [
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "indoor",
+          "relation": "has_base"
+        },
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "alex's_desk",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "desk",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "Alex",
+          "relation": "has_character"
+        },
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "encrypted note",
+          "relation": "has_item"
+        },
+        {
+          "source": "Alex deciphers the secret code",
+          "target": "scattered papers",
+          "relation": "has_interactive_object"
+        }
+      ]
+    },
+    "Alex confronts the secret society": {
+      "nodes": [
+        "urban",
+        "Alex confronts the secret society",
+        "Secret society",
+        "Alex",
+        "streetlights",
+        "warehouse_exterior"
+      ],
+      "edges": [
+        {
+          "source": "Alex confronts the secret society",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Alex confronts the secret society",
+          "target": "streetlights",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Alex confronts the secret society",
+          "target": "warehouse_exterior",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Alex confronts the secret society",
+          "target": "Alex",
+          "relation": "has_character"
+        },
+        {
+          "source": "Alex confronts the secret society",
+          "target": "Secret society",
+          "relation": "has_character"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "public library",
+      "encrypted note",
+      "bookshelf",
+      "Old Book",
+      "Alex",
+      "Alex discovers the encrypted note",
+      "desk",
+      "Alex deciphers the secret code",
+      "indoor",
+      "alex's_desk",
+      "scattered papers",
+      "urban",
+      "Alex confronts the secret society",
+      "Secret society",
+      "streetlights",
+      "warehouse_exterior"
+    ],
+    "edges": [
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "public library",
+        "relation": "has_base"
+      },
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "bookshelf",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "Alex",
+        "relation": "has_character"
+      },
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "encrypted note",
+        "relation": "has_item"
+      },
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "Old Book",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Alex discovers the encrypted note",
+        "target": "Alex deciphers the secret code",
+        "relation": "precedes"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "indoor",
+        "relation": "has_base"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "alex's_desk",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "desk",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "Alex",
+        "relation": "has_character"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "encrypted note",
+        "relation": "has_item"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "scattered papers",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Alex deciphers the secret code",
+        "target": "Alex confronts the secret society",
+        "relation": "precedes"
+      },
+      {
+        "source": "Alex confronts the secret society",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Alex confronts the secret society",
+        "target": "streetlights",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Alex confronts the secret society",
+        "target": "warehouse_exterior",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Alex confronts the secret society",
+        "target": "Alex",
+        "relation": "has_character"
+      },
+      {
+        "source": "Alex confronts the secret society",
+        "target": "Secret society",
+        "relation": "has_character"
+      }
+    ]
+  }
+}

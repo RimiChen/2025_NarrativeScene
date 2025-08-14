@@ -1,0 +1,31 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "base": "sahara desert",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "base": "desert",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "cryptic hieroglyphs"
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "base": "stone",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "deadly trap",
+      "pyramid trap"
+    ]
+  }
+]

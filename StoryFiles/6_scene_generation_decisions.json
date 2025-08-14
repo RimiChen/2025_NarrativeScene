@@ -1,0 +1,38 @@
+[
+  {
+    "scene_title": "Captain Redbeard discovers the mysterious artifact",
+    "suggested_terrains": [
+      "ship deck",
+      "underwater",
+      "water"
+    ],
+    "chosen_base": "underwater",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard fights sea monsters",
+    "suggested_terrains": [
+      "ocean",
+      "ship deck"
+    ],
+    "chosen_base": "ship deck",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Captain Redbeard unlocks the artifact's power",
+    "suggested_terrains": [
+      "ship deck"
+    ],
+    "chosen_base": "ship deck",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

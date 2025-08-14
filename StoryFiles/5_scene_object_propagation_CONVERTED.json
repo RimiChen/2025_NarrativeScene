@@ -1,0 +1,19 @@
+[
+  {
+    "scene_title": "Jax discovers the emerald amulet",
+    "base": "cobblestone street",
+    "propagated_objects": [
+      "streetlights"
+    ]
+  },
+  {
+    "scene_title": "Jax unlocks the power of the amulet",
+    "base": "ancient ruins",
+    "propagated_objects": []
+  },
+  {
+    "scene_title": "Jax battles the sinister sorcerer",
+    "base": "urban",
+    "propagated_objects": []
+  }
+]

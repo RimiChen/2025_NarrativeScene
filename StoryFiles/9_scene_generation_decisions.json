@@ -1,0 +1,35 @@
+[
+  {
+    "scene_title": "Dr. Alexander discovers the mystical artifact",
+    "suggested_terrains": [
+      "desert"
+    ],
+    "chosen_base": "desert",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander navigates through treacherous traps",
+    "suggested_terrains": [
+      "ruins"
+    ],
+    "chosen_base": "ruins",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander confronts the Guardian of the Tomb",
+    "suggested_terrains": [
+      "stone"
+    ],
+    "chosen_base": "stone",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

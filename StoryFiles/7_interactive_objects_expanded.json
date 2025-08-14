@@ -1,0 +1,31 @@
+[
+  {
+    "scene_title": "Jack discovers the cryptic compass",
+    "base": "ship deck",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Jack battles the perilous sea",
+    "base": "sea",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "Ship",
+      "ship"
+    ]
+  },
+  {
+    "scene_title": "Jack finds El Dorado",
+    "base": "ship's deck",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "El Dorado"
+    ]
+  }
+]

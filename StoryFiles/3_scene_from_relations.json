@@ -1,0 +1,65 @@
+[
+  {
+    "scene_title": "Iris discovers the cryptic message",
+    "triples": [
+      {
+        "source": "Decrepit library",
+        "target": "cryptic message",
+        "relation": "at the right of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Iris",
+        "target": "decrepit library",
+        "relation": "at the left of",
+        "original_predicate": "stands near"
+      },
+      {
+        "source": "Dilapidated ceiling",
+        "target": "Iris",
+        "relation": "above",
+        "original_predicate": "hangs above"
+      }
+    ]
+  },
+  {
+    "scene_title": "Iris journeying through wastelands",
+    "triples": [
+      {
+        "source": "Iris",
+        "target": "perilous wastelands",
+        "relation": "on top of",
+        "original_predicate": "travels across"
+      },
+      {
+        "source": "Mutant creatures",
+        "target": "Iris",
+        "relation": "at the left of",
+        "original_predicate": "confront"
+      },
+      {
+        "source": "Barren landscape",
+        "target": "Iris",
+        "relation": "below",
+        "original_predicate": "stretches beneath"
+      }
+    ]
+  },
+  {
+    "scene_title": "Iris uncovers the oasis",
+    "triples": [
+      {
+        "source": "Iris",
+        "target": "hidden oasis",
+        "relation": "at the right of",
+        "original_predicate": "stands before"
+      },
+      {
+        "source": "Revitalized hope",
+        "target": "humanity",
+        "relation": "at the right of",
+        "original_predicate": "blooms within"
+      }
+    ]
+  }
+]

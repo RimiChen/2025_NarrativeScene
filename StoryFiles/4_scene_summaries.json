@@ -1,0 +1,62 @@
+[
+  {
+    "scene_title": "Alex discovers the encrypted note",
+    "base": "public library",
+    "patch": [],
+    "characters": [
+      "Alex"
+    ],
+    "items": [
+      "encrypted note"
+    ],
+    "interactive_objects": [
+      "Old Book"
+    ],
+    "environment_objects": [
+      "bookshelf"
+    ],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Alex deciphers the secret code"
+    ]
+  },
+  {
+    "scene_title": "Alex deciphers the secret code",
+    "base": "indoor",
+    "patch": [],
+    "characters": [
+      "Alex"
+    ],
+    "items": [
+      "encrypted note"
+    ],
+    "interactive_objects": [
+      "scattered papers"
+    ],
+    "environment_objects": [
+      "alex's_desk",
+      "desk"
+    ],
+    "spatial_relations": [],
+    "next_scenes": [
+      "Alex confronts the secret society"
+    ]
+  },
+  {
+    "scene_title": "Alex confronts the secret society",
+    "base": "urban",
+    "patch": [],
+    "characters": [
+      "Alex",
+      "Secret society"
+    ],
+    "items": [],
+    "interactive_objects": [],
+    "environment_objects": [
+      "streetlights",
+      "warehouse_exterior"
+    ],
+    "spatial_relations": [],
+    "next_scenes": []
+  }
+]

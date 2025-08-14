@@ -1,0 +1,102 @@
+[
+  {
+    "scene_title": "Amelia discovers the golden amulet",
+    "base": "sand",
+    "patch": [],
+    "characters": [
+      "Amelia"
+    ],
+    "items": [
+      "Amulet",
+      "golden amulet"
+    ],
+    "interactive_objects": [
+      "Pyramid lock",
+      "buried amulet"
+    ],
+    "environment_objects": [
+      "ancient_pyramid",
+      "hidden_pyramid"
+    ],
+    "spatial_relations": [
+      {
+        "source": "Amelia",
+        "target": "buried amulet",
+        "relation": "above"
+      },
+      {
+        "source": "Sahara sunlight",
+        "target": "golden amulet",
+        "relation": "above"
+      }
+    ],
+    "next_scenes": [
+      "Amelia navigates the treacherous dunes"
+    ]
+  },
+  {
+    "scene_title": "Amelia navigates the treacherous dunes",
+    "base": "sand dunes",
+    "patch": [],
+    "characters": [
+      "Amelia",
+      "Venomous creature"
+    ],
+    "items": [],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Amelia",
+        "target": "amulet's glow",
+        "relation": "below"
+      },
+      {
+        "source": "Venomous creature",
+        "target": "sand dunes",
+        "relation": "at the left of"
+      }
+    ],
+    "next_scenes": [
+      "Amelia unlocks the secrets of the hidden pyramid"
+    ]
+  },
+  {
+    "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+    "base": "sand",
+    "patch": [],
+    "characters": [
+      "Amelia"
+    ],
+    "items": [
+      "Amulet",
+      "golden amulet"
+    ],
+    "interactive_objects": [
+      "Pyramid lock",
+      "buried amulet"
+    ],
+    "environment_objects": [
+      "ancient_pyramid",
+      "hidden_pyramid"
+    ],
+    "spatial_relations": [
+      {
+        "source": "hidden_pyramid",
+        "target": "civilization's secrets",
+        "relation": "below"
+      },
+      {
+        "source": "Amelia",
+        "target": "ancient_pyramid",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Amulet",
+        "target": "Pyramid lock",
+        "relation": "below"
+      }
+    ],
+    "next_scenes": []
+  }
+]

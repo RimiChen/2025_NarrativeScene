@@ -1,0 +1,26 @@
+[
+  {
+    "scene_title": "Captain Redbeard discovers the mysterious artifact",
+    "base": "underwater",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Captain Redbeard fights sea monsters",
+    "base": "ship deck",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  },
+  {
+    "scene_title": "Captain Redbeard unlocks the artifact's power",
+    "base": "ship deck",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "scene_title": "Dr. Alexander discovers the mystical artifact",
+    "base": "desert",
+    "propagated_objects": [
+      "ancient_tomb"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander navigates through treacherous traps",
+    "base": "ruins",
+    "propagated_objects": [
+      "ancient_walls"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander confronts the Guardian of the Tomb",
+    "base": "stone",
+    "propagated_objects": []
+  }
+]

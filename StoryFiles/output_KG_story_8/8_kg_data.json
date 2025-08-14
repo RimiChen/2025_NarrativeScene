@@ -1,0 +1,264 @@
+{
+  "story_id": "8",
+  "scene_kgs": {
+    "Cross discovers the amulet": {
+      "nodes": [
+        "ancient amulet",
+        "Sun",
+        "unearthed amulet",
+        "sahara desert",
+        "Cross discovers the amulet",
+        "Cross"
+      ],
+      "edges": [
+        {
+          "source": "Cross discovers the amulet",
+          "target": "sahara desert",
+          "relation": "has_base"
+        },
+        {
+          "source": "Cross discovers the amulet",
+          "target": "Cross",
+          "relation": "has_character"
+        },
+        {
+          "source": "Cross discovers the amulet",
+          "target": "ancient amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "Cross discovers the amulet",
+          "target": "unearthed amulet",
+          "relation": "has_item"
+        },
+        {
+          "source": "sahara desert",
+          "target": "ancient amulet",
+          "relation": "on top of"
+        },
+        {
+          "source": "Cross",
+          "target": "unearthed amulet",
+          "relation": "below"
+        },
+        {
+          "source": "Sun",
+          "target": "sahara desert",
+          "relation": "above"
+        }
+      ]
+    },
+    "Cross navigates the perilous journey": {
+      "nodes": [
+        "cross",
+        "Cross navigates the perilous journey",
+        "Tomb raiders",
+        "desert",
+        "cryptic hieroglyphs"
+      ],
+      "edges": [
+        {
+          "source": "Cross navigates the perilous journey",
+          "target": "desert",
+          "relation": "has_base"
+        },
+        {
+          "source": "Cross navigates the perilous journey",
+          "target": "cross",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Cross navigates the perilous journey",
+          "target": "Tomb raiders",
+          "relation": "has_character"
+        },
+        {
+          "source": "Cross navigates the perilous journey",
+          "target": "cryptic hieroglyphs",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "cross",
+          "target": "cryptic hieroglyphs",
+          "relation": "at the right of"
+        }
+      ]
+    },
+    "Cross escapes the pyramid trap": {
+      "nodes": [
+        "Cross escapes the pyramid trap",
+        "pyramid trap",
+        "Pyramid",
+        "deadly trap",
+        "stone",
+        "fabled treasure",
+        "Cross"
+      ],
+      "edges": [
+        {
+          "source": "Cross escapes the pyramid trap",
+          "target": "stone",
+          "relation": "has_base"
+        },
+        {
+          "source": "Cross escapes the pyramid trap",
+          "target": "Cross",
+          "relation": "has_character"
+        },
+        {
+          "source": "Cross escapes the pyramid trap",
+          "target": "fabled treasure",
+          "relation": "has_item"
+        },
+        {
+          "source": "Cross escapes the pyramid trap",
+          "target": "deadly trap",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Cross escapes the pyramid trap",
+          "target": "pyramid trap",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Cross",
+          "target": "fabled treasure",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Pyramid",
+          "target": "deadly trap",
+          "relation": "on top of"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "ancient amulet",
+      "Sun",
+      "unearthed amulet",
+      "sahara desert",
+      "Cross discovers the amulet",
+      "Cross",
+      "cross",
+      "Cross navigates the perilous journey",
+      "Tomb raiders",
+      "desert",
+      "cryptic hieroglyphs",
+      "Cross escapes the pyramid trap",
+      "pyramid trap",
+      "Pyramid",
+      "deadly trap",
+      "stone",
+      "fabled treasure"
+    ],
+    "edges": [
+      {
+        "source": "Sun",
+        "target": "sahara desert",
+        "relation": "above"
+      },
+      {
+        "source": "sahara desert",
+        "target": "ancient amulet",
+        "relation": "on top of"
+      },
+      {
+        "source": "Cross discovers the amulet",
+        "target": "sahara desert",
+        "relation": "has_base"
+      },
+      {
+        "source": "Cross discovers the amulet",
+        "target": "Cross",
+        "relation": "has_character"
+      },
+      {
+        "source": "Cross discovers the amulet",
+        "target": "ancient amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Cross discovers the amulet",
+        "target": "unearthed amulet",
+        "relation": "has_item"
+      },
+      {
+        "source": "Cross discovers the amulet",
+        "target": "Cross navigates the perilous journey",
+        "relation": "precedes"
+      },
+      {
+        "source": "Cross",
+        "target": "unearthed amulet",
+        "relation": "below"
+      },
+      {
+        "source": "Cross",
+        "target": "fabled treasure",
+        "relation": "at the left of"
+      },
+      {
+        "source": "cross",
+        "target": "cryptic hieroglyphs",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Cross navigates the perilous journey",
+        "target": "desert",
+        "relation": "has_base"
+      },
+      {
+        "source": "Cross navigates the perilous journey",
+        "target": "cross",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Cross navigates the perilous journey",
+        "target": "Tomb raiders",
+        "relation": "has_character"
+      },
+      {
+        "source": "Cross navigates the perilous journey",
+        "target": "cryptic hieroglyphs",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Cross navigates the perilous journey",
+        "target": "Cross escapes the pyramid trap",
+        "relation": "precedes"
+      },
+      {
+        "source": "Cross escapes the pyramid trap",
+        "target": "stone",
+        "relation": "has_base"
+      },
+      {
+        "source": "Cross escapes the pyramid trap",
+        "target": "Cross",
+        "relation": "has_character"
+      },
+      {
+        "source": "Cross escapes the pyramid trap",
+        "target": "fabled treasure",
+        "relation": "has_item"
+      },
+      {
+        "source": "Cross escapes the pyramid trap",
+        "target": "deadly trap",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Cross escapes the pyramid trap",
+        "target": "pyramid trap",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Pyramid",
+        "target": "deadly trap",
+        "relation": "on top of"
+      }
+    ]
+  }
+}

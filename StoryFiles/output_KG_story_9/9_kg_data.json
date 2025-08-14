@@ -1,0 +1,234 @@
+{
+  "story_id": "9",
+  "scene_kgs": {
+    "Dr. Alexander discovers the mystical artifact": {
+      "nodes": [
+        "Dr. Alexander",
+        "ancient_tomb",
+        "Torchlight",
+        "Dr. Alexander discovers the mystical artifact",
+        "mystical artifact",
+        "desert"
+      ],
+      "edges": [
+        {
+          "source": "Dr. Alexander discovers the mystical artifact",
+          "target": "desert",
+          "relation": "has_base"
+        },
+        {
+          "source": "Dr. Alexander discovers the mystical artifact",
+          "target": "ancient_tomb",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Dr. Alexander discovers the mystical artifact",
+          "target": "Dr. Alexander",
+          "relation": "has_character"
+        },
+        {
+          "source": "Dr. Alexander discovers the mystical artifact",
+          "target": "mystical artifact",
+          "relation": "has_item"
+        },
+        {
+          "source": "Dr. Alexander discovers the mystical artifact",
+          "target": "Torchlight",
+          "relation": "has_interactive_object"
+        }
+      ]
+    },
+    "Dr. Alexander navigates through treacherous traps": {
+      "nodes": [
+        "Dr. Alexander",
+        "Treacherous traps",
+        "ancient_walls",
+        "ruins",
+        "Dr. Alexander navigates through treacherous traps",
+        "Mystical artifact"
+      ],
+      "edges": [
+        {
+          "source": "Dr. Alexander navigates through treacherous traps",
+          "target": "ruins",
+          "relation": "has_base"
+        },
+        {
+          "source": "Dr. Alexander navigates through treacherous traps",
+          "target": "ancient_walls",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Dr. Alexander navigates through treacherous traps",
+          "target": "Dr. Alexander",
+          "relation": "has_character"
+        },
+        {
+          "source": "Dr. Alexander navigates through treacherous traps",
+          "target": "Mystical artifact",
+          "relation": "has_item"
+        },
+        {
+          "source": "Dr. Alexander navigates through treacherous traps",
+          "target": "Treacherous traps",
+          "relation": "has_interactive_object"
+        }
+      ]
+    },
+    "Dr. Alexander confronts the Guardian of the Tomb": {
+      "nodes": [
+        "Dr. Alexander",
+        "stone",
+        "Guardian of the Tomb",
+        "Chamber doors",
+        "Mystical artifact",
+        "ancient mechanism",
+        "Dr. Alexander confronts the Guardian of the Tomb"
+      ],
+      "edges": [
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "stone",
+          "relation": "has_base"
+        },
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "Dr. Alexander",
+          "relation": "has_character"
+        },
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "Guardian of the Tomb",
+          "relation": "has_character"
+        },
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "Mystical artifact",
+          "relation": "has_item"
+        },
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "Chamber doors",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Dr. Alexander confronts the Guardian of the Tomb",
+          "target": "ancient mechanism",
+          "relation": "has_interactive_object"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "Dr. Alexander",
+      "ancient_tomb",
+      "Torchlight",
+      "Dr. Alexander discovers the mystical artifact",
+      "mystical artifact",
+      "desert",
+      "Treacherous traps",
+      "ancient_walls",
+      "ruins",
+      "Dr. Alexander navigates through treacherous traps",
+      "Mystical artifact",
+      "stone",
+      "Guardian of the Tomb",
+      "Chamber doors",
+      "ancient mechanism",
+      "Dr. Alexander confronts the Guardian of the Tomb"
+    ],
+    "edges": [
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "desert",
+        "relation": "has_base"
+      },
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "ancient_tomb",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "Dr. Alexander",
+        "relation": "has_character"
+      },
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "mystical artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "Torchlight",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Dr. Alexander discovers the mystical artifact",
+        "target": "Dr. Alexander navigates through treacherous traps",
+        "relation": "precedes"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "ruins",
+        "relation": "has_base"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "ancient_walls",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "Dr. Alexander",
+        "relation": "has_character"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "Mystical artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "Treacherous traps",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Dr. Alexander navigates through treacherous traps",
+        "target": "Dr. Alexander confronts the Guardian of the Tomb",
+        "relation": "precedes"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "stone",
+        "relation": "has_base"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "Dr. Alexander",
+        "relation": "has_character"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "Guardian of the Tomb",
+        "relation": "has_character"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "Mystical artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "Chamber doors",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Dr. Alexander confronts the Guardian of the Tomb",
+        "target": "ancient mechanism",
+        "relation": "has_interactive_object"
+      }
+    ]
+  }
+}

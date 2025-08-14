@@ -1,0 +1,71 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "triples": [
+      {
+        "source": "Derelict mainframe",
+        "target": "encrypted files",
+        "relation": "at the right of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Kenji",
+        "target": "derelict mainframe",
+        "relation": "at the right of",
+        "original_predicate": "stands near"
+      },
+      {
+        "source": "Neon lights",
+        "target": "dusty room",
+        "relation": "above",
+        "original_predicate": "illuminate"
+      }
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "triples": [
+      {
+        "source": "Kenji",
+        "target": "computer",
+        "relation": "below",
+        "original_predicate": "sits at"
+      },
+      {
+        "source": "Computer screen",
+        "target": "complex codes",
+        "relation": "at the left of",
+        "original_predicate": "displays"
+      },
+      {
+        "source": "Kenji's fingers",
+        "target": "keyboard",
+        "relation": "on top of",
+        "original_predicate": "dance over"
+      }
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "triples": [
+      {
+        "source": "Screen",
+        "target": "sinister plot",
+        "relation": "at the left of",
+        "original_predicate": "reveals"
+      },
+      {
+        "source": "Kenji",
+        "target": "shocking revelation",
+        "relation": "at the left of",
+        "original_predicate": "stares at"
+      },
+      {
+        "source": "Skyscrapers",
+        "target": "Kenji's tiny apartment",
+        "relation": "above",
+        "original_predicate": "tower over"
+      }
+    ]
+  }
+]

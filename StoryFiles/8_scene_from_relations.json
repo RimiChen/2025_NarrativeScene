@@ -1,0 +1,53 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "triples": [
+      {
+        "source": "Sahara Desert",
+        "target": "ancient amulet",
+        "relation": "on top of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Cross",
+        "target": "unearthed amulet",
+        "relation": "below",
+        "original_predicate": "kneels near"
+      },
+      {
+        "source": "Sun",
+        "target": "Sahara Desert",
+        "relation": "above",
+        "original_predicate": "beats down on"
+      }
+    ]
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "triples": [
+      {
+        "source": "Cross",
+        "target": "cryptic hieroglyphs",
+        "relation": "at the right of",
+        "original_predicate": "reads"
+      }
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "triples": [
+      {
+        "source": "Pyramid",
+        "target": "deadly trap",
+        "relation": "on top of",
+        "original_predicate": "contains"
+      },
+      {
+        "source": "Cross",
+        "target": "fabled treasure",
+        "relation": "at the left of",
+        "original_predicate": "holds"
+      }
+    ]
+  }
+]

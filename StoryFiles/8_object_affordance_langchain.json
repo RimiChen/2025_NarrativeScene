@@ -1,0 +1,203 @@
+{
+  "global_object_affordances": {
+    "Cross": {
+      "object": "Cross",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "sand",
+      "confidence": 0.9
+    },
+    "Sahara Desert": {
+      "object": "Sahara Desert",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1
+    },
+    "Sun": {
+      "object": "Sun",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "Sahara Desert",
+      "confidence": 0.9
+    },
+    "ancient amulet": {
+      "object": "ancient amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "Sahara Desert",
+      "confidence": 0.95
+    },
+    "unearthed amulet": {
+      "object": "unearthed amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "Sahara Desert",
+      "confidence": 0.95
+    },
+    "Sandstorm": {
+      "object": "Sandstorm",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "Tomb raiders": {
+      "object": "Tomb raiders",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "cryptic hieroglyphs": {
+      "object": "cryptic hieroglyphs",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "ancient ruins",
+      "confidence": 0.9
+    },
+    "Pyramid": {
+      "object": "Pyramid",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "sand",
+      "confidence": 0.95
+    },
+    "deadly trap": {
+      "object": "deadly trap",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "stone",
+      "confidence": 0.85
+    },
+    "fabled treasure": {
+      "object": "fabled treasure",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "stone",
+      "confidence": 0.9
+    },
+    "pyramid trap": {
+      "object": "pyramid trap",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "stone",
+      "confidence": 0.85
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Cross discovers the amulet",
+      "objects": [
+        {
+          "object": "Cross",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "Sahara Desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "Sahara Desert",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1
+        },
+        {
+          "object": "Sun",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "Sahara Desert",
+          "confidence": 0.9
+        },
+        {
+          "object": "ancient amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "Sahara Desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "unearthed amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "Sahara Desert",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Cross navigates the perilous journey",
+      "objects": [
+        {
+          "object": "Cross",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "desert",
+          "confidence": 0.9
+        },
+        {
+          "object": "Sandstorm",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "Tomb raiders",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "cryptic hieroglyphs",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Cross escapes the pyramid trap",
+      "objects": [
+        {
+          "object": "Cross",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "sand",
+          "confidence": 0.9
+        },
+        {
+          "object": "Pyramid",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "sand",
+          "confidence": 0.95
+        },
+        {
+          "object": "deadly trap",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "stone",
+          "confidence": 0.85
+        },
+        {
+          "object": "fabled treasure",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "stone",
+          "confidence": 0.9
+        },
+        {
+          "object": "pyramid trap",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "stone",
+          "confidence": 0.85
+        }
+      ]
+    }
+  ]
+}

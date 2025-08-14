@@ -1,0 +1,233 @@
+{
+  "story_id": "6",
+  "scene_kgs": {
+    "Captain Redbeard discovers the mysterious artifact": {
+      "nodes": [
+        "Deep ocean floor",
+        "underwater",
+        "Captain Redbeard",
+        "The Sea Serpent",
+        "mysterious artifact",
+        "ocean surface",
+        "Captain Redbeard discovers the mysterious artifact"
+      ],
+      "edges": [
+        {
+          "source": "Captain Redbeard discovers the mysterious artifact",
+          "target": "underwater",
+          "relation": "has_base"
+        },
+        {
+          "source": "Captain Redbeard discovers the mysterious artifact",
+          "target": "Captain Redbeard",
+          "relation": "has_character"
+        },
+        {
+          "source": "Captain Redbeard discovers the mysterious artifact",
+          "target": "The Sea Serpent",
+          "relation": "has_character"
+        },
+        {
+          "source": "Captain Redbeard discovers the mysterious artifact",
+          "target": "mysterious artifact",
+          "relation": "has_item"
+        },
+        {
+          "source": "Captain Redbeard",
+          "target": "The Sea Serpent",
+          "relation": "on top of"
+        },
+        {
+          "source": "The Sea Serpent",
+          "target": "ocean surface",
+          "relation": "on top of"
+        },
+        {
+          "source": "Deep ocean floor",
+          "target": "mysterious artifact",
+          "relation": "below"
+        }
+      ]
+    },
+    "Captain Redbeard fights sea monsters": {
+      "nodes": [
+        "Captain Redbeard",
+        "Sea monsters",
+        "Captain Redbeard fights sea monsters",
+        "ship deck",
+        "Mysterious artifact"
+      ],
+      "edges": [
+        {
+          "source": "Captain Redbeard fights sea monsters",
+          "target": "ship deck",
+          "relation": "has_base"
+        },
+        {
+          "source": "Captain Redbeard fights sea monsters",
+          "target": "Captain Redbeard",
+          "relation": "has_character"
+        },
+        {
+          "source": "Captain Redbeard fights sea monsters",
+          "target": "Sea monsters",
+          "relation": "has_character"
+        },
+        {
+          "source": "Captain Redbeard fights sea monsters",
+          "target": "Mysterious artifact",
+          "relation": "has_item"
+        }
+      ]
+    },
+    "Captain Redbeard unlocks the artifact's power": {
+      "nodes": [
+        "ancient prophecy",
+        "Captain Redbeard",
+        "Mysterious artifact",
+        "ship deck",
+        "Captain Redbeard unlocks the artifact's power",
+        "prophecy's light",
+        "Ocean"
+      ],
+      "edges": [
+        {
+          "source": "Captain Redbeard unlocks the artifact's power",
+          "target": "ship deck",
+          "relation": "has_base"
+        },
+        {
+          "source": "Captain Redbeard unlocks the artifact's power",
+          "target": "Captain Redbeard",
+          "relation": "has_character"
+        },
+        {
+          "source": "Captain Redbeard unlocks the artifact's power",
+          "target": "Mysterious artifact",
+          "relation": "has_item"
+        },
+        {
+          "source": "Mysterious artifact",
+          "target": "ancient prophecy",
+          "relation": "above"
+        },
+        {
+          "source": "Ocean",
+          "target": "prophecy's light",
+          "relation": "below"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "Deep ocean floor",
+      "underwater",
+      "Captain Redbeard",
+      "The Sea Serpent",
+      "mysterious artifact",
+      "ocean surface",
+      "Captain Redbeard discovers the mysterious artifact",
+      "Sea monsters",
+      "Captain Redbeard fights sea monsters",
+      "ship deck",
+      "Mysterious artifact",
+      "ancient prophecy",
+      "Captain Redbeard unlocks the artifact's power",
+      "prophecy's light",
+      "Ocean"
+    ],
+    "edges": [
+      {
+        "source": "Deep ocean floor",
+        "target": "mysterious artifact",
+        "relation": "below"
+      },
+      {
+        "source": "Captain Redbeard",
+        "target": "The Sea Serpent",
+        "relation": "on top of"
+      },
+      {
+        "source": "The Sea Serpent",
+        "target": "ocean surface",
+        "relation": "on top of"
+      },
+      {
+        "source": "Captain Redbeard discovers the mysterious artifact",
+        "target": "underwater",
+        "relation": "has_base"
+      },
+      {
+        "source": "Captain Redbeard discovers the mysterious artifact",
+        "target": "Captain Redbeard",
+        "relation": "has_character"
+      },
+      {
+        "source": "Captain Redbeard discovers the mysterious artifact",
+        "target": "The Sea Serpent",
+        "relation": "has_character"
+      },
+      {
+        "source": "Captain Redbeard discovers the mysterious artifact",
+        "target": "mysterious artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Captain Redbeard discovers the mysterious artifact",
+        "target": "Captain Redbeard fights sea monsters",
+        "relation": "precedes"
+      },
+      {
+        "source": "Captain Redbeard fights sea monsters",
+        "target": "ship deck",
+        "relation": "has_base"
+      },
+      {
+        "source": "Captain Redbeard fights sea monsters",
+        "target": "Captain Redbeard",
+        "relation": "has_character"
+      },
+      {
+        "source": "Captain Redbeard fights sea monsters",
+        "target": "Sea monsters",
+        "relation": "has_character"
+      },
+      {
+        "source": "Captain Redbeard fights sea monsters",
+        "target": "Mysterious artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Captain Redbeard fights sea monsters",
+        "target": "Captain Redbeard unlocks the artifact's power",
+        "relation": "precedes"
+      },
+      {
+        "source": "Mysterious artifact",
+        "target": "ancient prophecy",
+        "relation": "above"
+      },
+      {
+        "source": "Captain Redbeard unlocks the artifact's power",
+        "target": "ship deck",
+        "relation": "has_base"
+      },
+      {
+        "source": "Captain Redbeard unlocks the artifact's power",
+        "target": "Captain Redbeard",
+        "relation": "has_character"
+      },
+      {
+        "source": "Captain Redbeard unlocks the artifact's power",
+        "target": "Mysterious artifact",
+        "relation": "has_item"
+      },
+      {
+        "source": "Ocean",
+        "target": "prophecy's light",
+        "relation": "below"
+      }
+    ]
+  }
+}

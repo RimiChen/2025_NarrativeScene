@@ -1,0 +1,77 @@
+[
+  {
+    "scene_title": "Iris discovers the cryptic message",
+    "triples": [
+      [
+        "Iris discovers the cryptic message",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Iris discovers the cryptic message",
+        "has_environment_object",
+        "decrepit_library"
+      ],
+      [
+        "Iris discovers the cryptic message",
+        "has_environment_object",
+        "dilapidated_ceiling"
+      ],
+      [
+        "Iris discovers the cryptic message",
+        "has_character",
+        "Iris"
+      ],
+      [
+        "Iris discovers the cryptic message",
+        "has_item",
+        "cryptic message"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Iris journeying through wastelands",
+    "triples": [
+      [
+        "Iris journeying through wastelands",
+        "has_base",
+        "wasteland"
+      ],
+      [
+        "Iris journeying through wastelands",
+        "has_character",
+        "Iris"
+      ],
+      [
+        "Iris journeying through wastelands",
+        "has_character",
+        "Mutant creatures"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Iris uncovers the oasis",
+    "triples": [
+      [
+        "Iris uncovers the oasis",
+        "has_base",
+        "desert"
+      ],
+      [
+        "Iris uncovers the oasis",
+        "has_environment_object",
+        "hidden_oasis"
+      ],
+      [
+        "Iris uncovers the oasis",
+        "has_environment_object",
+        "oasis"
+      ],
+      [
+        "Iris uncovers the oasis",
+        "has_character",
+        "Iris"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "scene_title": "Alex discovers the encrypted note",
+    "base": "public library",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "encrypted note"
+    ]
+  },
+  {
+    "scene_title": "Alex deciphers the secret code",
+    "base": "indoor",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "encrypted note"
+    ]
+  },
+  {
+    "scene_title": "Alex confronts the secret society",
+    "base": "urban",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": []
+  }
+]

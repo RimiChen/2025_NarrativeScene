@@ -1,0 +1,30 @@
+[
+  {
+    "scene_title": "Kenji discovers the encrypted files",
+    "base": "indoor",
+    "patch": [
+      "dusty_room"
+    ],
+    "items": [
+      "encrypted files"
+    ]
+  },
+  {
+    "scene_title": "Kenji deciphers the encrypted files",
+    "base": "office",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "complex codes"
+    ]
+  },
+  {
+    "scene_title": "Kenji uncovers a corporate conspiracy",
+    "base": "urban",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": []
+  }
+]

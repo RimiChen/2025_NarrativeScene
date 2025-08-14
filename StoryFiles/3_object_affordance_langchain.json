@@ -1,0 +1,217 @@
+{
+  "global_object_affordances": {
+    "Decrepit library": {
+      "object": "Decrepit library",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "urban",
+      "confidence": 0.95
+    },
+    "Dilapidated ceiling": {
+      "object": "Dilapidated ceiling",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "indoor",
+      "confidence": 0.95
+    },
+    "Iris": {
+      "object": "Iris",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "cryptic message": {
+      "object": "cryptic message",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "indoor",
+      "confidence": 0.9
+    },
+    "decrepit library": {
+      "object": "decrepit library",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "urban",
+      "confidence": 0.95
+    },
+    "Barren landscape": {
+      "object": "Barren landscape",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "wasteland",
+      "confidence": 1.0
+    },
+    "Mutant creatures": {
+      "object": "Mutant creatures",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "wasteland",
+      "confidence": 1.0
+    },
+    "perilous wastelands": {
+      "object": "perilous wastelands",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "wasteland",
+      "confidence": 1.0
+    },
+    "Oasis": {
+      "object": "Oasis",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "Revitalized hope": {
+      "object": "Revitalized hope",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "desert",
+      "confidence": 0.85
+    },
+    "desolate world": {
+      "object": "desolate world",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "hidden oasis": {
+      "object": "hidden oasis",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "desert",
+      "confidence": 0.95
+    },
+    "humanity": {
+      "object": "humanity",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "desert",
+      "confidence": 0.85
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Iris discovers the cryptic message",
+      "objects": [
+        {
+          "object": "Decrepit library",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "urban",
+          "confidence": 0.95
+        },
+        {
+          "object": "Dilapidated ceiling",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "indoor",
+          "confidence": 0.95
+        },
+        {
+          "object": "Iris",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "any",
+          "confidence": 1
+        },
+        {
+          "object": "cryptic message",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "indoor",
+          "confidence": 0.9
+        },
+        {
+          "object": "decrepit library",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "urban",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "scene_title": "Iris journeying through wastelands",
+      "objects": [
+        {
+          "object": "Barren landscape",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "wasteland",
+          "confidence": 1.0
+        },
+        {
+          "object": "Iris",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "wasteland",
+          "confidence": 1.0
+        },
+        {
+          "object": "Mutant creatures",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "wasteland",
+          "confidence": 1.0
+        },
+        {
+          "object": "perilous wastelands",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "wasteland",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "scene_title": "Iris uncovers the oasis",
+      "objects": [
+        {
+          "object": "Iris",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "Oasis",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "Revitalized hope",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "desert",
+          "confidence": 0.85
+        },
+        {
+          "object": "desolate world",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "hidden oasis",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "desert",
+          "confidence": 0.95
+        },
+        {
+          "object": "humanity",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "desert",
+          "confidence": 0.85
+        }
+      ]
+    }
+  ]
+}

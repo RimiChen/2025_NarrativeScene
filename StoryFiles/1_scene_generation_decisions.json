@@ -1,0 +1,37 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "suggested_terrains": [
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "dark_alley"
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "suggested_terrains": [
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [
+      "dark_alley"
+    ],
+    "final_patch_for_base": [
+      "dark_alley"
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "suggested_terrains": [
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "dark_alley"
+    ]
+  }
+]

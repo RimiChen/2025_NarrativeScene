@@ -1,0 +1,97 @@
+[
+  {
+    "scene_title": "Jack discovers the cryptic compass",
+    "triples": [
+      [
+        "Jack discovers the cryptic compass",
+        "has_base",
+        "ship deck"
+      ],
+      [
+        "Jack discovers the cryptic compass",
+        "has_environment_object",
+        "el_dorado"
+      ],
+      [
+        "Jack discovers the cryptic compass",
+        "has_character",
+        "Captain Jack"
+      ],
+      [
+        "Jack discovers the cryptic compass",
+        "has_item",
+        "Cryptic compass"
+      ],
+      [
+        "Jack discovers the cryptic compass",
+        "has_item",
+        "cryptic compass"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jack battles the perilous sea",
+    "triples": [
+      [
+        "Jack battles the perilous sea",
+        "has_base",
+        "sea"
+      ],
+      [
+        "Jack battles the perilous sea",
+        "has_environment_object",
+        "bermuda_triangle"
+      ],
+      [
+        "Jack battles the perilous sea",
+        "has_character",
+        "Captain Jack"
+      ],
+      [
+        "Jack battles the perilous sea",
+        "has_character",
+        "Mystical sea creatures"
+      ],
+      [
+        "Jack battles the perilous sea",
+        "has_interactive_object",
+        "Ship"
+      ],
+      [
+        "Jack battles the perilous sea",
+        "has_interactive_object",
+        "ship"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Jack finds El Dorado",
+    "triples": [
+      [
+        "Jack finds El Dorado",
+        "has_base",
+        "ship's deck"
+      ],
+      [
+        "Jack finds El Dorado",
+        "has_environment_object",
+        "golden_city"
+      ],
+      [
+        "Jack finds El Dorado",
+        "has_environment_object",
+        "ship's_deck"
+      ],
+      [
+        "Jack finds El Dorado",
+        "has_character",
+        "Captain Jack"
+      ],
+      [
+        "Jack finds El Dorado",
+        "has_interactive_object",
+        "El Dorado"
+      ]
+    ]
+  }
+]

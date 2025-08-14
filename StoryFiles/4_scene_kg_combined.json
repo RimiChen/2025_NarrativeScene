@@ -1,0 +1,97 @@
+[
+  {
+    "scene_title": "Alex discovers the encrypted note",
+    "triples": [
+      [
+        "Alex discovers the encrypted note",
+        "has_base",
+        "public library"
+      ],
+      [
+        "Alex discovers the encrypted note",
+        "has_environment_object",
+        "bookshelf"
+      ],
+      [
+        "Alex discovers the encrypted note",
+        "has_character",
+        "Alex"
+      ],
+      [
+        "Alex discovers the encrypted note",
+        "has_item",
+        "encrypted note"
+      ],
+      [
+        "Alex discovers the encrypted note",
+        "has_interactive_object",
+        "Old Book"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Alex deciphers the secret code",
+    "triples": [
+      [
+        "Alex deciphers the secret code",
+        "has_base",
+        "indoor"
+      ],
+      [
+        "Alex deciphers the secret code",
+        "has_environment_object",
+        "alex's_desk"
+      ],
+      [
+        "Alex deciphers the secret code",
+        "has_environment_object",
+        "desk"
+      ],
+      [
+        "Alex deciphers the secret code",
+        "has_character",
+        "Alex"
+      ],
+      [
+        "Alex deciphers the secret code",
+        "has_item",
+        "encrypted note"
+      ],
+      [
+        "Alex deciphers the secret code",
+        "has_interactive_object",
+        "scattered papers"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Alex confronts the secret society",
+    "triples": [
+      [
+        "Alex confronts the secret society",
+        "has_base",
+        "urban"
+      ],
+      [
+        "Alex confronts the secret society",
+        "has_environment_object",
+        "streetlights"
+      ],
+      [
+        "Alex confronts the secret society",
+        "has_environment_object",
+        "warehouse_exterior"
+      ],
+      [
+        "Alex confronts the secret society",
+        "has_character",
+        "Alex"
+      ],
+      [
+        "Alex confronts the secret society",
+        "has_character",
+        "Secret society"
+      ]
+    ]
+  }
+]

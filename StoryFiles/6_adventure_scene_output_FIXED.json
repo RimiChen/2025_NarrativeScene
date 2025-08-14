@@ -1,0 +1,40 @@
+{
+  "original_story": "\"Aboard the cursed ship, The Sea Serpent, Captain Redbeard unearths a mysterious artifact from the deep ocean floor...\"",
+  "time_frames": [
+    {
+      "title": "Captain Redbeard discovers the mysterious artifact",
+      "scene_relations": [
+        "Deep ocean floor [holds] mysterious artifact",
+        "Captain Redbeard [is on] The Sea Serpent",
+        "The Sea Serpent [floats on] ocean surface"
+      ]
+    },
+    {
+      "title": "Captain Redbeard fights sea monsters",
+      "scene_relations": [
+        "Sea monsters [emerge from] ocean depths",
+        "Captain Redbeard [battles with] sea monsters",
+        "Mysterious artifact [glows in] Captain Redbeard's hand"
+      ]
+    },
+    {
+      "title": "Captain Redbeard unlocks the artifact's power",
+      "scene_relations": [
+        "Mysterious artifact [projects] ancient prophecy",
+        "Captain Redbeard [stands before] projected prophecy",
+        "Ocean [reflects] prophecy's light"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "holds": "below",
+    "is on": "on top of",
+    "floats on": "on top of",
+    "emerges from": "below",
+    "battles with": "at the right of / at the left of",
+    "glows in": "at the right of / at the left of",
+    "projects": "above",
+    "stands before": "at the right of / at the left of",
+    "reflects": "below"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "story_id": "2",
+  "scene_kgs": {
+    "Kenji discovers the encrypted files": {
+      "nodes": [
+        "dusty_room",
+        "indoor",
+        "Derelict mainframe",
+        "neon_lights",
+        "Kenji discovers the encrypted files",
+        "encrypted files",
+        "Kenji"
+      ],
+      "edges": [
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "indoor",
+          "relation": "has_base"
+        },
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "dusty_room",
+          "relation": "has_patch"
+        },
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "neon_lights",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "Kenji",
+          "relation": "has_character"
+        },
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "encrypted files",
+          "relation": "has_item"
+        },
+        {
+          "source": "Kenji discovers the encrypted files",
+          "target": "Derelict mainframe",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "neon_lights",
+          "target": "dusty_room",
+          "relation": "above"
+        },
+        {
+          "source": "Kenji",
+          "target": "Derelict mainframe",
+          "relation": "at the right of"
+        },
+        {
+          "source": "Derelict mainframe",
+          "target": "encrypted files",
+          "relation": "at the right of"
+        }
+      ]
+    },
+    "Kenji deciphers the encrypted files": {
+      "nodes": [
+        "keyboard",
+        "Kenji deciphers the encrypted files",
+        "Kenji's fingers",
+        "Computer screen",
+        "complex codes",
+        "computer",
+        "office",
+        "Kenji"
+      ],
+      "edges": [
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "office",
+          "relation": "has_base"
+        },
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "Kenji",
+          "relation": "has_character"
+        },
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "complex codes",
+          "relation": "has_item"
+        },
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "Computer screen",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "computer",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Kenji deciphers the encrypted files",
+          "target": "keyboard",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "Kenji",
+          "target": "computer",
+          "relation": "below"
+        },
+        {
+          "source": "Computer screen",
+          "target": "complex codes",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Kenji's fingers",
+          "target": "keyboard",
+          "relation": "on top of"
+        }
+      ]
+    },
+    "Kenji uncovers a corporate conspiracy": {
+      "nodes": [
+        "Kenji uncovers a corporate conspiracy",
+        "shocking revelation",
+        "sinister plot",
+        "skyscrapers",
+        "kenji's_tiny_apartment",
+        "Screen",
+        "urban",
+        "Kenji"
+      ],
+      "edges": [
+        {
+          "source": "Kenji uncovers a corporate conspiracy",
+          "target": "urban",
+          "relation": "has_base"
+        },
+        {
+          "source": "Kenji uncovers a corporate conspiracy",
+          "target": "kenji's_tiny_apartment",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Kenji uncovers a corporate conspiracy",
+          "target": "skyscrapers",
+          "relation": "has_environment_object"
+        },
+        {
+          "source": "Kenji uncovers a corporate conspiracy",
+          "target": "Kenji",
+          "relation": "has_character"
+        },
+        {
+          "source": "Kenji uncovers a corporate conspiracy",
+          "target": "Screen",
+          "relation": "has_interactive_object"
+        },
+        {
+          "source": "skyscrapers",
+          "target": "kenji's_tiny_apartment",
+          "relation": "above"
+        },
+        {
+          "source": "Kenji",
+          "target": "shocking revelation",
+          "relation": "at the left of"
+        },
+        {
+          "source": "Screen",
+          "target": "sinister plot",
+          "relation": "at the left of"
+        }
+      ]
+    }
+  },
+  "merged_kg": {
+    "nodes": [
+      "dusty_room",
+      "indoor",
+      "Derelict mainframe",
+      "neon_lights",
+      "Kenji discovers the encrypted files",
+      "encrypted files",
+      "Kenji",
+      "keyboard",
+      "Kenji deciphers the encrypted files",
+      "Kenji's fingers",
+      "Computer screen",
+      "complex codes",
+      "computer",
+      "office",
+      "Kenji uncovers a corporate conspiracy",
+      "shocking revelation",
+      "sinister plot",
+      "skyscrapers",
+      "kenji's_tiny_apartment",
+      "Screen",
+      "urban"
+    ],
+    "edges": [
+      {
+        "source": "Derelict mainframe",
+        "target": "encrypted files",
+        "relation": "at the right of"
+      },
+      {
+        "source": "neon_lights",
+        "target": "dusty_room",
+        "relation": "above"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "indoor",
+        "relation": "has_base"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "dusty_room",
+        "relation": "has_patch"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "neon_lights",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "Kenji",
+        "relation": "has_character"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "encrypted files",
+        "relation": "has_item"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "Derelict mainframe",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Kenji discovers the encrypted files",
+        "target": "Kenji deciphers the encrypted files",
+        "relation": "precedes"
+      },
+      {
+        "source": "Kenji",
+        "target": "Derelict mainframe",
+        "relation": "at the right of"
+      },
+      {
+        "source": "Kenji",
+        "target": "computer",
+        "relation": "below"
+      },
+      {
+        "source": "Kenji",
+        "target": "shocking revelation",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "office",
+        "relation": "has_base"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "Kenji",
+        "relation": "has_character"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "complex codes",
+        "relation": "has_item"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "Computer screen",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "computer",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "keyboard",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "Kenji deciphers the encrypted files",
+        "target": "Kenji uncovers a corporate conspiracy",
+        "relation": "precedes"
+      },
+      {
+        "source": "Kenji's fingers",
+        "target": "keyboard",
+        "relation": "on top of"
+      },
+      {
+        "source": "Computer screen",
+        "target": "complex codes",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Kenji uncovers a corporate conspiracy",
+        "target": "urban",
+        "relation": "has_base"
+      },
+      {
+        "source": "Kenji uncovers a corporate conspiracy",
+        "target": "kenji's_tiny_apartment",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Kenji uncovers a corporate conspiracy",
+        "target": "skyscrapers",
+        "relation": "has_environment_object"
+      },
+      {
+        "source": "Kenji uncovers a corporate conspiracy",
+        "target": "Kenji",
+        "relation": "has_character"
+      },
+      {
+        "source": "Kenji uncovers a corporate conspiracy",
+        "target": "Screen",
+        "relation": "has_interactive_object"
+      },
+      {
+        "source": "skyscrapers",
+        "target": "kenji's_tiny_apartment",
+        "relation": "above"
+      },
+      {
+        "source": "Screen",
+        "target": "sinister plot",
+        "relation": "at the left of"
+      }
+    ]
+  }
+}

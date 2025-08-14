@@ -1,0 +1,107 @@
+[
+  {
+    "scene_title": "Elara discovers the ancient map",
+    "triples": [
+      [
+        "Elara discovers the ancient map",
+        "has_base",
+        "forest"
+      ],
+      [
+        "Elara discovers the ancient map",
+        "has_environment_object",
+        "hollow_oak"
+      ],
+      [
+        "Elara discovers the ancient map",
+        "has_character",
+        "Elara"
+      ],
+      [
+        "Elara discovers the ancient map",
+        "has_item",
+        "ancient map"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Elara faces the treacherous paths",
+    "triples": [
+      [
+        "Elara faces the treacherous paths",
+        "has_base",
+        "mountain"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_patch",
+        "crystal_cavern"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_patch",
+        "rocky_path"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_patch",
+        "treacherous_paths"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_environment_object",
+        "crystal_cavern"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_environment_object",
+        "dense_bushes"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_character",
+        "Elara"
+      ],
+      [
+        "Elara faces the treacherous paths",
+        "has_character",
+        "Wild creatures"
+      ]
+    ]
+  },
+  {
+    "scene_title": "Elara meets the Guardian dragon",
+    "triples": [
+      [
+        "Elara meets the Guardian dragon",
+        "has_base",
+        "rocky"
+      ],
+      [
+        "Elara meets the Guardian dragon",
+        "has_patch",
+        "crystal_cavern_entrance"
+      ],
+      [
+        "Elara meets the Guardian dragon",
+        "has_environment_object",
+        "crystal_cavern_entrance"
+      ],
+      [
+        "Elara meets the Guardian dragon",
+        "has_character",
+        "Elara"
+      ],
+      [
+        "Elara meets the Guardian dragon",
+        "has_character",
+        "Guardian dragon"
+      ],
+      [
+        "Elara meets the Guardian dragon",
+        "has_interactive_object",
+        "crystal throne"
+      ]
+    ]
+  }
+]

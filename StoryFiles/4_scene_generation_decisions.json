@@ -1,0 +1,36 @@
+[
+  {
+    "scene_title": "Alex discovers the encrypted note",
+    "suggested_terrains": [
+      "public library"
+    ],
+    "chosen_base": "public library",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Alex deciphers the secret code",
+    "suggested_terrains": [
+      "indoor",
+      "outdoor"
+    ],
+    "chosen_base": "indoor",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Alex confronts the secret society",
+    "suggested_terrains": [
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

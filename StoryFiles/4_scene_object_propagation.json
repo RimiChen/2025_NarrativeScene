@@ -1,0 +1,22 @@
+{
+  "Alex discovers the encrypted note": {
+    "base": "public library",
+    "propagated_objects": [
+      "bookshelf"
+    ]
+  },
+  "Alex deciphers the secret code": {
+    "base": "indoor",
+    "propagated_objects": [
+      "alex's_desk",
+      "desk"
+    ]
+  },
+  "Alex confronts the secret society": {
+    "base": "urban",
+    "propagated_objects": [
+      "streetlights",
+      "warehouse_exterior"
+    ]
+  }
+}

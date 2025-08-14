@@ -1,0 +1,25 @@
+[
+  {
+    "scene_title": "Alex discovers the encrypted note",
+    "base": "public library",
+    "propagated_objects": [
+      "bookshelf"
+    ]
+  },
+  {
+    "scene_title": "Alex deciphers the secret code",
+    "base": "indoor",
+    "propagated_objects": [
+      "alex's_desk",
+      "desk"
+    ]
+  },
+  {
+    "scene_title": "Alex confronts the secret society",
+    "base": "urban",
+    "propagated_objects": [
+      "streetlights",
+      "warehouse_exterior"
+    ]
+  }
+]

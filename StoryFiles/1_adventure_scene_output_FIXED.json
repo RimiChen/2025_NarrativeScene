@@ -1,0 +1,40 @@
+{
+  "original_story": "\"In the bustling city of New York, daring journalist, Jake, stumbled upon a cryptic note that hinted about a hidden treasure within the city's alleys. Evading dangerous gangsters and solving cryptic clues, Jake finally found the treasure stashed within the Statue of Liberty's crown.\"",
+  "time_frames": [
+    {
+      "title": "Jake discovers the cryptic note",
+      "scene_relations": [
+        "Trash can [contains] cryptic note",
+        "Jake [stands near] trash can",
+        "Streetlight [shines upon] trash can"
+      ]
+    },
+    {
+      "title": "Jake evades gangsters",
+      "scene_relations": [
+        "Gangsters [chase] Jake",
+        "Jake [runs through] dark alley",
+        "Moonlight [illuminates] dark alley"
+      ]
+    },
+    {
+      "title": "Jake finds the treasure",
+      "scene_relations": [
+        "Statue of Liberty's crown [hides] treasure",
+        "Jake [stands within] Statue of Liberty's crown",
+        "City skyline [surrounds] Statue of Liberty"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "contains": "at the right of",
+    "stands near": "at the left of",
+    "shines upon": "above",
+    "chase": "below",
+    "runs through": "on top of",
+    "illuminates": "above",
+    "hides": "below",
+    "stands within": "on top of",
+    "surrounds": "around"
+  }
+}

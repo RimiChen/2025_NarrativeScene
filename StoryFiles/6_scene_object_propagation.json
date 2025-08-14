@@ -1,0 +1,14 @@
+{
+  "Captain Redbeard discovers the mysterious artifact": {
+    "base": "underwater",
+    "propagated_objects": []
+  },
+  "Captain Redbeard fights sea monsters": {
+    "base": "ship deck",
+    "propagated_objects": []
+  },
+  "Captain Redbeard unlocks the artifact's power": {
+    "base": "ship deck",
+    "propagated_objects": []
+  }
+}

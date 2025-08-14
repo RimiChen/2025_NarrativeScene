@@ -1,0 +1,36 @@
+[
+  {
+    "scene_title": "Iris discovers the cryptic message",
+    "suggested_terrains": [
+      "indoor",
+      "urban"
+    ],
+    "chosen_base": "urban",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Iris journeying through wastelands",
+    "suggested_terrains": [
+      "wasteland"
+    ],
+    "chosen_base": "wasteland",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Iris uncovers the oasis",
+    "suggested_terrains": [
+      "desert"
+    ],
+    "chosen_base": "desert",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

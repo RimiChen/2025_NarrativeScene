@@ -1,0 +1,210 @@
+{
+  "global_object_affordances": {
+    "Jax": {
+      "object": "Jax",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "urban",
+      "confidence": 0.99
+    },
+    "Loose cobblestone": {
+      "object": "Loose cobblestone",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "cobblestone street",
+      "confidence": 0.9
+    },
+    "Streetlights": {
+      "object": "Streetlights",
+      "affordance_level": 1,
+      "category": "Environmental Object",
+      "suggested_terrain": "cobblestone street",
+      "confidence": 0.8
+    },
+    "cobblestone street": {
+      "object": "cobblestone street",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "N/A",
+      "confidence": 1.0
+    },
+    "emerald amulet": {
+      "object": "emerald amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "ancient ruins",
+      "confidence": 0.9
+    },
+    "loose cobblestone": {
+      "object": "loose cobblestone",
+      "affordance_level": 2,
+      "category": "Interactive Object",
+      "suggested_terrain": "cobblestone street",
+      "confidence": 0.9
+    },
+    "Ancient power": {
+      "object": "Ancient power",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ancient ruins",
+      "confidence": 0.8
+    },
+    "Emerald amulet": {
+      "object": "Emerald amulet",
+      "affordance_level": 3,
+      "category": "Item / Collectible",
+      "suggested_terrain": "urban",
+      "confidence": 0.95
+    },
+    "ancient power": {
+      "object": "ancient power",
+      "affordance_level": -1,
+      "category": "Effect / Ambient / Unknown",
+      "suggested_terrain": "ancient ruins",
+      "confidence": 0.8
+    },
+    "Sinister sorcerer": {
+      "object": "Sinister sorcerer",
+      "affordance_level": 4,
+      "category": "Character",
+      "suggested_terrain": "urban",
+      "confidence": 0.99
+    },
+    "City skyline": {
+      "object": "City skyline",
+      "affordance_level": 0,
+      "category": "Terrain",
+      "suggested_terrain": "urban",
+      "confidence": 1.0
+    }
+  },
+  "per_scene_affordances": [
+    {
+      "scene_title": "Jax discovers the emerald amulet",
+      "objects": [
+        {
+          "object": "Jax",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "cobblestone street",
+          "confidence": 1.0
+        },
+        {
+          "object": "Loose cobblestone",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "cobblestone street",
+          "confidence": 0.9
+        },
+        {
+          "object": "Streetlights",
+          "affordance_level": 1,
+          "category": "Environmental Object",
+          "suggested_terrain": "cobblestone street",
+          "confidence": 0.8
+        },
+        {
+          "object": "cobblestone street",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "N/A",
+          "confidence": 1.0
+        },
+        {
+          "object": "emerald amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "cobblestone street",
+          "confidence": 0.9
+        },
+        {
+          "object": "loose cobblestone",
+          "affordance_level": 2,
+          "category": "Interactive Object",
+          "suggested_terrain": "cobblestone street",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Jax unlocks the power of the amulet",
+      "objects": [
+        {
+          "object": "Ancient power",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.8
+        },
+        {
+          "object": "Emerald amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.9
+        },
+        {
+          "object": "Jax",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.95
+        },
+        {
+          "object": "ancient power",
+          "affordance_level": -1,
+          "category": "Effect / Ambient / Unknown",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.8
+        },
+        {
+          "object": "emerald amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "ancient ruins",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "scene_title": "Jax battles the sinister sorcerer",
+      "objects": [
+        {
+          "object": "Emerald amulet",
+          "affordance_level": 3,
+          "category": "Item / Collectible",
+          "suggested_terrain": "urban",
+          "confidence": 0.95
+        },
+        {
+          "object": "Jax",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "urban",
+          "confidence": 0.99
+        },
+        {
+          "object": "Sinister sorcerer",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "urban",
+          "confidence": 0.99
+        },
+        {
+          "object": "City skyline",
+          "affordance_level": 0,
+          "category": "Terrain",
+          "suggested_terrain": "urban",
+          "confidence": 1.0
+        },
+        {
+          "object": "Sinister sorcerer",
+          "affordance_level": 4,
+          "category": "Character",
+          "suggested_terrain": "urban",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ]
+}

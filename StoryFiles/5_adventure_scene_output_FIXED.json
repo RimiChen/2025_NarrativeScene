@@ -1,0 +1,40 @@
+{
+  "original_story": "\"In the bustling city of Zephyr, street urchin Jax stumbled upon a mysterious emerald amulet hidden under a loose cobblestone...\"",
+  "time_frames": [
+    {
+      "title": "Jax discovers the emerald amulet",
+      "scene_relations": [
+        "Loose cobblestone [hides] emerald amulet",
+        "Jax [kneels near] loose cobblestone",
+        "Streetlights [glimmer above] cobblestone street"
+      ]
+    },
+    {
+      "title": "Jax unlocks the power of the amulet",
+      "scene_relations": [
+        "Jax [holds] emerald amulet",
+        "Emerald amulet [unleashes] ancient power",
+        "Ancient power [radiates around] Jax"
+      ]
+    },
+    {
+      "title": "Jax battles the sinister sorcerer",
+      "scene_relations": [
+        "Jax [stands defiantly against] sinister sorcerer",
+        "Sinister sorcerer [hovers above] city skyline",
+        "Emerald amulet [glows brightly on] Jax"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "\"hides\"": "below",
+    "\"kneels near\"": "at the right of",
+    "\"glimmer above\"": "above",
+    "\"holds\"": "at the left of",
+    "\"unleashes\"": "on top of",
+    "\"radiates around\"": "at the right of",
+    "\"stands defiantly against\"": "at the right of",
+    "\"hovers above\"": "above",
+    "\"glows brightly on\"": "on top of"
+  }
+}

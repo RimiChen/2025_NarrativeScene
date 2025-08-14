@@ -1,0 +1,35 @@
+[
+  {
+    "scene_title": "Jake discovers the cryptic note",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ]
+  },
+  {
+    "scene_title": "Jake evades gangsters",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ]
+  },
+  {
+    "scene_title": "Jake finds the treasure",
+    "base": "urban",
+    "patch": [
+      "dark_alley"
+    ],
+    "items": [
+      "cryptic note",
+      "treasure"
+    ]
+  }
+]

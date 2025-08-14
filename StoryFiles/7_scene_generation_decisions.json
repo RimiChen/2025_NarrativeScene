@@ -1,0 +1,43 @@
+[
+  {
+    "scene_title": "Jack discovers the cryptic compass",
+    "suggested_terrains": [
+      "jungle",
+      "ship deck",
+      "sea"
+    ],
+    "chosen_base": "ship deck",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Jack battles the perilous sea",
+    "suggested_terrains": [
+      "sea",
+      "ship"
+    ],
+    "chosen_base": "sea",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  },
+  {
+    "scene_title": "Jack finds El Dorado",
+    "suggested_terrains": [
+      "water",
+      "forest",
+      "open sea",
+      "golden city",
+      "open sky",
+      "ship's deck"
+    ],
+    "chosen_base": "ship's deck",
+    "terrain_objects_detected": [],
+    "final_patch_for_base": [
+      "<no patch>"
+    ]
+  }
+]

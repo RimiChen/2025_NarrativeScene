@@ -1,0 +1,90 @@
+[
+  {
+    "scene_title": "Cross discovers the amulet",
+    "base": "sahara desert",
+    "patch": [],
+    "characters": [
+      "Cross"
+    ],
+    "items": [
+      "ancient amulet",
+      "unearthed amulet"
+    ],
+    "interactive_objects": [],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "sahara desert",
+        "target": "ancient amulet",
+        "relation": "on top of"
+      },
+      {
+        "source": "Cross",
+        "target": "unearthed amulet",
+        "relation": "below"
+      },
+      {
+        "source": "Sun",
+        "target": "sahara desert",
+        "relation": "above"
+      }
+    ],
+    "next_scenes": [
+      "Cross navigates the perilous journey"
+    ]
+  },
+  {
+    "scene_title": "Cross navigates the perilous journey",
+    "base": "desert",
+    "patch": [],
+    "characters": [
+      "Tomb raiders"
+    ],
+    "items": [],
+    "interactive_objects": [
+      "cryptic hieroglyphs"
+    ],
+    "environment_objects": [
+      "cross"
+    ],
+    "spatial_relations": [
+      {
+        "source": "cross",
+        "target": "cryptic hieroglyphs",
+        "relation": "at the right of"
+      }
+    ],
+    "next_scenes": [
+      "Cross escapes the pyramid trap"
+    ]
+  },
+  {
+    "scene_title": "Cross escapes the pyramid trap",
+    "base": "stone",
+    "patch": [],
+    "characters": [
+      "Cross"
+    ],
+    "items": [
+      "fabled treasure"
+    ],
+    "interactive_objects": [
+      "deadly trap",
+      "pyramid trap"
+    ],
+    "environment_objects": [],
+    "spatial_relations": [
+      {
+        "source": "Cross",
+        "target": "fabled treasure",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Pyramid",
+        "target": "deadly trap",
+        "relation": "on top of"
+      }
+    ],
+    "next_scenes": []
+  }
+]

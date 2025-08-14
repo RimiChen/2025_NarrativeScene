@@ -1,0 +1,32 @@
+[
+  {
+    "scene_title": "Dr. Alexander discovers the mystical artifact",
+    "base": "desert",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "mystical artifact"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander navigates through treacherous traps",
+    "base": "ruins",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "Mystical artifact"
+    ]
+  },
+  {
+    "scene_title": "Dr. Alexander confronts the Guardian of the Tomb",
+    "base": "stone",
+    "patch": [
+      "<no patch>"
+    ],
+    "items": [
+      "Mystical artifact"
+    ]
+  }
+]

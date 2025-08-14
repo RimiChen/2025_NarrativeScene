@@ -1,0 +1,32 @@
+[
+  {
+    "scene_title": "Amelia discovers the golden amulet",
+    "base": "sand",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "Pyramid lock",
+      "buried amulet"
+    ]
+  },
+  {
+    "scene_title": "Amelia unlocks the secrets of the hidden pyramid",
+    "base": "sand",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": [
+      "Pyramid lock",
+      "buried amulet"
+    ]
+  },
+  {
+    "scene_title": "Amelia navigates the treacherous dunes",
+    "base": "sand dunes",
+    "patch": [
+      "<no patch>"
+    ],
+    "interactive_objects": []
+  }
+]
