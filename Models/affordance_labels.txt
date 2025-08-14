@@ -1,5 +1,0 @@
-Characters
-Environmental Object
-Interactive Object
-Items and Collectibles
-Terrain
