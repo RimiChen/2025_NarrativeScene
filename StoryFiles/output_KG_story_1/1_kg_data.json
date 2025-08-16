@@ -4,16 +4,16 @@
     "Jake discovers the cryptic note": {
       "nodes": [
         "dark_alley",
-        "cryptic note",
         "Trash can",
-        "statue_of_liberty",
-        "Statue of Liberty's crown",
-        "streetlight",
-        "treasure",
-        "urban",
         "city_skyline",
         "Jake discovers the cryptic note",
-        "Jake"
+        "streetlight",
+        "treasure",
+        "statue_of_liberty",
+        "Jake",
+        "Statue of Liberty's crown",
+        "urban",
+        "cryptic note"
       ],
       "edges": [
         {
@@ -86,18 +86,18 @@
     "Jake evades gangsters": {
       "nodes": [
         "dark_alley",
-        "cryptic note",
-        "Jake evades gangsters",
         "Trash can",
-        "statue_of_liberty",
-        "Statue of Liberty's crown",
-        "Moonlight",
+        "city_skyline",
         "streetlight",
         "treasure",
+        "Jake evades gangsters",
+        "statue_of_liberty",
+        "Jake",
+        "Statue of Liberty's crown",
         "urban",
-        "city_skyline",
-        "Gangsters",
-        "Jake"
+        "Moonlight",
+        "cryptic note",
+        "Gangsters"
       ],
       "edges": [
         {
@@ -175,16 +175,16 @@
     "Jake finds the treasure": {
       "nodes": [
         "dark_alley",
-        "cryptic note",
         "Trash can",
-        "statue_of_liberty",
-        "Statue of Liberty's crown",
+        "city_skyline",
         "streetlight",
         "treasure",
+        "statue_of_liberty",
+        "Jake",
+        "Statue of Liberty's crown",
         "urban",
-        "city_skyline",
         "Jake finds the treasure",
-        "Jake"
+        "cryptic note"
       ],
       "edges": [
         {
@@ -253,16 +253,16 @@
   "merged_kg": {
     "nodes": [
       "dark_alley",
-      "cryptic note",
       "Trash can",
-      "statue_of_liberty",
-      "Statue of Liberty's crown",
-      "streetlight",
-      "treasure",
-      "urban",
       "city_skyline",
       "Jake discovers the cryptic note",
+      "streetlight",
+      "treasure",
+      "statue_of_liberty",
       "Jake",
+      "Statue of Liberty's crown",
+      "urban",
+      "cryptic note",
       "Jake evades gangsters",
       "Moonlight",
       "Gangsters",
@@ -273,16 +273,6 @@
         "source": "Trash can",
         "target": "cryptic note",
         "relation": "at the right of"
-      },
-      {
-        "source": "Statue of Liberty's crown",
-        "target": "treasure",
-        "relation": "below"
-      },
-      {
-        "source": "streetlight",
-        "target": "Trash can",
-        "relation": "above"
       },
       {
         "source": "Jake discovers the cryptic note",
@@ -340,6 +330,11 @@
         "relation": "precedes"
       },
       {
+        "source": "streetlight",
+        "target": "Trash can",
+        "relation": "above"
+      },
+      {
         "source": "Jake",
         "target": "Trash can",
         "relation": "at the left of"
@@ -353,6 +348,11 @@
         "source": "Jake",
         "target": "Statue of Liberty's crown",
         "relation": "on top of"
+      },
+      {
+        "source": "Statue of Liberty's crown",
+        "target": "treasure",
+        "relation": "below"
       },
       {
         "source": "Jake evades gangsters",

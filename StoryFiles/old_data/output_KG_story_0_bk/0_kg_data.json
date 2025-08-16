@@ -3,13 +3,13 @@
   "scene_kgs": {
     "Elara discovers the ancient map": {
       "nodes": [
-        "ancient map",
-        "Elara",
+        "forest",
+        "Sunlight",
         "forest canopy",
         "Elara discovers the ancient map",
-        "forest",
-        "hollow_oak",
-        "Sunlight"
+        "Elara",
+        "ancient map",
+        "hollow_oak"
       ],
       "edges": [
         {
@@ -33,11 +33,6 @@
           "relation": "has_item"
         },
         {
-          "source": "Elara discovers the ancient map",
-          "target": "forest canopy",
-          "relation": "has_environment_object"
-        },
-        {
           "source": "hollow_oak",
           "target": "ancient map",
           "relation": "at the right of"
@@ -56,14 +51,14 @@
     },
     "Elara faces the treacherous paths": {
       "nodes": [
-        "Elara faces the treacherous paths",
+        "dense_bushes",
+        "Wild creatures",
+        "treacherous_paths",
+        "mountain",
         "rocky_path",
         "Elara",
-        "dense_bushes",
-        "treacherous_paths",
-        "Wild creatures",
-        "mountain",
-        "crystal_cavern"
+        "crystal_cavern",
+        "Elara faces the treacherous paths"
       ],
       "edges": [
         {
@@ -120,13 +115,13 @@
     },
     "Elara meets the Guardian dragon": {
       "nodes": [
-        "rocky",
         "crystal_cavern_entrance",
-        "Elara",
-        "Guardian dragon",
         "crystal throne",
         "shimmering light",
-        "Elara meets the Guardian dragon"
+        "Elara meets the Guardian dragon",
+        "rocky",
+        "Elara",
+        "Guardian dragon"
       ],
       "edges": [
         {
@@ -174,42 +169,32 @@
   },
   "merged_kg": {
     "nodes": [
-      "ancient map",
-      "Elara",
+      "forest",
+      "Sunlight",
       "forest canopy",
       "Elara discovers the ancient map",
-      "forest",
+      "Elara",
+      "ancient map",
       "hollow_oak",
-      "Sunlight",
-      "Elara faces the treacherous paths",
-      "rocky_path",
       "dense_bushes",
-      "treacherous_paths",
       "Wild creatures",
+      "treacherous_paths",
       "mountain",
+      "rocky_path",
       "crystal_cavern",
-      "rocky",
+      "Elara faces the treacherous paths",
       "crystal_cavern_entrance",
-      "Guardian dragon",
       "crystal throne",
       "shimmering light",
-      "Elara meets the Guardian dragon"
+      "Elara meets the Guardian dragon",
+      "rocky",
+      "Guardian dragon"
     ],
     "edges": [
       {
-        "source": "Elara",
-        "target": "hollow_oak",
-        "relation": "at the left of"
-      },
-      {
-        "source": "Elara",
-        "target": "rocky_path",
-        "relation": "on top of"
-      },
-      {
-        "source": "Elara",
-        "target": "Guardian dragon",
-        "relation": "at the left of"
+        "source": "Sunlight",
+        "target": "forest canopy",
+        "relation": "above"
       },
       {
         "source": "Elara discovers the ancient map",
@@ -233,13 +218,23 @@
       },
       {
         "source": "Elara discovers the ancient map",
-        "target": "forest canopy",
-        "relation": "has_environment_object"
-      },
-      {
-        "source": "Elara discovers the ancient map",
         "target": "Elara faces the treacherous paths",
         "relation": "precedes"
+      },
+      {
+        "source": "Elara",
+        "target": "hollow_oak",
+        "relation": "at the left of"
+      },
+      {
+        "source": "Elara",
+        "target": "rocky_path",
+        "relation": "on top of"
+      },
+      {
+        "source": "Elara",
+        "target": "Guardian dragon",
+        "relation": "at the left of"
       },
       {
         "source": "hollow_oak",
@@ -247,9 +242,14 @@
         "relation": "at the right of"
       },
       {
-        "source": "Sunlight",
-        "target": "forest canopy",
-        "relation": "above"
+        "source": "Wild creatures",
+        "target": "dense_bushes",
+        "relation": "below"
+      },
+      {
+        "source": "treacherous_paths",
+        "target": "crystal_cavern",
+        "relation": "at the right of"
       },
       {
         "source": "Elara faces the treacherous paths",
@@ -292,24 +292,9 @@
         "relation": "precedes"
       },
       {
-        "source": "treacherous_paths",
-        "target": "crystal_cavern",
-        "relation": "at the right of"
-      },
-      {
-        "source": "Wild creatures",
-        "target": "dense_bushes",
-        "relation": "below"
-      },
-      {
         "source": "crystal_cavern_entrance",
         "target": "shimmering light",
         "relation": "above"
-      },
-      {
-        "source": "Guardian dragon",
-        "target": "crystal throne",
-        "relation": "on top of"
       },
       {
         "source": "Elara meets the Guardian dragon",
@@ -335,6 +320,11 @@
         "source": "Elara meets the Guardian dragon",
         "target": "crystal throne",
         "relation": "has_interactive_object"
+      },
+      {
+        "source": "Guardian dragon",
+        "target": "crystal throne",
+        "relation": "on top of"
       }
     ]
   }

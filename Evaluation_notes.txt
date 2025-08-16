@@ -1,0 +1,3 @@
+Spatial Relations:
+<story_id>_adventure_scene_output_FIXED.json
+
