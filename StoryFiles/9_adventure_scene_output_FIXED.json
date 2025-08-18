@@ -1,5 +1,5 @@
 {
-  "original_story": "\"In the abyss of the Forgotten City, brave archaeologist, Dr. Alexander, unearthed a mystical artifact within an ancient tomb.\"",
+  "original_story": "Deep within the abyss of the Forgotten City, intrepid archaeologist Dr. Alexander unearthed a mystical artifact concealed in an ancient tomb. Torchlight flickered across the ruins as he knelt beside the stone sarcophagus, uncovering secrets long buried. With the artifact in hand, he pressed forward, navigating a labyrinth of treacherous traps and walls that whispered forgotten chants. Guided by the artifact’s glow, he reached the heart of the tomb. There, the Guardian emerged, its form towering in silence. As chamber doors slammed shut, the artifact shimmered and activated a hidden mechanism. The Guardian bowed. Dr. Alexander had passed the test—and earned the city’s truth.",
   "time_frames": [
     {
       "title": "Dr. Alexander discovers the mystical artifact",
@@ -31,9 +31,9 @@
     "Kneels beside": "at the right of",
     "Illuminates": "above",
     "Surround": "above, below, at the right of, at the left of",
-    "Guides": "in front of",
-    "Echo": "around",
-    "Stands before": "in front of",
+    "Guides": "at the right of",
+    "Echo": "on top of",
+    "Stands before": "at the left of",
     "Activates": "above",
     "Crash behind": "at the left of"
   }

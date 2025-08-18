@@ -1,5 +1,5 @@
 {
-  "original_story": "\"In the desolate depths of the Sahara Desert, seasoned archaeologist, Dr. Samuel Cross, unearths an ancient amulet of forgotten Pharaoh. The amulet, etched with cryptic hieroglyphs, unveils a path to a concealed pyramid, reputed to house the Pharaoh’s immeasurable treasure. Embarking on a perilous journey, Cross navigates treacherous sandstorms, cryptic riddles, and relentless tomb raiders. The climax unfurls as a deadly trap within the pyramid, where Cross ingeniously escapes, securing the fabled treasure.\"",
+  "original_story": "In the blistering Sahara Desert, where the sun beats down on endless dunes, Dr. Samuel Cross knelt near an unearthed ancient amulet glinting in the sand. The Sahara Desert contained more than secrets—it held the path to legend. As he journeyed onward, a violent sandstorm engulfed Cross, tearing visibility to shreds. Through the storm, he read cryptic hieroglyphs etched in stone, while tomb raiders pursued him relentlessly. Deeper inside the pyramid, Cross stood in a hidden chamber—an elaborate pyramid trap that contained deadly mechanisms. Clutching the fabled treasure, Cross narrowly escaped, leaving behind danger but carrying history in his hands.",
   "time_frames": [
     {
       "title": "Cross discovers the amulet",
@@ -30,10 +30,10 @@
     "contains": "on top of",
     "kneels near": "below",
     "beats down on": "above",
-    "engulfs": "around",
+    "engulfs": "at the right of",
     "reads": "at the right of",
-    "pursue": "behind",
-    "stands in": "within",
+    "pursue": "at the left of",
+    "stands in": "on top of",
     "holds": "at the left of"
   }
 }

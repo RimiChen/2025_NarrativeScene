@@ -1,5 +1,5 @@
 {
-  "original_story": "\"In the heart of the storm-tossed sea, brave Captain Jack uncovered a cryptic compass, pointing to the legendary island of El Dorado, veiled by the Bermuda Triangle. Battling merciless waves and mystical sea creatures, Jack and his crew faced perilous trials. Finally, under the radiant moonlight, El Dorado emerged, its golden city shimmering in the distance.\"",
+  "original_story": "Amid a raging storm, Captain Jack stood firm on the deck, waves crashing around him. The sea surrounded his ship, The Stormcaller, as he gripped a cryptic compass unearthed from a sailor’s tale. Its needle trembled, pointing unerringly toward the fabled El Dorado. Navigating through the Bermuda Triangle, Jack’s vessel braved merciless waves while mystical sea creatures lunged from the depths. His crew fought with steel and fear. At last, the storm broke. Under radiant moonlight, the horizon cleared—revealing golden spires glistening in the distance. Standing on the drenched deck, Jack watched El Dorado rise from myth into reality.",
   "time_frames": [
     {
       "title": "Jack discovers the cryptic compass",
@@ -28,12 +28,12 @@
   ],
   "relation_mapping": {
     "\"In the heart of the storm": "tossed sea, brave Captain Jack uncovered a cryptic compass, pointing to the legendary island of El Dorado, veiled by the Bermuda Triangle. Battling merciless waves and mystical sea creatures, Jack and his crew faced perilous trials. Finally, under the radiant moonlight, El Dorado emerged, its golden city shimmering in the distance.\"",
-    "surrounds": "around",
+    "surrounds": "at the right of",
     "holds": "on top of",
-    "points to": "ahead of",
+    "points to": "at the left of",
     "crash against": "below",
     "attack": "at the right of",
-    "sails through": "inside of",
+    "sails through": "on top of",
     "illuminates": "above",
     "stands on": "on top of",
     "glistens in": "at the left of"

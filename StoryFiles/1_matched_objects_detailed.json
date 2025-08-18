@@ -1,0 +1,1106 @@
+{
+  "dark_alley": {
+    "restricted_to_characters": false,
+    "query_text": "dark_alley",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0823367366622455,
+      "top1_minus_top3": 0.08260388633809385
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/darkKnight.png",
+        "total_score": 0.5109393802111084,
+        "sim_name": 0.6307613649657507,
+        "sim_group": 0.5140010114652975,
+        "sim_super": 0.17663153012203525,
+        "sim_afford": 0.2369524127644025,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/ElfDarkAssasin.png",
+        "total_score": 0.4286026435488629,
+        "sim_name": 0.5693206275313504,
+        "sim_group": 0.3419464516484799,
+        "sim_super": 0.17663153012203525,
+        "sim_afford": 0.2369524127644025,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/ElfDarkOld.png",
+        "total_score": 0.42833549387301456,
+        "sim_name": 0.5687863281796537,
+        "sim_group": 0.3419464516484799,
+        "sim_super": 0.17663153012203525,
+        "sim_afford": 0.2369524127644025,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Trash can": {
+    "restricted_to_characters": true,
+    "query_text": "Trash can",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": false,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0774062726178868,
+      "top1_minus_top3": 0.0774062726178868
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/cannibal.png",
+        "total_score": 0.3655132963379833,
+        "sim_name": 0.4232084211930979,
+        "sim_group": 0.4232084211930979,
+        "sim_super": 0.0787017629109451,
+        "sim_afford": 0.19076383092410565,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/casket.png",
+        "total_score": 0.2881070237200965,
+        "sim_name": 0.3116810704308468,
+        "sim_group": 0.3116810704308468,
+        "sim_super": 0.220642371490142,
+        "sim_afford": 0.16697930226404856,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Monsters/casket2.png",
+        "total_score": 0.2881070237200965,
+        "sim_name": 0.3116810704308468,
+        "sim_group": 0.3116810704308468,
+        "sim_super": 0.220642371490142,
+        "sim_afford": 0.16697930226404856,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "city_skyline": {
+    "restricted_to_characters": false,
+    "query_text": "city_skyline",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.004055997854677529,
+      "top1_minus_top3": 0.005361543351724063
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/roadNE.png",
+        "total_score": 0.3649528394558623,
+        "sim_name": 0.4154520732355117,
+        "sim_group": 0.35811610852501374,
+        "sim_super": 0.20208525718437087,
+        "sim_afford": 0.29583444562165284,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roadNW.png",
+        "total_score": 0.3608968416011848,
+        "sim_name": 0.40734007752615664,
+        "sim_group": 0.35811610852501374,
+        "sim_super": 0.20208525718437087,
+        "sim_afford": 0.29583444562165284,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roadSE.png",
+        "total_score": 0.35959129610413826,
+        "sim_name": 0.4047289865320636,
+        "sim_group": 0.35811610852501374,
+        "sim_super": 0.20208525718437087,
+        "sim_afford": 0.29583444562165284,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "Jake discovers the cryptic note": {
+    "restricted_to_characters": false,
+    "query_text": "Jake discovers the cryptic note",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.022950777692707536,
+      "top1_minus_top3": 0.025779392054945893
+    },
+    "candidates": [
+      {
+        "image_path": "player/alchemist.png",
+        "total_score": 0.25331762534897,
+        "sim_name": 0.28167911602854656,
+        "sim_group": 0.28167911602854656,
+        "sim_super": 0.06846222712559336,
+        "sim_afford": 0.21128109813573448,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_15_0.png",
+        "total_score": 0.23036684765626247,
+        "sim_name": 0.2629064111931083,
+        "sim_group": 0.2629064111931083,
+        "sim_super": 0.16677411384174734,
+        "sim_afford": 0.03364307317601112,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.22753823329402412,
+        "sim_name": 0.24945487595986415,
+        "sim_group": 0.24945487595986415,
+        "sim_super": 0.06846222712559336,
+        "sim_afford": 0.21128109813573448,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "streetlight": {
+    "restricted_to_characters": false,
+    "query_text": "streetlight",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles",
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "001_004_complete/combined_11_3.png",
+        "total_score": 0.5076280218934582,
+        "sim_name": 0.5864378314992124,
+        "sim_group": 0.5864378314992124,
+        "sim_super": 0.2725783631694514,
+        "sim_afford": 0.11219920377143267,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_12_3.png",
+        "total_score": 0.5076280218934582,
+        "sim_name": 0.5864378314992124,
+        "sim_group": 0.5864378314992124,
+        "sim_super": 0.2725783631694514,
+        "sim_afford": 0.11219920377143267,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_13_3.png",
+        "total_score": 0.5076280218934582,
+        "sim_name": 0.5864378314992124,
+        "sim_group": 0.5864378314992124,
+        "sim_super": 0.2725783631694514,
+        "sim_afford": 0.11219920377143267,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "treasure": {
+    "restricted_to_characters": false,
+    "query_text": "treasure",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.01862550546381564,
+      "top1_minus_top3": 0.01862550546381564
+    },
+    "candidates": [
+      {
+        "image_path": "Items/gold.png",
+        "total_score": 0.4948839122760133,
+        "sim_name": 0.5196357853070894,
+        "sim_group": 0.5196357853070894,
+        "sim_super": 0.4085673066181994,
+        "sim_afford": 0.3831855336852179,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Monsters/Rocks.png",
+        "total_score": 0.47625840681219767,
+        "sim_name": 0.5246147107492662,
+        "sim_group": 0.5246147107492662,
+        "sim_super": 0.32131287923856444,
+        "sim_afford": 0.24435350288928226,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "terrain/rocks.png",
+        "total_score": 0.47625840681219767,
+        "sim_name": 0.5246147107492662,
+        "sim_group": 0.5246147107492662,
+        "sim_super": 0.32131287923856444,
+        "sim_afford": 0.24435350288928226,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "statue_of_liberty": {
+    "restricted_to_characters": false,
+    "query_text": "statue_of_liberty",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.22972273702796586,
+      "top1_minus_top3": 0.22972273702796586
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/statue.png",
+        "total_score": 0.6391081201307088,
+        "sim_name": 0.7465816616993232,
+        "sim_group": 0.7465816616993232,
+        "sim_super": 0.16796183273188614,
+        "sim_afford": 0.2504660749806169,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceJewelSilver.png",
+        "total_score": 0.409385383102743,
+        "sim_name": 0.4683430347740536,
+        "sim_group": 0.4516546867183371,
+        "sim_super": 0.15994321289521096,
+        "sim_afford": 0.23723138410693956,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceJewelSilver2.png",
+        "total_score": 0.409385383102743,
+        "sim_name": 0.4683430347740536,
+        "sim_group": 0.4516546867183371,
+        "sim_super": 0.15994321289521096,
+        "sim_afford": 0.23723138410693956,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "Jake": {
+    "restricted_to_characters": true,
+    "query_text": "Jake",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.004333952509210315,
+      "top1_minus_top3": 0.016852002077369976
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/Wolf.png",
+        "total_score": 0.37242090596486876,
+        "sim_name": 0.39001358358463845,
+        "sim_group": 0.39001358358463845,
+        "sim_super": 0.30253360835317433,
+        "sim_afford": 0.30156678261840586,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Smithy01.png",
+        "total_score": 0.36808695345565845,
+        "sim_name": 0.39219176356156615,
+        "sim_group": 0.39219176356156615,
+        "sim_super": 0.2417686434456493,
+        "sim_afford": 0.30156678261840586,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/landShark.png",
+        "total_score": 0.3555689038874988,
+        "sim_name": 0.3342156399043248,
+        "sim_group": 0.4268368161272612,
+        "sim_super": 0.30253360835317433,
+        "sim_afford": 0.30156678261840586,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Statue of Liberty's crown": {
+    "restricted_to_characters": false,
+    "query_text": "Statue of Liberty's crown",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.058235803020394106,
+      "top1_minus_top3": 0.108722737103158
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/statue.png",
+        "total_score": 0.5995408669903891,
+        "sim_name": 0.7080933966002537,
+        "sim_group": 0.7080933966002537,
+        "sim_super": 0.11007335793968398,
+        "sim_afford": 0.22058813916217757,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/crown.png",
+        "total_score": 0.541305063969995,
+        "sim_name": 0.622968152346905,
+        "sim_group": 0.622968152346905,
+        "sim_super": 0.19566066949238015,
+        "sim_afford": 0.2336447514323301,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/CrownJeweled.png",
+        "total_score": 0.4908181298872311,
+        "sim_name": 0.5219942841813772,
+        "sim_group": 0.622968152346905,
+        "sim_super": 0.19566066949238015,
+        "sim_afford": 0.2336447514323301,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "urban": {
+    "restricted_to_characters": false,
+    "query_text": "urban",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.05817252607525092
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/Road.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/road31.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor11.png",
+        "total_score": 0.4749253468984297,
+        "sim_name": 0.4941098944189991,
+        "sim_group": 0.4941098944189991,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "cryptic note": {
+    "restricted_to_characters": false,
+    "query_text": "cryptic note",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Interactive Object",
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.02269966374425131,
+      "top1_minus_top3": 0.02602130867545749
+    },
+    "candidates": [
+      {
+        "image_path": "001_005_complete/combined_11_29.png",
+        "total_score": 0.3296554731808607,
+        "sim_name": 0.3683552664811175,
+        "sim_group": 0.3683552664811175,
+        "sim_super": 0.32175607382373383,
+        "sim_afford": 0.027956526135932913,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Monsters/SpectreSilver.png",
+        "total_score": 0.3069558094366094,
+        "sim_name": 0.3178192235303603,
+        "sim_group": 0.31057688106780834,
+        "sim_super": 0.28523437338732704,
+        "sim_afford": 0.2634969601235406,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_0_3.png",
+        "total_score": 0.3036341645054032,
+        "sim_name": 0.31672728214263224,
+        "sim_group": 0.31672728214263224,
+        "sim_super": 0.32175607382373383,
+        "sim_afford": 0.18076731408923996,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "Jake evades gangsters": {
+    "restricted_to_characters": false,
+    "query_text": "Jake evades gangsters",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.007394479122261155,
+      "top1_minus_top3": 0.06938349720191322
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.3210649081429655,
+        "sim_name": 0.376338408577225,
+        "sim_group": 0.376338408577225,
+        "sim_super": 0.009180121177098322,
+        "sim_afford": 0.1907616916347571,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/assassin.png",
+        "total_score": 0.31367042902070436,
+        "sim_name": 0.3670953096743985,
+        "sim_group": 0.3670953096743985,
+        "sim_super": 0.009180121177098322,
+        "sim_afford": 0.1907616916347571,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/darkKnight.png",
+        "total_score": 0.2516814109410523,
+        "sim_name": 0.27321356614373316,
+        "sim_group": 0.31693482196000056,
+        "sim_super": 0.009180121177098322,
+        "sim_afford": 0.1907616916347571,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Moonlight": {
+    "restricted_to_characters": true,
+    "query_text": "Moonlight",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0018907373009194317,
+      "top1_minus_top3": 0.0018907373009194317
+    },
+    "candidates": [
+      {
+        "image_path": "beings/Nightdwarf.png",
+        "total_score": 0.3896923834354711,
+        "sim_name": 0.4496755496593512,
+        "sim_group": 0.4496755496593512,
+        "sim_super": 0.08784353700585235,
+        "sim_afford": 0.21167590007404946,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/vampire.png",
+        "total_score": 0.38780164613455165,
+        "sim_name": 0.43214238110705905,
+        "sim_group": 0.43214238110705905,
+        "sim_super": 0.20920151241499485,
+        "sim_afford": 0.21167590007404946,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Vampire2.png",
+        "total_score": 0.38780164613455165,
+        "sim_name": 0.43214238110705905,
+        "sim_group": 0.43214238110705905,
+        "sim_super": 0.20920151241499485,
+        "sim_afford": 0.21167590007404946,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Gangsters": {
+    "restricted_to_characters": true,
+    "query_text": "Gangsters",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/People01.png",
+        "total_score": 0.4315350756028124,
+        "sim_name": 0.48701956268907554,
+        "sim_group": 0.48701956268907554,
+        "sim_super": 0.09046078596523566,
+        "sim_afford": 0.32873346855028385,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/People02.png",
+        "total_score": 0.4315350756028124,
+        "sim_name": 0.48701956268907554,
+        "sim_group": 0.48701956268907554,
+        "sim_super": 0.09046078596523566,
+        "sim_afford": 0.32873346855028385,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/People03.png",
+        "total_score": 0.4315350756028124,
+        "sim_name": 0.48701956268907554,
+        "sim_group": 0.48701956268907554,
+        "sim_super": 0.09046078596523566,
+        "sim_afford": 0.32873346855028385,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Jake finds the treasure": {
+    "restricted_to_characters": false,
+    "query_text": "Jake finds the treasure",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.021802853698973668,
+      "top1_minus_top3": 0.021802853698973668
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.29629814267801363,
+        "sim_name": 0.3443441702405339,
+        "sim_group": 0.3443441702405339,
+        "sim_super": 0.0576791163777004,
+        "sim_afford": 0.15054894847816536,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Rocks.png",
+        "total_score": 0.27449528897903996,
+        "sim_name": 0.3069930774826133,
+        "sim_group": 0.3069930774826133,
+        "sim_super": 0.14570973671173504,
+        "sim_afford": 0.14329853321775832,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "terrain/rocks.png",
+        "total_score": 0.27449528897903996,
+        "sim_name": 0.3069930774826133,
+        "sim_group": 0.3069930774826133,
+        "sim_super": 0.14570973671173504,
+        "sim_afford": 0.14329853321775832,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  }
+}

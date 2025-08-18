@@ -1,5 +1,5 @@
 {
-  "original_story": "\"In the bustling city of New York, daring journalist, Jake, stumbled upon a cryptic note that hinted about a hidden treasure within the city's alleys. Evading dangerous gangsters and solving cryptic clues, Jake finally found the treasure stashed within the Statue of Liberty's crown.\"",
+  "original_story": "Amid the neon glow of New York’s restless night, journalist Jake stumbled upon a cryptic note tucked inside a trash can under a flickering streetlight. The message hinted at a hidden treasure buried deep within the city’s shadows. Pursued by ruthless gangsters, Jake raced through winding alleys bathed in moonlight, his every step echoing with danger. Clue after clue led him skyward—up spiral stairs and secret elevators—until he reached the crown of the Statue of Liberty. There, hidden beneath the cold iron floor, he uncovered the treasure. As dawn broke over the skyline, Jake realized he’d rewritten the city’s secrets.",
   "time_frames": [
     {
       "title": "Jake discovers the cryptic note",
@@ -35,6 +35,6 @@
     "illuminates": "above",
     "hides": "below",
     "stands within": "on top of",
-    "surrounds": "around"
+    "surrounds": "at the left of"
   }
 }

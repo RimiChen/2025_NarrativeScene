@@ -1,0 +1,40 @@
+{
+  "original_story": "In the eerie ruins of a forgotten city, brave explorer, Marco found a mysterious compass, pointing towards an unseen world. It led him to the mystical Mountain of Shadows, whispered to harbor the Timeless Clock. Battling fierce storms and mythical beasts, Marco reached the mountain's heart. Inside, he encountered the Keeper, a spectral entity. With courage and knowledge, he answered the Keeper’s cryptic puzzle, gaining him access to the Clock. Marco wished for an end to the famine plaguing his homeland. As he descended the mountain, rain began to fall, and crops flourished anew, proving that bravery and wisdom could mend a broken world.",
+  "time_frames": [
+    {
+      "title": "Marco discovers the mysterious compass",
+      "scene_relations": [
+        "Ruined city [contains] mysterious compass",
+        "Marco [stands near] ruined city",
+        "Moonlight [illuminates] eerie ruins"
+      ]
+    },
+    {
+      "title": "Marco faces the fierce storms",
+      "scene_relations": [
+        "Marco [battles] fierce storms",
+        "Mountain of Shadows [looms over] Marco",
+        "Storm clouds [swirl above] mountain peak"
+      ]
+    },
+    {
+      "title": "Marco descends the mountain",
+      "scene_relations": [
+        "Rain [falls on] Marco",
+        "Marco [descends from] Mountain of Shadows",
+        "Lush crops [spring up] below Marco"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "contains": "on top of",
+    "stands near": "at the right of",
+    "illuminates": "above",
+    "battles": "at the left of",
+    "looms over": "above",
+    "swirl above": "above",
+    "falls on": "above",
+    "descends from": "above",
+    "spring up": "below"
+  }
+}

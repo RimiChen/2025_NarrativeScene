@@ -1,3 +1,9 @@
 Spatial Relations:
 <story_id>_adventure_scene_output_FIXED.json
 
+
+Spatial Predicate Satisfaction Metrics:
+Accuracy:  0.72
+Precision: 0.72
+Recall:    1.00
+F1 Score:  0.84

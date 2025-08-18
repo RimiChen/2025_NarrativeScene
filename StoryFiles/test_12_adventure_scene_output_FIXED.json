@@ -1,0 +1,40 @@
+{
+  "original_story": "In the simmering Sahara, archeologist Lara uncovered a cryptic scroll buried within an ancient pyramid. It revealed the location of the Lost City of Zerzura, a place of untold riches. Battling scorching winds and monstrous scorpions, Lara navigated through dangerous dunes. At the city's gates, she confronted the Sphinx, a colossal stone guardian. Using her knowledge and daring, she deciphered the Sphinx's enigma, gaining access to the city. Lara wished for enlightenment, a treasure beyond gold. As she left Zerzura, knowledge radiated from her, proving that wisdom and courage can conquer any challenge.",
+  "time_frames": [
+    {
+      "title": "Lara uncovers the cryptic scroll",
+      "scene_relations": [
+        "Ancient pyramid [contains] cryptic scroll",
+        "Lara [kneels beside] ancient pyramid",
+        "Sun [beats down on] Sahara desert"
+      ]
+    },
+    {
+      "title": "Lara navigates through dangerous dunes",
+      "scene_relations": [
+        "Lara [trudges through] shifting sands",
+        "Scorpions [lurk below] sand surface",
+        "Wind [blows across] vast desert"
+      ]
+    },
+    {
+      "title": "Lara deciphers the Sphinx's enigma",
+      "scene_relations": [
+        "Lara [stands before] Sphinx",
+        "Sphinx [guards] city gates",
+        "Lara [holds] cryptic scroll"
+      ]
+    }
+  ],
+  "relation_mapping": {
+    "contains": "on top of",
+    "kneels beside": "at the right of",
+    "beats down on": "above",
+    "trudges through": "on top of",
+    "lurk below": "below",
+    "blows across": "above",
+    "stands before": "at the right of",
+    "guards": "on top of",
+    "holds": "at the right of"
+  }
+}

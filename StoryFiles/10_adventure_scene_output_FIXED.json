@@ -1,11 +1,13 @@
 {
-  "original_story": "\"In the heart of the sizzling Sahara, intrepid explorer, Amelia, unearthed a golden amulet buried in the sun-drenched sand. Guided by the amulet’s mystical powers, she traversed treacherous dunes, facing venomous creatures and sandstorms. Finally, she reached an ancient, hidden pyramid, where she unlocked a forgotten civilization’s secrets, forever changing history.\"",
+  "original_story": "In the blazing Sahara, golden sunlight beamed on the golden amulet buried just beneath the sand. Amelia stood over the buried amulet, brushing away grains until it shimmered in full. She picked it up. As she followed the amulet's glow across the desert, sand dunes surrounded her. A venomous creature lurked behind one of the dunes, but she pressed on. Soon, she arrived at a hidden pyramid. Amelia stood before the ancient pyramid, awed by its size. With steady hands, she raised the amulet. It fit perfectly into the pyramid’s lock. Inside, the hidden pyramid held civilization’s long-lost secrets.",
   "time_frames": [
     {
       "title": "Amelia discovers the golden amulet",
       "scene_relations": [
+        "Golden amulet [is buried in] sun",
         "Amelia [stands over] buried amulet",
         "Sahara sunlight [beams on] golden amulet"
+
       ]
     },
     {
@@ -26,8 +28,6 @@
     }
   ],
   "relation_mapping": {
-    "\"In the heart of the sizzling Sahara, intrepid explorer, Amelia, unearthed a golden amulet buried in the sun": "drenched sand. Guided by the amulet’s mystical powers, she traversed treacherous dunes, facing venomous creatures and sandstorms. Finally, she reached an ancient, hidden pyramid, where she unlocked a forgotten civilization’s secrets, forever changing history.\"",
-    "Golden amulet [is buried in] sun": "drenched sand",
     "is buried in": "below",
     "stands over": "above",
     "beams on": "above",

@@ -1,0 +1,47 @@
+{
+  "dark_alley": [
+    "Monsters/darkKnight.png"
+  ],
+  "Trash can": [
+    "Monsters/cannibal.png"
+  ],
+  "city_skyline": [
+    "tiles/roadNE.png"
+  ],
+  "Jake discovers the cryptic note": [
+    "player/alchemist.png"
+  ],
+  "streetlight": [
+    "001_004_complete/combined_11_3.png"
+  ],
+  "treasure": [
+    "Items/gold.png"
+  ],
+  "statue_of_liberty": [
+    "terrain/statue.png"
+  ],
+  "Jake": [
+    "Monsters/Wolf.png"
+  ],
+  "Statue of Liberty's crown": [
+    "terrain/statue.png"
+  ],
+  "urban": [
+    "tiles/Road.png"
+  ],
+  "cryptic note": [
+    "001_005_complete/combined_11_29.png"
+  ],
+  "Jake evades gangsters": [
+    "player/thief.png"
+  ],
+  "Moonlight": [
+    "beings/Nightdwarf.png"
+  ],
+  "Gangsters": [
+    "Monsters/People01.png"
+  ],
+  "Jake finds the treasure": [
+    "player/thief.png"
+  ]
+}

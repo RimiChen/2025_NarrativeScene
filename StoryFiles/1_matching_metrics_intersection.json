@@ -1,0 +1,23 @@
+{
+  "story_id": "1",
+  "num_objects_total": 15,
+  "num_objects_with_afford_pred": 12,
+  "n_intersection_fuzzy": 11,
+  "afford_expect_known_intersect": 11,
+  "afford_expect_match_intersect": 5,
+  "afford_expect_match_rate_intersect": 0.45454545454545453,
+  "mean_top1_total_intersect": 0.4342088024912537,
+  "mean_margin_top1_top2_intersect": 0.04775624640973863,
+  "mean_margin_top1_top3_intersect": 0.05868341973962548,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 0.9090909090909091,
+  "only_in_matched_after_fuzzy_sample": [
+    "Gangsters",
+    "Jake",
+    "Jake finds the treasure",
+    "urban"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "trash can"
+  ]
+}
