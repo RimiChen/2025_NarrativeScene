@@ -1,0 +1,50 @@
+{
+  "Dr. Alexander": [
+    "player/scientist.png"
+  ],
+  "ancient_tomb": [
+    "Monsters/grave.png"
+  ],
+  "Torchlight": [
+    "Monsters/darkKnight.png"
+  ],
+  "Dr. Alexander discovers the mystical artifact": [
+    "Monsters/cyclops.png"
+  ],
+  "mystical artifact": [
+    "Items/magicNecklace.png"
+  ],
+  "desert": [
+    "000_003_complete/combined_2_3.png"
+  ],
+  "Treacherous traps": [
+    "Monsters/giantWorm.png"
+  ],
+  "ancient_walls": [
+    "tiles/wall22.png"
+  ],
+  "ruins": [
+    "001_003_complete/combined_10_10.png"
+  ],
+  "Dr. Alexander navigates through treacherous traps": [
+    "Monsters/cyclops.png"
+  ],
+  "Mystical artifact": [
+    "Monsters/PhantomEye.png"
+  ],
+  "stone": [
+    "001_005_complete/combined_0_12.png"
+  ],
+  "Guardian of the Tomb": [
+    "Monsters/grave.png"
+  ],
+  "Chamber doors": [
+    "Monsters/casket.png"
+  ],
+  "ancient mechanism": [
+    "terrain/machinery1.png"
+  ],
+  "Dr. Alexander confronts the Guardian of the Tomb": [
+    "Monsters/grave.png"
+  ]
+}

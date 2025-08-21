@@ -1,0 +1,25 @@
+{
+  "story_id": "8",
+  "num_objects_total": 17,
+  "num_objects_with_afford_pred": 12,
+  "n_intersection_fuzzy": 11,
+  "afford_expect_known_intersect": 11,
+  "afford_expect_match_intersect": 3,
+  "afford_expect_match_rate_intersect": 0.2727272727272727,
+  "mean_top1_total_intersect": 0.412954190522844,
+  "mean_margin_top1_top2_intersect": 0.021143023322530853,
+  "mean_margin_top1_top3_intersect": 0.03041856724150849,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 0.8181818181818182,
+  "only_in_matched_after_fuzzy_sample": [
+    "Cross",
+    "Cross navigates the perilous journey",
+    "Pyramid",
+    "cross",
+    "desert",
+    "stone"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "Sandstorm"
+  ]
+}

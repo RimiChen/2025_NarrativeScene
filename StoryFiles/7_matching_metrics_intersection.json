@@ -1,0 +1,20 @@
+{
+  "story_id": "7",
+  "num_objects_total": 17,
+  "num_objects_with_afford_pred": 14,
+  "n_intersection_fuzzy": 14,
+  "afford_expect_known_intersect": 14,
+  "afford_expect_match_intersect": 5,
+  "afford_expect_match_rate_intersect": 0.35714285714285715,
+  "mean_top1_total_intersect": 0.36642474199585845,
+  "mean_margin_top1_top2_intersect": 0.013679063840350612,
+  "mean_margin_top1_top3_intersect": 0.025007287418814316,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 1.0,
+  "only_in_matched_after_fuzzy_sample": [
+    "El Dorado",
+    "Jack battles the perilous sea",
+    "Jack finds El Dorado"
+  ],
+  "only_in_afford_after_fuzzy_sample": []
+}

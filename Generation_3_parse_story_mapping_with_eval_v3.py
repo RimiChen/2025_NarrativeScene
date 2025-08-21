@@ -7,7 +7,7 @@ from statistics import mean
 import re
 
 # === CONFIGURABLE ===
-STORY_ID = "1"
+STORY_ID = "10"
 STORY_FILE = f"StoryFiles/output_KG_story_{STORY_ID}/{STORY_ID}_kg_data.json"
 EMBED_INDEX = "Data/object_embedding_index.jsonl"
 

@@ -1,0 +1,50 @@
+{
+  "public library": [
+    "terrain/library.png"
+  ],
+  "encrypted note": [
+    "player/thief.png"
+  ],
+  "bookshelf": [
+    "001_004_complete/combined_15_0.png"
+  ],
+  "Old Book": [
+    "Monsters/mummy.png"
+  ],
+  "Alex": [
+    "Monsters/Smithy01.png"
+  ],
+  "Alex discovers the encrypted note": [
+    "player/thief.png"
+  ],
+  "desk": [
+    "terrain/table.png"
+  ],
+  "Alex deciphers the secret code": [
+    "player/thief.png"
+  ],
+  "indoor": [
+    "001_005_complete/combined_11_0.png"
+  ],
+  "alex's_desk": [
+    "Items/StaffRedStriped.png"
+  ],
+  "scattered papers": [
+    "000_001_complete/combined_5_1.png"
+  ],
+  "urban": [
+    "tiles/Road.png"
+  ],
+  "Alex confronts the secret society": [
+    "Monsters/assassin.png"
+  ],
+  "Secret society": [
+    "player/thief.png"
+  ],
+  "streetlights": [
+    "001_004_complete/combined_1_5.png"
+  ],
+  "warehouse_exterior": [
+    "tiles/roomFloor11.png"
+  ]
+}

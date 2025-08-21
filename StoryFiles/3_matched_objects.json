@@ -1,0 +1,53 @@
+{
+  "Iris discovers the cryptic message": [
+    "Monsters/FloatingEyeYellow.png"
+  ],
+  "urban": [
+    "tiles/Road.png"
+  ],
+  "dilapidated_ceiling": [
+    "Monsters/grave.png"
+  ],
+  "Iris": [
+    "Monsters/FloatingEye6Eyed.png"
+  ],
+  "cryptic message": [
+    "Monsters/BugGrey.png"
+  ],
+  "decrepit_library": [
+    "terrain/library.png"
+  ],
+  "Barren landscape": [
+    "Monsters/LivingMoundBrownGreen.png"
+  ],
+  "Mutant creatures": [
+    "player/mutatedSpider.png"
+  ],
+  "perilous wastelands": [
+    "terrain/fountain.png"
+  ],
+  "Iris journeying through wastelands": [
+    "terrain/fountain.png"
+  ],
+  "wasteland": [
+    "tiles/floor11.png"
+  ],
+  "humanity": [
+    "player/human.png"
+  ],
+  "Revitalized hope": [
+    "Monsters/mutivider.png"
+  ],
+  "hidden_oasis": [
+    "000_003_complete/combined_5_5.png"
+  ],
+  "desert": [
+    "000_003_complete/combined_2_3.png"
+  ],
+  "oasis": [
+    "001_005_complete/combined_10_5.png"
+  ],
+  "Iris uncovers the oasis": [
+    "Monsters/FloatingEye6Eyed.png"
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "ancient_pyramid": {
+    "restricted_to_characters": false,
+    "query_text": "ancient_pyramid",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.015294336018005006,
+      "top1_minus_top3": 0.027936569154049462
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/sphinx.png",
+        "total_score": 0.4520241279821429,
+        "sim_name": 0.5072827306264771,
+        "sim_group": 0.5072827306264771,
+        "sim_super": 0.21080824622064442,
+        "sim_afford": 0.2511711885889678,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_0_21.png",
+        "total_score": 0.4367297919641379,
+        "sim_name": 0.489613673052008,
+        "sim_group": 0.4857500398572423,
+        "sim_super": 0.21080824622064442,
+        "sim_afford": 0.2511711885889678,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "terrain/statue.png",
+        "total_score": 0.42408755882809346,
+        "sim_name": 0.4723620191839153,
+        "sim_group": 0.4723620191839153,
+        "sim_super": 0.21080824622064442,
+        "sim_afford": 0.2511711885889678,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Amelia": {
+    "restricted_to_characters": true,
+    "query_text": "Amelia",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0014572142264667187,
+      "top1_minus_top3": 0.024452606196396165
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/medusa.png",
+        "total_score": 0.3967603690063482,
+        "sim_name": 0.40778441788420494,
+        "sim_group": 0.40778441788420494,
+        "sim_super": 0.34591536912766685,
+        "sim_afford": 0.3594129778621755,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/hydra.png",
+        "total_score": 0.3953031547798815,
+        "sim_name": 0.40596290010112157,
+        "sim_group": 0.40596290010112157,
+        "sim_super": 0.34591536912766685,
+        "sim_afford": 0.3594129778621755,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/mummy.png",
+        "total_score": 0.37230776280995204,
+        "sim_name": 0.37721866013870975,
+        "sim_group": 0.37721866013870975,
+        "sim_super": 0.34591536912766685,
+        "sim_afford": 0.3594129778621755,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "sand": {
+    "restricted_to_characters": false,
+    "query_text": "sand",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0032649935178251654
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/Rocks.png",
+        "total_score": 0.5470535844107679,
+        "sim_name": 0.5891428920836635,
+        "sim_group": 0.5891428920836635,
+        "sim_super": 0.48103405786624964,
+        "sim_afford": 0.27635864957212153,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "terrain/rocks.png",
+        "total_score": 0.5470535844107679,
+        "sim_name": 0.5891428920836635,
+        "sim_group": 0.5891428920836635,
+        "sim_super": 0.48103405786624964,
+        "sim_afford": 0.27635864957212153,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_5_5.png",
+        "total_score": 0.5437885908929427,
+        "sim_name": 0.6527854443111244,
+        "sim_group": 0.5962227093976402,
+        "sim_super": 0.10154203946314655,
+        "sim_afford": 0.28374851971773807,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "Sahara sunlight": {
+    "restricted_to_characters": true,
+    "query_text": "Sahara sunlight",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.04964956625613151,
+      "top1_minus_top3": 0.0697832013477252
+    },
+    "candidates": [
+      {
+        "image_path": "beings/Nightdwarf.png",
+        "total_score": 0.2855790524501303,
+        "sim_name": 0.3374948710785213,
+        "sim_group": 0.3374948710785213,
+        "sim_super": 0.061864259560938106,
+        "sim_afford": 0.09396729631219536,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "beings/Sage.png",
+        "total_score": 0.2359294861939988,
+        "sim_name": 0.27543291325835684,
+        "sim_group": 0.27543291325835684,
+        "sim_super": 0.061864259560938106,
+        "sim_afford": 0.09396729631219536,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/SpectreGreen.png",
+        "total_score": 0.21579585110240512,
+        "sim_name": 0.2761332314855993,
+        "sim_group": 0.1986206023652748,
+        "sim_super": 0.08746325018803491,
+        "sim_afford": 0.09396729631219536,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Pyramid lock": {
+    "restricted_to_characters": true,
+    "query_text": "Pyramid lock",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/skeleton.png",
+        "total_score": 0.2892165754696147,
+        "sim_name": 0.3260410972397527,
+        "sim_group": 0.3260410972397527,
+        "sim_super": 0.1448688746511655,
+        "sim_afford": 0.13896810212695943,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Skeleton2.png",
+        "total_score": 0.2892165754696147,
+        "sim_name": 0.3260410972397527,
+        "sim_group": 0.3260410972397527,
+        "sim_super": 0.1448688746511655,
+        "sim_afford": 0.13896810212695943,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Skeleton4.png",
+        "total_score": 0.2892165754696147,
+        "sim_name": 0.3260410972397527,
+        "sim_group": 0.3260410972397527,
+        "sim_super": 0.1448688746511655,
+        "sim_afford": 0.13896810212695943,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Amelia discovers the golden amulet": {
+    "restricted_to_characters": false,
+    "query_text": "Amelia discovers the golden amulet",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.004243512636794844,
+      "top1_minus_top3": 0.0209385983795205
+    },
+    "candidates": [
+      {
+        "image_path": "Items/magicNecklace.png",
+        "total_score": 0.3668455964481385,
+        "sim_name": 0.4244242918907807,
+        "sim_group": 0.415937266617191,
+        "sim_super": 0.10928918333935522,
+        "sim_afford": 0.1892335218365535,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/necklace.png",
+        "total_score": 0.3626020838113437,
+        "sim_name": 0.415937266617191,
+        "sim_group": 0.415937266617191,
+        "sim_super": 0.10928918333935522,
+        "sim_afford": 0.1892335218365535,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceGoldJewelBlue.png",
+        "total_score": 0.345906998068618,
+        "sim_name": 0.3825470951317397,
+        "sim_group": 0.415937266617191,
+        "sim_super": 0.10928918333935522,
+        "sim_afford": 0.1892335218365535,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "hidden_pyramid": {
+    "restricted_to_characters": false,
+    "query_text": "hidden_pyramid",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.006668920743862827
+    },
+    "candidates": [
+      {
+        "image_path": "000_001_complete/combined_4_0.png",
+        "total_score": 0.38142510967794824,
+        "sim_name": 0.43780080410069133,
+        "sim_group": 0.43780080410069133,
+        "sim_super": 0.13098198209863665,
+        "sim_afford": 0.18086268187531485,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_0_12.png",
+        "total_score": 0.38142510967794824,
+        "sim_name": 0.43780080410069133,
+        "sim_group": 0.43780080410069133,
+        "sim_super": 0.13098198209863665,
+        "sim_afford": 0.18086268187531485,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "terrain/sphinx.png",
+        "total_score": 0.3747561889340854,
+        "sim_name": 0.4294646531708628,
+        "sim_group": 0.4294646531708628,
+        "sim_super": 0.13098198209863665,
+        "sim_afford": 0.18086268187531485,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "golden amulet": {
+    "restricted_to_characters": false,
+    "query_text": "golden amulet",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.006884156131180985,
+      "top1_minus_top3": 0.006884156131180985
+    },
+    "candidates": [
+      {
+        "image_path": "Items/magicNecklace.png",
+        "total_score": 0.5577386331073486,
+        "sim_name": 0.6406284094345588,
+        "sim_group": 0.6210598413497729,
+        "sim_super": 0.20598469101429684,
+        "sim_afford": 0.3050800688370775,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceGoldJewelSilver.png",
+        "total_score": 0.5508544769761676,
+        "sim_name": 0.6268600971721968,
+        "sim_group": 0.6210598413497729,
+        "sim_super": 0.20598469101429684,
+        "sim_afford": 0.3050800688370775,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceGoldJewelSilver2.png",
+        "total_score": 0.5508544769761676,
+        "sim_name": 0.6268600971721968,
+        "sim_group": 0.6210598413497729,
+        "sim_super": 0.20598469101429684,
+        "sim_afford": 0.3050800688370775,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "Amulet": {
+    "restricted_to_characters": true,
+    "query_text": "Amulet",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0009643541364079411,
+      "top1_minus_top3": 0.0033223514593549996
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/DragonAncientGold.png",
+        "total_score": 0.44115661756752766,
+        "sim_name": 0.49478799381171634,
+        "sim_group": 0.46755753394568755,
+        "sim_super": 0.20134978606409049,
+        "sim_afford": 0.33360381871554146,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/DragonAncientSilver.png",
+        "total_score": 0.4401922634311197,
+        "sim_name": 0.49285928553890057,
+        "sim_group": 0.46755753394568755,
+        "sim_super": 0.20134978606409049,
+        "sim_afford": 0.33360381871554146,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/DragonAncientLordSilver.png",
+        "total_score": 0.43783426610817266,
+        "sim_name": 0.48814329089300634,
+        "sim_group": 0.46755753394568755,
+        "sim_super": 0.20134978606409049,
+        "sim_afford": 0.33360381871554146,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "buried amulet": {
+    "restricted_to_characters": false,
+    "query_text": "buried amulet",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.02711007066644866,
+      "top1_minus_top3": 0.038088810852737076
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/grave.png",
+        "total_score": 0.549677526387139,
+        "sim_name": 0.6194994518426857,
+        "sim_group": 0.6194994518426857,
+        "sim_super": 0.31939863262869095,
+        "sim_afford": 0.2213810165012131,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/magicNecklace.png",
+        "total_score": 0.5225674557206903,
+        "sim_name": 0.5945294145330111,
+        "sim_group": 0.5725719341604342,
+        "sim_super": 0.22497687005976286,
+        "sim_afford": 0.3103348120007825,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/necklace.png",
+        "total_score": 0.5115887155344019,
+        "sim_name": 0.5725719341604342,
+        "sim_group": 0.5725719341604342,
+        "sim_super": 0.22497687005976286,
+        "sim_afford": 0.3103348120007825,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "Venomous creature": {
+    "restricted_to_characters": true,
+    "query_text": "Venomous creature",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0737001990360997,
+      "top1_minus_top3": 0.08466922231379725
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/poisonousSnake.png",
+        "total_score": 0.6396477516725575,
+        "sim_name": 0.7047452319659714,
+        "sim_group": 0.6251481849401985,
+        "sim_super": 0.6941754439097819,
+        "sim_afford": 0.3031313581653421,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Serpent.png",
+        "total_score": 0.5659475526364578,
+        "sim_name": 0.5827710905361819,
+        "sim_group": 0.5827710905361819,
+        "sim_super": 0.6941754439097819,
+        "sim_afford": 0.3031313581653421,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/mutatedSpider.png",
+        "total_score": 0.5549785293587602,
+        "sim_name": 0.5275701036855328,
+        "sim_group": 0.638209324361605,
+        "sim_super": 0.6941754439097819,
+        "sim_afford": 0.3031313581653421,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "sand dunes": {
+    "restricted_to_characters": false,
+    "query_text": "sand dunes",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object",
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.07307548707843992,
+      "top1_minus_top3": 0.10011034418457004
+    },
+    "candidates": [
+      {
+        "image_path": "000_003_complete/combined_5_5.png",
+        "total_score": 0.5672607393613359,
+        "sim_name": 0.6808499388689876,
+        "sim_group": 0.599865125648955,
+        "sim_super": 0.11579067191313464,
+        "sim_afford": 0.35297165040842093,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_0_29.png",
+        "total_score": 0.494185252282896,
+        "sim_name": 0.5376793732501692,
+        "sim_group": 0.412429767325903,
+        "sim_super": 0.5080831773002026,
+        "sim_afford": 0.5080831773002026,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_3_3.png",
+        "total_score": 0.4671503951767659,
+        "sim_name": 0.4569171996459067,
+        "sim_group": 0.4569171996459067,
+        "sim_super": 0.5080831773002026,
+        "sim_afford": 0.5080831773002026,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "amulet's glow": {
+    "restricted_to_characters": false,
+    "query_text": "amulet's glow",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.026111131407306476,
+      "top1_minus_top3": 0.028346493694864694
+    },
+    "candidates": [
+      {
+        "image_path": "Items/magicNecklace.png",
+        "total_score": 0.46829566857775506,
+        "sim_name": 0.5515356268312527,
+        "sim_group": 0.4993133640166397,
+        "sim_super": 0.1827593607276352,
+        "sim_afford": 0.24457909884373308,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/necklace.png",
+        "total_score": 0.4421845371704486,
+        "sim_name": 0.4993133640166397,
+        "sim_group": 0.4993133640166397,
+        "sim_super": 0.1827593607276352,
+        "sim_afford": 0.24457909884373308,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/NecklaceGoldJewelBlue.png",
+        "total_score": 0.43994917488289037,
+        "sim_name": 0.4948426394415233,
+        "sim_group": 0.4993133640166397,
+        "sim_super": 0.1827593607276352,
+        "sim_afford": 0.24457909884373308,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "Amelia navigates the treacherous dunes": {
+    "restricted_to_characters": false,
+    "query_text": "Amelia navigates the treacherous dunes",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object",
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.004618296036924874,
+      "top1_minus_top3": 0.021005135567496558
+    },
+    "candidates": [
+      {
+        "image_path": "000_003_complete/combined_5_5.png",
+        "total_score": 0.2799699259987367,
+        "sim_name": 0.3137868634140957,
+        "sim_group": 0.2994848160275514,
+        "sim_super": 0.05549445652200724,
+        "sim_afford": 0.2768160383122277,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_0_29.png",
+        "total_score": 0.27535162996181184,
+        "sim_name": 0.2780827090514997,
+        "sim_group": 0.21636842802219258,
+        "sim_super": 0.35699873514702096,
+        "sim_afford": 0.35699873514702096,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_3_3.png",
+        "total_score": 0.25896479043124015,
+        "sim_name": 0.2344563042522949,
+        "sim_group": 0.2344563042522949,
+        "sim_super": 0.35699873514702096,
+        "sim_afford": 0.35699873514702096,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "civilization's secrets": {
+    "restricted_to_characters": false,
+    "query_text": "civilization's secrets",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.016393291667906706,
+      "top1_minus_top3": 0.02207441301637264
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/Serpent.png",
+        "total_score": 0.3083455923260558,
+        "sim_name": 0.33056686324925844,
+        "sim_group": 0.33056686324925844,
+        "sim_super": 0.1554508082120014,
+        "sim_afford": 0.2834702090544887,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.2919523006581491,
+        "sim_name": 0.3221140685081043,
+        "sim_group": 0.3221140685081043,
+        "sim_super": 0.05914024946216745,
+        "sim_afford": 0.2834702090544887,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "tiles/openSecretDoor11.png",
+        "total_score": 0.28627117930968315,
+        "sim_name": 0.3786984277343223,
+        "sim_group": 0.2162723890811068,
+        "sim_super": 0.27507206980579824,
+        "sim_afford": 0.04533041737610144,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Amelia unlocks the secrets of the hidden pyramid": {
+    "restricted_to_characters": false,
+    "query_text": "Amelia unlocks the secrets of the hidden pyramid",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0007793433336471534,
+      "top1_minus_top3": 0.01230090339213949
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/MummyTeal.png",
+        "total_score": 0.2458071606426627,
+        "sim_name": 0.2612559103347907,
+        "sim_group": 0.25969722366749637,
+        "sim_super": 0.14412658146846336,
+        "sim_afford": 0.22857380228172097,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/mummy.png",
+        "total_score": 0.24502781730901554,
+        "sim_name": 0.25969722366749637,
+        "sim_group": 0.25969722366749637,
+        "sim_super": 0.14412658146846336,
+        "sim_afford": 0.22857380228172097,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/skeleton.png",
+        "total_score": 0.2335062572505232,
+        "sim_name": 0.24529527359438097,
+        "sim_group": 0.24529527359438097,
+        "sim_super": 0.14412658146846336,
+        "sim_afford": 0.22857380228172097,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  }
+}

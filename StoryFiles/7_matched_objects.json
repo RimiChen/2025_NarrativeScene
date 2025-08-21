@@ -1,0 +1,53 @@
+{
+  "ship deck": [
+    "000_001_complete/combined_6_3.png"
+  ],
+  "Captain Jack": [
+    "player/superhero.png"
+  ],
+  "Jack discovers the cryptic compass": [
+    "001_005_complete/combined_11_17.png"
+  ],
+  "el_dorado": [
+    "Items/RodBlack.png"
+  ],
+  "Cryptic compass": [
+    "Monsters/Xorn4Armed.png"
+  ],
+  "bermuda_triangle": [
+    "Monsters/CentipedeRedTentacles.png"
+  ],
+  "Ship": [
+    "Monsters/Fly.png"
+  ],
+  "sea": [
+    "tiles/water.png"
+  ],
+  "Merciless waves": [
+    "Monsters/visculoid.png"
+  ],
+  "Mystical sea creatures": [
+    "Monsters/JellyfishTeal.png"
+  ],
+  "Jack battles the perilous sea": [
+    "Monsters/landShark.png"
+  ],
+  "Radiant moonlight": [
+    "beings/Nightdwarf.png"
+  ],
+  "distance": [
+    "tiles/Road.png"
+  ],
+  "ship's deck": [
+    "tiles/Ground0.png"
+  ],
+  "golden_city": [
+    "Items/PickGolden.png"
+  ],
+  "El Dorado": [
+    "player/demon.png"
+  ],
+  "Jack finds El Dorado": [
+    "Items/ShovelGolden.png"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "dusty_room": [
+    "tiles/roomWall21.png"
+  ],
+  "indoor": [
+    "001_005_complete/combined_11_0.png"
+  ],
+  "Derelict mainframe": [
+    "Monsters/ElementalVoid.png"
+  ],
+  "neon_lights": [
+    "player/neonKnight.png"
+  ],
+  "Kenji discovers the encrypted files": [
+    "player/thief.png"
+  ],
+  "encrypted files": [
+    "player/thief.png"
+  ],
+  "Kenji": [
+    "Monsters/Ninja.png"
+  ],
+  "keyboard": [
+    "Items/KeyBone.png"
+  ],
+  "Kenji deciphers the encrypted files": [
+    "Items/chalice.png"
+  ],
+  "Kenji's fingers": [
+    "Monsters/Ninja.png"
+  ],
+  "Computer screen": [
+    "Monsters/Gnome3.png"
+  ],
+  "complex codes": [
+    "001_004_complete/combined_8_14.png"
+  ],
+  "computer": [
+    "terrain/web.png"
+  ],
+  "office": [
+    "Items/staff.png"
+  ],
+  "Kenji uncovers a corporate conspiracy": [
+    "player/cyborg.png"
+  ],
+  "shocking revelation": [
+    "player/demon.png"
+  ],
+  "sinister plot": [
+    "Monsters/rogue.png"
+  ],
+  "skyscrapers": [
+    "001_005_complete/combined_15_20.png"
+  ],
+  "kenji's_tiny_apartment": [
+    "tiles/roomFloor11.png"
+  ],
+  "Screen": [
+    "Monsters/Gnome3.png"
+  ],
+  "urban": [
+    "tiles/Road.png"
+  ]
+}

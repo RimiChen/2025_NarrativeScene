@@ -1,0 +1,1249 @@
+{
+  "Iris discovers the cryptic message": {
+    "restricted_to_characters": false,
+    "query_text": "Iris discovers the cryptic message",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.00970566475056317,
+      "top1_minus_top3": 0.013826407521922879
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/FloatingEyeYellow.png",
+        "total_score": 0.2987014398844198,
+        "sim_name": 0.35428246772126304,
+        "sim_group": 0.2667850112756476,
+        "sim_super": 0.15421385107230112,
+        "sim_afford": 0.2610331753386388,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEye6Eyed.png",
+        "total_score": 0.2889957751338566,
+        "sim_name": 0.3348711382201367,
+        "sim_group": 0.2667850112756476,
+        "sim_super": 0.15421385107230112,
+        "sim_afford": 0.2610331753386388,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEyeGreen.png",
+        "total_score": 0.2848750323624969,
+        "sim_name": 0.3266296526774173,
+        "sim_group": 0.2667850112756476,
+        "sim_super": 0.15421385107230112,
+        "sim_afford": 0.2610331753386388,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "urban": {
+    "restricted_to_characters": false,
+    "query_text": "urban",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.05817252607525092
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/Road.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/road31.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor11.png",
+        "total_score": 0.4749253468984297,
+        "sim_name": 0.4941098944189991,
+        "sim_group": 0.4941098944189991,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "dilapidated_ceiling": {
+    "restricted_to_characters": false,
+    "query_text": "dilapidated_ceiling",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.014138561661731497,
+      "top1_minus_top3": 0.015527773436664172
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/grave.png",
+        "total_score": 0.3675195902812874,
+        "sim_name": 0.39130094973294804,
+        "sim_group": 0.39130094973294804,
+        "sim_super": 0.346599836514774,
+        "sim_afford": 0.1981884684345161,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "tiles/roomWall21.png",
+        "total_score": 0.3533810286195559,
+        "sim_name": 0.39637401939798633,
+        "sim_group": 0.37460038302572607,
+        "sim_super": 0.21605845394460632,
+        "sim_afford": 0.2120805861838424,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roomWall22.png",
+        "total_score": 0.3519918168446232,
+        "sim_name": 0.39637401939798633,
+        "sim_group": 0.37460038302572607,
+        "sim_super": 0.21605845394460632,
+        "sim_afford": 0.1981884684345161,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Iris": {
+    "restricted_to_characters": true,
+    "query_text": "Iris",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.037531362431988013,
+      "top1_minus_top3": 0.03798774358009405
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/FloatingEye6Eyed.png",
+        "total_score": 0.4484046876680685,
+        "sim_name": 0.4800529403938085,
+        "sim_group": 0.46835317116375674,
+        "sim_super": 0.33273548959110744,
+        "sim_afford": 0.3459871716292653,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEyeGreen.png",
+        "total_score": 0.4108733252360805,
+        "sim_name": 0.4049902155298325,
+        "sim_group": 0.46835317116375674,
+        "sim_super": 0.33273548959110744,
+        "sim_afford": 0.3459871716292653,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEyeTentacled3Eyes.png",
+        "total_score": 0.41041694408797447,
+        "sim_name": 0.40407745323362043,
+        "sim_group": 0.46835317116375674,
+        "sim_super": 0.33273548959110744,
+        "sim_afford": 0.3459871716292653,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "cryptic message": {
+    "restricted_to_characters": false,
+    "query_text": "cryptic message",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0021313682408926615,
+      "top1_minus_top3": 0.0036977755875254315
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/BugGrey.png",
+        "total_score": 0.3168817739970909,
+        "sim_name": 0.3464196736549112,
+        "sim_group": 0.3221124196345353,
+        "sim_super": 0.21933469261519667,
+        "sim_afford": 0.25104742017755033,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/BugLong.png",
+        "total_score": 0.3147504057561982,
+        "sim_name": 0.3421569371731259,
+        "sim_group": 0.3221124196345353,
+        "sim_super": 0.21933469261519667,
+        "sim_afford": 0.25104742017755033,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "terrain/deathFog.png",
+        "total_score": 0.31318399840956546,
+        "sim_name": 0.3656885671454828,
+        "sim_group": 0.30964511604976463,
+        "sim_super": 0.21933469261519667,
+        "sim_afford": 0.15512710760374993,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "decrepit_library": {
+    "restricted_to_characters": false,
+    "query_text": "decrepit_library",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.128035717313993,
+      "top1_minus_top3": 0.15119836716964374
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/library.png",
+        "total_score": 0.39882187355935983,
+        "sim_name": 0.4711864696404673,
+        "sim_group": 0.4711864696404673,
+        "sim_super": 0.04378676022697836,
+        "sim_afford": 0.17494021824288153,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/reflecShield.png",
+        "total_score": 0.27078615624536684,
+        "sim_name": 0.3359314452538287,
+        "sim_group": 0.2453610021701058,
+        "sim_super": 0.11495992469778782,
+        "sim_afford": 0.17716140497641963,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/largeReflecShield.png",
+        "total_score": 0.24762350638971609,
+        "sim_name": 0.28960614554252717,
+        "sim_group": 0.2453610021701058,
+        "sim_super": 0.11495992469778782,
+        "sim_afford": 0.17716140497641963,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Barren landscape": {
+    "restricted_to_characters": true,
+    "query_text": "Barren landscape",
+    "expected_affordances": [
+      "Terrain"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0017686476038735743,
+      "top1_minus_top3": 0.0072046398207514795
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/LivingMoundBrownGreen.png",
+        "total_score": 0.3069455136111044,
+        "sim_name": 0.3373962419835739,
+        "sim_group": 0.37431227186770144,
+        "sim_super": 0.17306342415726594,
+        "sim_afford": 0.08647368643280418,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/LivingMoundGreenBrown.png",
+        "total_score": 0.3051768660072308,
+        "sim_name": 0.3338589467758267,
+        "sim_group": 0.37431227186770144,
+        "sim_super": 0.17306342415726594,
+        "sim_afford": 0.08647368643280418,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/LivingMoundTeal.png",
+        "total_score": 0.2997408737903529,
+        "sim_name": 0.3229869623420709,
+        "sim_group": 0.37431227186770144,
+        "sim_super": 0.17306342415726594,
+        "sim_afford": 0.08647368643280418,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Mutant creatures": {
+    "restricted_to_characters": true,
+    "query_text": "Mutant creatures",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.03363702403091706,
+      "top1_minus_top3": 0.058558933821005854
+    },
+    "candidates": [
+      {
+        "image_path": "player/mutatedSpider.png",
+        "total_score": 0.5011652138386516,
+        "sim_name": 0.569766967440207,
+        "sim_group": 0.4264593472673831,
+        "sim_super": 0.5499570892957049,
+        "sim_afford": 0.33348217008762693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/mutatedRat.png",
+        "total_score": 0.4675281898077346,
+        "sim_name": 0.5430788196887172,
+        "sim_group": 0.35881618008347616,
+        "sim_super": 0.5499570892957049,
+        "sim_afford": 0.33348217008762693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/DinosaurBeastSmallGreen.png",
+        "total_score": 0.4426062800176458,
+        "sim_name": 0.42859733524208643,
+        "sim_group": 0.46654562152756474,
+        "sim_super": 0.5499570892957049,
+        "sim_afford": 0.33348217008762693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "perilous wastelands": {
+    "restricted_to_characters": false,
+    "query_text": "perilous wastelands",
+    "expected_affordances": [
+      "Terrain"
+    ],
+    "candidate_affordances_top1": [
+      "Interactive Object",
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.004085756412375907,
+      "top1_minus_top3": 0.004085756412375907
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/fountain.png",
+        "total_score": 0.36510202076615317,
+        "sim_name": 0.3939909319425081,
+        "sim_group": 0.3939909319425081,
+        "sim_super": 0.3827459997014351,
+        "sim_afford": 0.11634675242003145,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_5_1.png",
+        "total_score": 0.36101626435377726,
+        "sim_name": 0.40617866874208564,
+        "sim_group": 0.3153501100957846,
+        "sim_super": 0.3827459997014351,
+        "sim_afford": 0.2504729698385558,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_5_2.png",
+        "total_score": 0.36101626435377726,
+        "sim_name": 0.40617866874208564,
+        "sim_group": 0.3153501100957846,
+        "sim_super": 0.3827459997014351,
+        "sim_afford": 0.2504729698385558,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Iris journeying through wastelands": {
+    "restricted_to_characters": false,
+    "query_text": "Iris journeying through wastelands",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Interactive Object",
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.037558452804604237,
+      "top1_minus_top3": 0.037558452804604237
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/fountain.png",
+        "total_score": 0.350198547021734,
+        "sim_name": 0.38824661085701107,
+        "sim_group": 0.38824661085701107,
+        "sim_super": 0.29394029477149564,
+        "sim_afford": 0.10207228858975514,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "tiles/Road.png",
+        "total_score": 0.31264009421712974,
+        "sim_name": 0.3165910903059592,
+        "sim_group": 0.3165910903059592,
+        "sim_super": 0.29394029477149564,
+        "sim_afford": 0.2997319249521282,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/road31.png",
+        "total_score": 0.31264009421712974,
+        "sim_name": 0.3165910903059592,
+        "sim_group": 0.3165910903059592,
+        "sim_super": 0.29394029477149564,
+        "sim_afford": 0.2997319249521282,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "wasteland": {
+    "restricted_to_characters": false,
+    "query_text": "wasteland",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/floor11.png",
+        "total_score": 0.3688154070268627,
+        "sim_name": 0.3786252389563005,
+        "sim_group": 0.3786252389563005,
+        "sim_super": 0.3936573850923192,
+        "sim_afford": 0.265494773525904,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor12.png",
+        "total_score": 0.3688154070268627,
+        "sim_name": 0.3786252389563005,
+        "sim_group": 0.3786252389563005,
+        "sim_super": 0.3936573850923192,
+        "sim_afford": 0.265494773525904,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor13.png",
+        "total_score": 0.3688154070268627,
+        "sim_name": 0.3786252389563005,
+        "sim_group": 0.3786252389563005,
+        "sim_super": 0.3936573850923192,
+        "sim_afford": 0.265494773525904,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "humanity": {
+    "restricted_to_characters": false,
+    "query_text": "humanity",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.008977395410541988,
+      "top1_minus_top3": 0.008977395410541988
+    },
+    "candidates": [
+      {
+        "image_path": "player/human.png",
+        "total_score": 0.5969629093226472,
+        "sim_name": 0.6569901028180187,
+        "sim_group": 0.6569901028180187,
+        "sim_super": 0.39173079691995527,
+        "sim_afford": 0.32197747376236596,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/People01.png",
+        "total_score": 0.5879855139121052,
+        "sim_name": 0.6457683585548413,
+        "sim_group": 0.6457683585548413,
+        "sim_super": 0.39173079691995527,
+        "sim_afford": 0.32197747376236596,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/People02.png",
+        "total_score": 0.5879855139121052,
+        "sim_name": 0.6457683585548413,
+        "sim_group": 0.6457683585548413,
+        "sim_super": 0.39173079691995527,
+        "sim_afford": 0.32197747376236596,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Revitalized hope": {
+    "restricted_to_characters": true,
+    "query_text": "Revitalized hope",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.027418757330637977,
+      "top1_minus_top3": 0.04287288491165303
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/mutivider.png",
+        "total_score": 0.2387543923392955,
+        "sim_name": 0.27321970258403294,
+        "sim_group": 0.27321970258403294,
+        "sim_super": 0.0793351080713598,
+        "sim_afford": 0.12245119464933185,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/preteg.png",
+        "total_score": 0.2113356350086575,
+        "sim_name": 0.23894625592073548,
+        "sim_group": 0.23894625592073548,
+        "sim_super": 0.0793351080713598,
+        "sim_afford": 0.12245119464933185,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/cetharg.png",
+        "total_score": 0.19588150742764246,
+        "sim_name": 0.21962859644446664,
+        "sim_group": 0.21962859644446664,
+        "sim_super": 0.0793351080713598,
+        "sim_afford": 0.12245119464933185,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "hidden_oasis": {
+    "restricted_to_characters": false,
+    "query_text": "hidden_oasis",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object",
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.027589288909915022,
+      "top1_minus_top3": 0.027589288909915022
+    },
+    "candidates": [
+      {
+        "image_path": "000_003_complete/combined_5_5.png",
+        "total_score": 0.4129402108559205,
+        "sim_name": 0.42615774760453207,
+        "sim_group": 0.5433132103769353,
+        "sim_super": 0.19003664019441202,
+        "sim_afford": 0.17863709921132664,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roomFloor11.png",
+        "total_score": 0.38535092194600545,
+        "sim_name": 0.43208695217124327,
+        "sim_group": 0.3440757111101045,
+        "sim_super": 0.3072553723515711,
+        "sim_afford": 0.3535919529219539,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roomFloor12.png",
+        "total_score": 0.38535092194600545,
+        "sim_name": 0.43208695217124327,
+        "sim_group": 0.3440757111101045,
+        "sim_super": 0.3072553723515711,
+        "sim_afford": 0.3535919529219539,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "desert": {
+    "restricted_to_characters": false,
+    "query_text": "desert",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "000_003_complete/combined_2_3.png",
+        "total_score": 0.5115124234924016,
+        "sim_name": 0.5460046106622705,
+        "sim_group": 0.5460046106622705,
+        "sim_super": 0.48783186559466163,
+        "sim_afford": 0.2592554840311905,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_2_4.png",
+        "total_score": 0.5115124234924016,
+        "sim_name": 0.5460046106622705,
+        "sim_group": 0.5460046106622705,
+        "sim_super": 0.48783186559466163,
+        "sim_afford": 0.2592554840311905,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_3_3.png",
+        "total_score": 0.5115124234924016,
+        "sim_name": 0.5460046106622705,
+        "sim_group": 0.5460046106622705,
+        "sim_super": 0.48783186559466163,
+        "sim_afford": 0.2592554840311905,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "oasis": {
+    "restricted_to_characters": false,
+    "query_text": "oasis",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.021668494691505613,
+      "top1_minus_top3": 0.04661600109310826
+    },
+    "candidates": [
+      {
+        "image_path": "001_005_complete/combined_10_5.png",
+        "total_score": 0.4144904758507665,
+        "sim_name": 0.46737441517330924,
+        "sim_group": 0.46737441517330924,
+        "sim_super": 0.30753851592831394,
+        "sim_afford": 0.09837092119287738,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_5_5.png",
+        "total_score": 0.39282198115926087,
+        "sim_name": 0.4844003878273395,
+        "sim_group": 0.4336898241238215,
+        "sim_super": 0.1412163287686229,
+        "sim_afford": 0.06393207131582379,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "001_001_complete/combined_7_5.png",
+        "total_score": 0.3678744747576582,
+        "sim_name": 0.3741424129870927,
+        "sim_group": 0.46737441517330924,
+        "sim_super": 0.30753851592831394,
+        "sim_afford": 0.09837092119287738,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Iris uncovers the oasis": {
+    "restricted_to_characters": false,
+    "query_text": "Iris uncovers the oasis",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.012426946962668328,
+      "top1_minus_top3": 0.012426946962668328
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/FloatingEye6Eyed.png",
+        "total_score": 0.3790795548436227,
+        "sim_name": 0.4226107030323982,
+        "sim_group": 0.4271604824440465,
+        "sim_super": 0.18846166866975111,
+        "sim_afford": 0.20779891727234578,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEyeTentacled3Eyes.png",
+        "total_score": 0.3666526078809544,
+        "sim_name": 0.39775680910706157,
+        "sim_group": 0.4271604824440465,
+        "sim_super": 0.18846166866975111,
+        "sim_afford": 0.20779891727234578,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FloatingEyeTentacled4Eyes.png",
+        "total_score": 0.3666526078809544,
+        "sim_name": 0.39775680910706157,
+        "sim_group": 0.4271604824440465,
+        "sim_super": 0.18846166866975111,
+        "sim_afford": 0.20779891727234578,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  }
+}

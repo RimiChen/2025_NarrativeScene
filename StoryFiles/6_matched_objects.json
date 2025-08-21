@@ -1,0 +1,47 @@
+{
+  "Deep ocean floor": [
+    "tiles/floor11.png"
+  ],
+  "underwater": [
+    "tiles/water.png"
+  ],
+  "Captain Redbeard": [
+    "Monsters/hulkster.png"
+  ],
+  "The Sea Serpent": [
+    "Monsters/Serpent.png"
+  ],
+  "mysterious artifact": [
+    "000_001_complete/combined_5_1.png"
+  ],
+  "ocean surface": [
+    "Monsters/landShark.png"
+  ],
+  "Captain Redbeard discovers the mysterious artifact": [
+    "Monsters/CentipedeRedTentacles.png"
+  ],
+  "Sea monsters": [
+    "Monsters/landShark.png"
+  ],
+  "Captain Redbeard fights sea monsters": [
+    "Monsters/JellyfishRed.png"
+  ],
+  "ship deck": [
+    "000_001_complete/combined_6_3.png"
+  ],
+  "Mysterious artifact": [
+    "Monsters/PhantomSkull.png"
+  ],
+  "ancient prophecy": [
+    "player/priest.png"
+  ],
+  "Captain Redbeard unlocks the artifact's power": [
+    "Items/poweredReflecArmor.png"
+  ],
+  "prophecy's light": [
+    "001_004_complete/combined_1_5.png"
+  ],
+  "Ocean": [
+    "Monsters/landShark.png"
+  ]
+}

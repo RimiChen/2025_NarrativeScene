@@ -1,0 +1,27 @@
+{
+  "story_id": "9",
+  "num_objects_total": 16,
+  "num_objects_with_afford_pred": 13,
+  "n_intersection_fuzzy": 10,
+  "afford_expect_known_intersect": 10,
+  "afford_expect_match_intersect": 5,
+  "afford_expect_match_rate_intersect": 0.5,
+  "mean_top1_total_intersect": 0.4150664077411084,
+  "mean_margin_top1_top2_intersect": 0.016964985080468186,
+  "mean_margin_top1_top3_intersect": 0.036998577926697286,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 0.9,
+  "only_in_matched_after_fuzzy_sample": [
+    "Dr. Alexander confronts the Guardian of the Tomb",
+    "Dr. Alexander navigates through treacherous traps",
+    "Mystical artifact",
+    "desert",
+    "ruins",
+    "stone"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "ancient tomb",
+    "eerie whispers",
+    "forgotten city"
+  ]
+}

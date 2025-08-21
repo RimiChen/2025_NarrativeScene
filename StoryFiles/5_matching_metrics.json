@@ -1,0 +1,22 @@
+{
+  "story_id": "5",
+  "num_objects": 12,
+  "top_k": 3,
+  "high_conf_threshold": 0.7,
+  "conf_thresh_for_review": 0.5,
+  "review_margin_thresh": 0.05,
+  "mean_top1_total": 0.4519161503703996,
+  "mean_top1_sim_name": 0.5202342660537643,
+  "mean_top1_sim_group": 0.5013373736542294,
+  "mean_top1_sim_super": 0.1812461156798364,
+  "mean_top1_sim_afford": 0.23273193679265025,
+  "mean_margin_top1_top2": 0.03322185820402404,
+  "mean_margin_top1_top3": 0.04358068332528272,
+  "pct_high_conf_at_1": 0.08333333333333333,
+  "result_diversity": 0.75,
+  "needs_review_count": 11,
+  "pct_needs_review": 0.9166666666666666,
+  "afford_expect_known": 6,
+  "afford_expect_match": 4,
+  "afford_expect_match_rate": 0.6666666666666666
+}

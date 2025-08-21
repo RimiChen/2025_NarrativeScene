@@ -1,0 +1,53 @@
+{
+  "ancient amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "Sun": [
+    "beings/Nightdwarf.png"
+  ],
+  "unearthed amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "sahara desert": [
+    "Items/cape.png"
+  ],
+  "Cross discovers the amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "Cross": [
+    "Monsters/guardianSword.png"
+  ],
+  "cross": [
+    "Items/ShieldCrossed.png"
+  ],
+  "Cross navigates the perilous journey": [
+    "tiles/Road.png"
+  ],
+  "Tomb raiders": [
+    "Monsters/mummy.png"
+  ],
+  "desert": [
+    "000_003_complete/combined_2_3.png"
+  ],
+  "cryptic hieroglyphs": [
+    "Items/GlyphYellow.png"
+  ],
+  "Cross escapes the pyramid trap": [
+    "Items/ShieldCrossed.png"
+  ],
+  "pyramid trap": [
+    "Monsters/killerTree.png"
+  ],
+  "Pyramid": [
+    "Monsters/mummy.png"
+  ],
+  "deadly trap": [
+    "Monsters/killerCorpse.png"
+  ],
+  "stone": [
+    "001_005_complete/combined_0_12.png"
+  ],
+  "fabled treasure": [
+    "Monsters/ghost.png"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ancient_pyramid": [
+    "terrain/sphinx.png"
+  ],
+  "Amelia": [
+    "Monsters/medusa.png"
+  ],
+  "sand": [
+    "Monsters/Rocks.png"
+  ],
+  "Sahara sunlight": [
+    "beings/Nightdwarf.png"
+  ],
+  "Pyramid lock": [
+    "Monsters/skeleton.png"
+  ],
+  "Amelia discovers the golden amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "hidden_pyramid": [
+    "000_001_complete/combined_4_0.png"
+  ],
+  "golden amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "Amulet": [
+    "Monsters/DragonAncientGold.png"
+  ],
+  "buried amulet": [
+    "Monsters/grave.png"
+  ],
+  "Venomous creature": [
+    "Monsters/poisonousSnake.png"
+  ],
+  "sand dunes": [
+    "000_003_complete/combined_5_5.png"
+  ],
+  "amulet's glow": [
+    "Items/magicNecklace.png"
+  ],
+  "Amelia navigates the treacherous dunes": [
+    "000_003_complete/combined_5_5.png"
+  ],
+  "civilization's secrets": [
+    "Monsters/Serpent.png"
+  ],
+  "Amelia unlocks the secrets of the hidden pyramid": [
+    "Monsters/MummyTeal.png"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "story_id": "4",
+  "num_objects_total": 16,
+  "num_objects_with_afford_pred": 13,
+  "n_intersection_fuzzy": 11,
+  "afford_expect_known_intersect": 11,
+  "afford_expect_match_intersect": 4,
+  "afford_expect_match_rate_intersect": 0.36363636363636365,
+  "mean_top1_total_intersect": 0.41491772815237854,
+  "mean_margin_top1_top2_intersect": 0.03573060110428951,
+  "mean_margin_top1_top3_intersect": 0.04087357076290411,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 1.0,
+  "only_in_matched_after_fuzzy_sample": [
+    "Alex deciphers the secret code",
+    "Alex discovers the encrypted note",
+    "Secret society",
+    "indoor",
+    "urban"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "Moonlight",
+    "abandoned warehouse"
+  ]
+}

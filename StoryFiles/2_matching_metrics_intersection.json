@@ -1,0 +1,23 @@
+{
+  "story_id": "2",
+  "num_objects_total": 21,
+  "num_objects_with_afford_pred": 15,
+  "n_intersection_fuzzy": 15,
+  "afford_expect_known_intersect": 15,
+  "afford_expect_match_intersect": 5,
+  "afford_expect_match_rate_intersect": 0.3333333333333333,
+  "mean_top1_total_intersect": 0.39614755689557085,
+  "mean_margin_top1_top2_intersect": 0.02376587649600811,
+  "mean_margin_top1_top3_intersect": 0.0362195370486089,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 0.8666666666666667,
+  "only_in_matched_after_fuzzy_sample": [
+    "Kenji",
+    "Kenji deciphers the encrypted files",
+    "Kenji uncovers a corporate conspiracy",
+    "indoor",
+    "office",
+    "urban"
+  ],
+  "only_in_afford_after_fuzzy_sample": []
+}

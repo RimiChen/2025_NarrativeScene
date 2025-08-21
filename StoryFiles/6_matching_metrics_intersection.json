@@ -1,0 +1,25 @@
+{
+  "story_id": "6",
+  "num_objects_total": 15,
+  "num_objects_with_afford_pred": 14,
+  "n_intersection_fuzzy": 11,
+  "afford_expect_known_intersect": 11,
+  "afford_expect_match_intersect": 5,
+  "afford_expect_match_rate_intersect": 0.45454545454545453,
+  "mean_top1_total_intersect": 0.42756412970506463,
+  "mean_margin_top1_top2_intersect": 0.028567535281962663,
+  "mean_margin_top1_top3_intersect": 0.03344258118416032,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 0.8181818181818182,
+  "only_in_matched_after_fuzzy_sample": [
+    "Captain Redbeard unlocks the artifact's power",
+    "Mysterious artifact",
+    "ship deck",
+    "underwater"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "Captain Redbeard's hand",
+    "Ocean",
+    "projected prophecy"
+  ]
+}

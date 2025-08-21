@@ -1,0 +1,1108 @@
+{
+  "Deep ocean floor": {
+    "restricted_to_characters": false,
+    "query_text": "Deep ocean floor",
+    "expected_affordances": [
+      "Terrain"
+    ],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/floor11.png",
+        "total_score": 0.5255385230402533,
+        "sim_name": 0.5621190039450514,
+        "sim_group": 0.5621190039450514,
+        "sim_super": 0.3480857174113814,
+        "sim_afford": 0.4103474814307394,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor12.png",
+        "total_score": 0.5255385230402533,
+        "sim_name": 0.5621190039450514,
+        "sim_group": 0.5621190039450514,
+        "sim_super": 0.3480857174113814,
+        "sim_afford": 0.4103474814307394,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor13.png",
+        "total_score": 0.5255385230402533,
+        "sim_name": 0.5621190039450514,
+        "sim_group": 0.5621190039450514,
+        "sim_super": 0.3480857174113814,
+        "sim_afford": 0.4103474814307394,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "underwater": {
+    "restricted_to_characters": false,
+    "query_text": "underwater",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.05262426692544353,
+      "top1_minus_top3": 0.06812918559260461
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/water.png",
+        "total_score": 0.6107804426282191,
+        "sim_name": 0.6687199847415756,
+        "sim_group": 0.6687199847415756,
+        "sim_super": 0.3790222741747924,
+        "sim_afford": 0.3790222741747924,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/waterNE.png",
+        "total_score": 0.5581561757027755,
+        "sim_name": 0.5634714508906886,
+        "sim_group": 0.6687199847415756,
+        "sim_super": 0.3790222741747924,
+        "sim_afford": 0.3790222741747924,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/waterNW.png",
+        "total_score": 0.5426512570356145,
+        "sim_name": 0.5324616135563666,
+        "sim_group": 0.6687199847415756,
+        "sim_super": 0.3790222741747924,
+        "sim_afford": 0.3790222741747924,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "Captain Redbeard": {
+    "restricted_to_characters": true,
+    "query_text": "Captain Redbeard",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0009419378794362498,
+      "top1_minus_top3": 0.028612464162738882
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/hulkster.png",
+        "total_score": 0.39148778251877225,
+        "sim_name": 0.41609378882145776,
+        "sim_group": 0.41609378882145776,
+        "sim_super": 0.31809400259103104,
+        "sim_afford": 0.26803351202502945,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/sentryborg.png",
+        "total_score": 0.390545844639336,
+        "sim_name": 0.41491636647216246,
+        "sim_group": 0.41491636647216246,
+        "sim_super": 0.31809400259103104,
+        "sim_afford": 0.26803351202502945,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/BatRedTail.png",
+        "total_score": 0.36287531835603337,
+        "sim_name": 0.3890259935743072,
+        "sim_group": 0.36583190035757907,
+        "sim_super": 0.31809400259103104,
+        "sim_afford": 0.26803351202502945,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "The Sea Serpent": {
+    "restricted_to_characters": false,
+    "query_text": "The Sea Serpent",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.13782185460503316,
+      "top1_minus_top3": 0.15389075513447925
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/Serpent.png",
+        "total_score": 0.6732186208715184,
+        "sim_name": 0.744171071224762,
+        "sim_group": 0.744171071224762,
+        "sim_super": 0.5049195026867676,
+        "sim_afford": 0.27389813623032067,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/poisonousSnake.png",
+        "total_score": 0.5353967662664852,
+        "sim_name": 0.5268310937643512,
+        "sim_group": 0.6469981849753359,
+        "sim_super": 0.5049195026867676,
+        "sim_afford": 0.27389813623032067,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/SnakeRed2Headed.png",
+        "total_score": 0.5193278657370392,
+        "sim_name": 0.49469329270545903,
+        "sim_group": 0.6469981849753359,
+        "sim_super": 0.5049195026867676,
+        "sim_afford": 0.27389813623032067,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "mysterious artifact": {
+    "restricted_to_characters": false,
+    "query_text": "mysterious artifact",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "000_001_complete/combined_5_1.png",
+        "total_score": 0.33524663252304154,
+        "sim_name": 0.41155271791003434,
+        "sim_group": 0.258185173055161,
+        "sim_super": 0.21298958901029696,
+        "sim_afford": 0.30715762750446407,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_5_2.png",
+        "total_score": 0.33524663252304154,
+        "sim_name": 0.41155271791003434,
+        "sim_group": 0.258185173055161,
+        "sim_super": 0.21298958901029696,
+        "sim_afford": 0.30715762750446407,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_0_3.png",
+        "total_score": 0.33524663252304154,
+        "sim_name": 0.41155271791003434,
+        "sim_group": 0.258185173055161,
+        "sim_super": 0.21298958901029696,
+        "sim_afford": 0.30715762750446407,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "ocean surface": {
+    "restricted_to_characters": false,
+    "query_text": "ocean surface",
+    "expected_affordances": [
+      "Terrain"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.025880518224448756,
+      "top1_minus_top3": 0.025891986849728543
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/landShark.png",
+        "total_score": 0.40333440129052167,
+        "sim_name": 0.48442275155964265,
+        "sim_group": 0.4028031095002169,
+        "sim_super": 0.25272170658741433,
+        "sim_afford": 0.15009922001893838,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "001_001_complete/combined_0_7.png",
+        "total_score": 0.3774538830660729,
+        "sim_name": 0.4079821267219681,
+        "sim_group": 0.4028340658588758,
+        "sim_super": 0.13943202432829316,
+        "sim_afford": 0.3866939751459678,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object",
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/waterNW.png",
+        "total_score": 0.37744241444079313,
+        "sim_name": 0.40201833142159693,
+        "sim_group": 0.32444678961480333,
+        "sim_super": 0.39549605922776854,
+        "sim_afford": 0.39549605922776854,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "Captain Redbeard discovers the mysterious artifact": {
+    "restricted_to_characters": false,
+    "query_text": "Captain Redbeard discovers the mysterious artifact",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.001390695411116416,
+      "top1_minus_top3": 0.0025751294513302603
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/CentipedeRedTentacles.png",
+        "total_score": 0.25982201956800915,
+        "sim_name": 0.3470897220556539,
+        "sim_group": 0.16961920756037974,
+        "sim_super": 0.24197441563520106,
+        "sim_afford": 0.1119395470854817,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/GhostRed.png",
+        "total_score": 0.25843132415689274,
+        "sim_name": 0.3115403986065024,
+        "sim_group": 0.22423242860524428,
+        "sim_super": 0.24197441563520106,
+        "sim_afford": 0.1119395470854817,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/Ghost2GreyRed.png",
+        "total_score": 0.2572468901166789,
+        "sim_name": 0.3091715305260747,
+        "sim_group": 0.22423242860524428,
+        "sim_super": 0.24197441563520106,
+        "sim_afford": 0.1119395470854817,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Sea monsters": {
+    "restricted_to_characters": true,
+    "query_text": "Sea monsters",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.011980727039484551,
+      "top1_minus_top3": 0.012822062767262665
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/landShark.png",
+        "total_score": 0.5015388754215024,
+        "sim_name": 0.48876728192032226,
+        "sim_group": 0.5704539079742851,
+        "sim_super": 0.5149321885448963,
+        "sim_afford": 0.3452584321456612,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/JellyfishTeal.png",
+        "total_score": 0.4895581483820179,
+        "sim_name": 0.46630094266153144,
+        "sim_group": 0.5679620499406547,
+        "sim_super": 0.5149321885448963,
+        "sim_afford": 0.3452584321456612,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/JellyfishOrange.png",
+        "total_score": 0.4887168126542398,
+        "sim_name": 0.4646182712059752,
+        "sim_group": 0.5679620499406547,
+        "sim_super": 0.5149321885448963,
+        "sim_afford": 0.3452584321456612,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Captain Redbeard fights sea monsters": {
+    "restricted_to_characters": false,
+    "query_text": "Captain Redbeard fights sea monsters",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.03437118129809791,
+      "top1_minus_top3": 0.037345569969978065
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/JellyfishRed.png",
+        "total_score": 0.3541270394355421,
+        "sim_name": 0.386948653912946,
+        "sim_group": 0.3620932755272146,
+        "sim_super": 0.3274431240809754,
+        "sim_afford": 0.19280417412807183,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/JellyfishTeal.png",
+        "total_score": 0.31975585813744417,
+        "sim_name": 0.31820629131675016,
+        "sim_group": 0.3620932755272146,
+        "sim_super": 0.3274431240809754,
+        "sim_afford": 0.19280417412807183,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/DinosaurBeastGiantRed.png",
+        "total_score": 0.316781469465564,
+        "sim_name": 0.40381611435055276,
+        "sim_group": 0.20949560823127644,
+        "sim_super": 0.3274431240809754,
+        "sim_afford": 0.19280417412807183,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "ship deck": {
+    "restricted_to_characters": false,
+    "query_text": "ship deck",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.005236936384201141,
+      "top1_minus_top3": 0.006238772943080506
+    },
+    "candidates": [
+      {
+        "image_path": "000_001_complete/combined_6_3.png",
+        "total_score": 0.32055102436048116,
+        "sim_name": 0.35803504075162973,
+        "sim_group": 0.35803504075162973,
+        "sim_super": 0.1931382212808498,
+        "sim_afford": 0.148091696310924,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_11_25.png",
+        "total_score": 0.31531408797628,
+        "sim_name": 0.3592873364502289,
+        "sim_group": 0.3592873364502289,
+        "sim_super": 0.1931382212808498,
+        "sim_afford": 0.08570396688011883,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_5_3.png",
+        "total_score": 0.31431225141740066,
+        "sim_name": 0.35803504075162973,
+        "sim_group": 0.35803504075162973,
+        "sim_super": 0.1931382212808498,
+        "sim_afford": 0.08570396688011883,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Mysterious artifact": {
+    "restricted_to_characters": true,
+    "query_text": "Mysterious artifact",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.01147146340588262,
+      "top1_minus_top3": 0.013269145520931003
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/PhantomSkull.png",
+        "total_score": 0.3055938182547177,
+        "sim_name": 0.32742671607683904,
+        "sim_group": 0.33549510655090065,
+        "sim_super": 0.27693485411157637,
+        "sim_afford": 0.13538442839870368,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/PhantomHand.png",
+        "total_score": 0.2941223548488351,
+        "sim_name": 0.3044837892650738,
+        "sim_group": 0.33549510655090065,
+        "sim_super": 0.27693485411157637,
+        "sim_afford": 0.13538442839870368,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/PhantomEye.png",
+        "total_score": 0.2923246727337867,
+        "sim_name": 0.30088842503497704,
+        "sim_group": 0.33549510655090065,
+        "sim_super": 0.27693485411157637,
+        "sim_afford": 0.13538442839870368,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "ancient prophecy": {
+    "restricted_to_characters": false,
+    "query_text": "ancient prophecy",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.010344738310504309,
+      "top1_minus_top3": 0.015219189356777851
+    },
+    "candidates": [
+      {
+        "image_path": "player/priest.png",
+        "total_score": 0.3195709891418409,
+        "sim_name": 0.3561259519321186,
+        "sim_group": 0.3561259519321186,
+        "sim_super": 0.1316022469209679,
+        "sim_afford": 0.2151000290404923,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "terrain/throne.png",
+        "total_score": 0.3092262508313366,
+        "sim_name": 0.3563925443113424,
+        "sim_group": 0.3563925443113424,
+        "sim_super": 0.14705443709042632,
+        "sim_afford": 0.09406771673220093,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Monsters/BarbarianPriest.png",
+        "total_score": 0.30435179978506305,
+        "sim_name": 0.3256875732185629,
+        "sim_group": 0.3561259519321186,
+        "sim_super": 0.1316022469209679,
+        "sim_afford": 0.2151000290404923,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Captain Redbeard unlocks the artifact's power": {
+    "restricted_to_characters": false,
+    "query_text": "Captain Redbeard unlocks the artifact's power",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.012494531324122593,
+      "top1_minus_top3": 0.012654665772209056
+    },
+    "candidates": [
+      {
+        "image_path": "Items/poweredReflecArmor.png",
+        "total_score": 0.25781959468793536,
+        "sim_name": 0.3310011694008719,
+        "sim_group": 0.2199406864138378,
+        "sim_super": 0.10034018933595878,
+        "sim_afford": 0.16302785129752206,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/ShieldCrossRed.png",
+        "total_score": 0.24532506336381277,
+        "sim_name": 0.2917155670036893,
+        "sim_group": 0.21298503294609739,
+        "sim_super": 0.21298503294609739,
+        "sim_afford": 0.14273266683529173,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "Items/Trident.png",
+        "total_score": 0.2451649289157263,
+        "sim_name": 0.25248472085895646,
+        "sim_group": 0.25248472085895646,
+        "sim_super": 0.2687436709880895,
+        "sim_afford": 0.16302785129752206,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "prophecy's light": {
+    "restricted_to_characters": false,
+    "query_text": "prophecy's light",
+    "expected_affordances": [
+      "Effect / Ambient / Unknown"
+    ],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0043955732329691855,
+      "top1_minus_top3": 0.0043955732329691855
+    },
+    "candidates": [
+      {
+        "image_path": "001_004_complete/combined_1_5.png",
+        "total_score": 0.4367491010130774,
+        "sim_name": 0.4986311849257644,
+        "sim_group": 0.4986311849257644,
+        "sim_super": 0.2571680847914264,
+        "sim_afford": 0.12127344593323242,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_11_3.png",
+        "total_score": 0.4323535277801082,
+        "sim_name": 0.4986311849257644,
+        "sim_group": 0.4986311849257644,
+        "sim_super": 0.2571680847914264,
+        "sim_afford": 0.07731771360354067,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_12_3.png",
+        "total_score": 0.4323535277801082,
+        "sim_name": 0.4986311849257644,
+        "sim_group": 0.4986311849257644,
+        "sim_super": 0.2571680847914264,
+        "sim_afford": 0.07731771360354067,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Ocean": {
+    "restricted_to_characters": true,
+    "query_text": "Ocean",
+    "expected_affordances": [
+      "Terrain"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.08711566210049876,
+      "top1_minus_top3": 0.08711566210049876
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/landShark.png",
+        "total_score": 0.5025714419316321,
+        "sim_name": 0.5344694203356402,
+        "sim_group": 0.5527568970395798,
+        "sim_super": 0.4251309022751706,
+        "sim_afford": 0.2699657242442104,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/JellyfishOrange.png",
+        "total_score": 0.4154557798311333,
+        "sim_name": 0.40273306189365377,
+        "sim_group": 0.48193195410789436,
+        "sim_super": 0.4251309022751706,
+        "sim_afford": 0.2699657242442104,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/JellyfishOrange2.png",
+        "total_score": 0.4154557798311333,
+        "sim_name": 0.40273306189365377,
+        "sim_group": 0.48193195410789436,
+        "sim_super": 0.4251309022751706,
+        "sim_afford": 0.2699657242442104,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  }
+}

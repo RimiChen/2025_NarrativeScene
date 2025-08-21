@@ -1,0 +1,38 @@
+{
+  "emerald amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "cobblestone street": [
+    "tiles/Road.png"
+  ],
+  "Jax discovers the emerald amulet": [
+    "Items/NecklaceSilverJewelOrange.png"
+  ],
+  "Loose cobblestone": [
+    "Monsters/moldySkeleton.png"
+  ],
+  "streetlights": [
+    "001_004_complete/combined_1_5.png"
+  ],
+  "Jax": [
+    "Monsters/Xorn4Armed.png"
+  ],
+  "Emerald amulet": [
+    "Monsters/DragonAncientSilver.png"
+  ],
+  "Jax unlocks the power of the amulet": [
+    "Items/magicNecklace.png"
+  ],
+  "ancient ruins": [
+    "001_001_complete/combined_8_0.png"
+  ],
+  "Jax battles the sinister sorcerer": [
+    "player/sorcerer.png"
+  ],
+  "Sinister sorcerer": [
+    "player/sorcerer.png"
+  ],
+  "urban": [
+    "tiles/Road.png"
+  ]
+}

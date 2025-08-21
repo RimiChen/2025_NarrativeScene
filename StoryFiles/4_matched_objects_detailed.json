@@ -1,0 +1,1184 @@
+{
+  "public library": {
+    "restricted_to_characters": false,
+    "query_text": "public library",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": false,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": false,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.30822661049862804,
+      "top1_minus_top3": 0.30822661049862804
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/library.png",
+        "total_score": 0.6952487929696894,
+        "sim_name": 0.8242484444763641,
+        "sim_group": 0.8242484444763641,
+        "sim_super": 0.17654673662251197,
+        "sim_afford": 0.18195363726346958,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_16_0.png",
+        "total_score": 0.3870221824710614,
+        "sim_name": 0.4597950389186817,
+        "sim_group": 0.4153965200958931,
+        "sim_super": 0.17654673662251197,
+        "sim_afford": 0.14851033320701434,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_17_0.png",
+        "total_score": 0.3870221824710614,
+        "sim_name": 0.4597950389186817,
+        "sim_group": 0.4153965200958931,
+        "sim_super": 0.17654673662251197,
+        "sim_afford": 0.14851033320701434,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "encrypted note": {
+    "restricted_to_characters": false,
+    "query_text": "encrypted note",
+    "expected_affordances": [
+      "Items and Collectibles"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.03071996851094161,
+      "top1_minus_top3": 0.0342767510096994
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.25471452842968334,
+        "sim_name": 0.2981852902529336,
+        "sim_group": 0.2981852902529336,
+        "sim_super": 0.03461212255363322,
+        "sim_afford": 0.12705083971973108,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Items/KeyTap.png",
+        "total_score": 0.22399455991874173,
+        "sim_name": 0.29314192741659895,
+        "sim_group": 0.21833926717046204,
+        "sim_super": 0.10078399942565963,
+        "sim_afford": 0.01843416116737684,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object"
+        ]
+      },
+      {
+        "image_path": "Items/KeyBone.png",
+        "total_score": 0.22043777741998394,
+        "sim_name": 0.28602836241908336,
+        "sim_group": 0.21833926717046204,
+        "sim_super": 0.10078399942565963,
+        "sim_afford": 0.01843416116737684,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object"
+        ]
+      }
+    ]
+  },
+  "bookshelf": {
+    "restricted_to_characters": false,
+    "query_text": "bookshelf",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles",
+      "Interactive Object",
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.021168051880195216,
+      "top1_minus_top3": 0.021168051880195216
+    },
+    "candidates": [
+      {
+        "image_path": "001_004_complete/combined_15_0.png",
+        "total_score": 0.4951175291964474,
+        "sim_name": 0.559617291788886,
+        "sim_group": 0.559617291788886,
+        "sim_super": 0.29026799329531694,
+        "sim_afford": 0.1839689643580693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_16_0.png",
+        "total_score": 0.4739494773162522,
+        "sim_name": 0.5172811880284957,
+        "sim_group": 0.559617291788886,
+        "sim_super": 0.29026799329531694,
+        "sim_afford": 0.1839689643580693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_17_0.png",
+        "total_score": 0.4739494773162522,
+        "sim_name": 0.5172811880284957,
+        "sim_group": 0.559617291788886,
+        "sim_super": 0.29026799329531694,
+        "sim_afford": 0.1839689643580693,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Old Book": {
+    "restricted_to_characters": true,
+    "query_text": "Old Book",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.005862920465040999,
+      "top1_minus_top3": 0.011633287964057049
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/mummy.png",
+        "total_score": 0.32272572164450125,
+        "sim_name": 0.3270640498702848,
+        "sim_group": 0.3270640498702848,
+        "sim_super": 0.29932934600360506,
+        "sim_afford": 0.31141547147912907,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/ghost.png",
+        "total_score": 0.31686280117946025,
+        "sim_name": 0.31973539928898354,
+        "sim_group": 0.31973539928898354,
+        "sim_super": 0.29932934600360506,
+        "sim_afford": 0.31141547147912907,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.3110924336804442,
+        "sim_name": 0.335514894286127,
+        "sim_group": 0.335514894286127,
+        "sim_super": 0.11538971103629647,
+        "sim_afford": 0.31141547147912907,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Alex": {
+    "restricted_to_characters": true,
+    "query_text": "Alex",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.004677875876777038,
+      "top1_minus_top3": 0.02330354952359981
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/Smithy01.png",
+        "total_score": 0.41086564053997204,
+        "sim_name": 0.44940368951202325,
+        "sim_group": 0.44940368951202325,
+        "sim_super": 0.16446361064565496,
+        "sim_afford": 0.34896327865788,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/AngelBrown.png",
+        "total_score": 0.406187764663195,
+        "sim_name": 0.41510350699242315,
+        "sim_group": 0.45816199898339016,
+        "sim_super": 0.26291083606178356,
+        "sim_afford": 0.34896327865788,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/wizard.png",
+        "total_score": 0.38756209101637223,
+        "sim_name": 0.4079683494305073,
+        "sim_group": 0.4079683494305073,
+        "sim_super": 0.26291083606178356,
+        "sim_afford": 0.34896327865788,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Alex discovers the encrypted note": {
+    "restricted_to_characters": false,
+    "query_text": "Alex discovers the encrypted note",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.037866890099037764,
+      "top1_minus_top3": 0.037866890099037764
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.3134489207114143,
+        "sim_name": 0.353403790713555,
+        "sim_group": 0.353403790713555,
+        "sim_super": 0.11000232303044133,
+        "sim_afford": 0.19725655837526157,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FemaleThief01.png",
+        "total_score": 0.2755820306123765,
+        "sim_name": 0.27767001051547946,
+        "sim_group": 0.353403790713555,
+        "sim_super": 0.11000232303044133,
+        "sim_afford": 0.19725655837526157,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/FemaleThief02.png",
+        "total_score": 0.2755820306123765,
+        "sim_name": 0.27767001051547946,
+        "sim_group": 0.353403790713555,
+        "sim_super": 0.11000232303044133,
+        "sim_afford": 0.19725655837526157,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "desk": {
+    "restricted_to_characters": false,
+    "query_text": "desk",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.015676723830263584,
+      "top1_minus_top3": 0.015676723830263584
+    },
+    "candidates": [
+      {
+        "image_path": "terrain/table.png",
+        "total_score": 0.47188330837960624,
+        "sim_name": 0.5062128160813313,
+        "sim_group": 0.5062128160813313,
+        "sim_super": 0.43716651131105033,
+        "sim_afford": 0.23196404383436176,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_003_complete/combined_10_1.png",
+        "total_score": 0.45620658454934265,
+        "sim_name": 0.5062128160813313,
+        "sim_group": 0.5062128160813313,
+        "sim_super": 0.2803992730084145,
+        "sim_afford": 0.23196404383436176,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_003_complete/combined_13_1.png",
+        "total_score": 0.45620658454934265,
+        "sim_name": 0.5062128160813313,
+        "sim_group": 0.5062128160813313,
+        "sim_super": 0.2803992730084145,
+        "sim_afford": 0.23196404383436176,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "Alex deciphers the secret code": {
+    "restricted_to_characters": false,
+    "query_text": "Alex deciphers the secret code",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.04166230024690781,
+      "top1_minus_top3": 0.04166230024690781
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.34024311633724835,
+        "sim_name": 0.37233451549560814,
+        "sim_group": 0.37233451549560814,
+        "sim_super": 0.12844841470221013,
+        "sim_afford": 0.29530662470540836,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "tiles/openSecretDoor11.png",
+        "total_score": 0.29858081609034054,
+        "sim_name": 0.4475086327306179,
+        "sim_group": 0.2051778543230205,
+        "sim_super": 0.11260554078930651,
+        "sim_afford": 0.020125893491947267,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "tiles/openSecretDoor12.png",
+        "total_score": 0.29858081609034054,
+        "sim_name": 0.4475086327306179,
+        "sim_group": 0.2051778543230205,
+        "sim_super": 0.11260554078930651,
+        "sim_afford": 0.020125893491947267,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "indoor": {
+    "restricted_to_characters": false,
+    "query_text": "indoor",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0031985326530390434,
+      "top1_minus_top3": 0.009189146874787113
+    },
+    "candidates": [
+      {
+        "image_path": "001_005_complete/combined_11_0.png",
+        "total_score": 0.5325124503430136,
+        "sim_name": 0.5547939177264916,
+        "sim_group": 0.5547939177264916,
+        "sim_super": 0.4904975617031022,
+        "sim_afford": 0.39627559991510175,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_13_5.png",
+        "total_score": 0.5293139176899746,
+        "sim_name": 0.5547939177264916,
+        "sim_group": 0.5547939177264916,
+        "sim_super": 0.4904975617031022,
+        "sim_afford": 0.364290273384712,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_005_complete/combined_15_20.png",
+        "total_score": 0.5233233034682265,
+        "sim_name": 0.5473056499493063,
+        "sim_group": 0.5473056499493063,
+        "sim_super": 0.4904975617031022,
+        "sim_afford": 0.364290273384712,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Interactive Object",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "alex's_desk": {
+    "restricted_to_characters": false,
+    "query_text": "alex's_desk",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.005721681244802657,
+      "top1_minus_top3": 0.011227155281411771
+    },
+    "candidates": [
+      {
+        "image_path": "Items/StaffRedStriped.png",
+        "total_score": 0.3833710400629985,
+        "sim_name": 0.43809002107882056,
+        "sim_group": 0.41435740594780757,
+        "sim_super": 0.256812589076157,
+        "sim_afford": 0.14337548831630242,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/StaffGold.png",
+        "total_score": 0.37764935881819583,
+        "sim_name": 0.42664665858921524,
+        "sim_group": 0.41435740594780757,
+        "sim_super": 0.256812589076157,
+        "sim_afford": 0.14337548831630242,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "Items/StaffSilver.png",
+        "total_score": 0.3721438847815867,
+        "sim_name": 0.415635710515997,
+        "sim_group": 0.41435740594780757,
+        "sim_super": 0.256812589076157,
+        "sim_afford": 0.14337548831630242,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      }
+    ]
+  },
+  "scattered papers": {
+    "restricted_to_characters": false,
+    "query_text": "scattered papers",
+    "expected_affordances": [
+      "Interactive Object"
+    ],
+    "candidate_affordances_top1": [
+      "Environmental Object"
+    ],
+    "affordance_match_top1": false,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": true
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "000_001_complete/combined_5_1.png",
+        "total_score": 0.3294158970662698,
+        "sim_name": 0.4832265096700491,
+        "sim_group": 0.18116257472085673,
+        "sim_super": 0.14104382618046696,
+        "sim_afford": 0.19349487196941495,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_001_complete/combined_5_2.png",
+        "total_score": 0.3294158970662698,
+        "sim_name": 0.4832265096700491,
+        "sim_group": 0.18116257472085673,
+        "sim_super": 0.14104382618046696,
+        "sim_afford": 0.19349487196941495,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "000_003_complete/combined_0_3.png",
+        "total_score": 0.3294158970662698,
+        "sim_name": 0.4832265096700491,
+        "sim_group": 0.18116257472085673,
+        "sim_super": 0.14104382618046696,
+        "sim_afford": 0.19349487196941495,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "urban": {
+    "restricted_to_characters": false,
+    "query_text": "urban",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.05817252607525092
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/Road.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/road31.png",
+        "total_score": 0.5330978729736806,
+        "sim_name": 0.5668255520130627,
+        "sim_group": 0.5668255520130627,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/floor11.png",
+        "total_score": 0.4749253468984297,
+        "sim_name": 0.4941098944189991,
+        "sim_group": 0.4941098944189991,
+        "sim_super": 0.41971011102217015,
+        "sim_afford": 0.376664202610134,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  },
+  "Alex confronts the secret society": {
+    "restricted_to_characters": false,
+    "query_text": "Alex confronts the secret society",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.000308309763972614,
+      "top1_minus_top3": 0.023422678327527535
+    },
+    "candidates": [
+      {
+        "image_path": "Monsters/assassin.png",
+        "total_score": 0.296605860287928,
+        "sim_name": 0.32900762482828316,
+        "sim_group": 0.32900762482828316,
+        "sim_super": 0.08946901230530713,
+        "sim_afford": 0.2445285919477077,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.2962975505239554,
+        "sim_name": 0.32862223762331744,
+        "sim_group": 0.32862223762331744,
+        "sim_super": 0.08946901230530713,
+        "sim_afford": 0.2445285919477077,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "player/alchemist.png",
+        "total_score": 0.2731831819604005,
+        "sim_name": 0.29972927691887374,
+        "sim_group": 0.29972927691887374,
+        "sim_super": 0.08946901230530713,
+        "sim_afford": 0.2445285919477077,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "Secret society": {
+    "restricted_to_characters": true,
+    "query_text": "Secret society",
+    "expected_affordances": [
+      "Characters"
+    ],
+    "candidate_affordances_top1": [
+      "Characters"
+    ],
+    "affordance_match_top1": true,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.015303638480579473,
+      "top1_minus_top3": 0.037689700300131024
+    },
+    "candidates": [
+      {
+        "image_path": "player/thief.png",
+        "total_score": 0.3600975609791964,
+        "sim_name": 0.4046554243354731,
+        "sim_group": 0.4046554243354731,
+        "sim_super": 0.0868353168918159,
+        "sim_afford": 0.2768968982163633,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/rogue.png",
+        "total_score": 0.3447939224986169,
+        "sim_name": 0.38552587623474877,
+        "sim_group": 0.38552587623474877,
+        "sim_super": 0.0868353168918159,
+        "sim_afford": 0.2768968982163633,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      },
+      {
+        "image_path": "Monsters/assassin.png",
+        "total_score": 0.32240786067906535,
+        "sim_name": 0.35754329896030934,
+        "sim_group": 0.35754329896030934,
+        "sim_super": 0.0868353168918159,
+        "sim_afford": 0.2768968982163633,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Characters"
+        ]
+      }
+    ]
+  },
+  "streetlights": {
+    "restricted_to_characters": false,
+    "query_text": "streetlights",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Items and Collectibles"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": false,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0006744700765628497,
+      "top1_minus_top3": 0.0006744700765628497
+    },
+    "candidates": [
+      {
+        "image_path": "001_004_complete/combined_1_5.png",
+        "total_score": 0.5205104907084793,
+        "sim_name": 0.5955224692630832,
+        "sim_group": 0.5955224692630832,
+        "sim_super": 0.27557366028212216,
+        "sim_afford": 0.1653514926980062,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_11_3.png",
+        "total_score": 0.5198360206319165,
+        "sim_name": 0.5955224692630832,
+        "sim_group": 0.5955224692630832,
+        "sim_super": 0.27557366028212216,
+        "sim_afford": 0.15860679193237748,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      },
+      {
+        "image_path": "001_004_complete/combined_12_3.png",
+        "total_score": 0.5198360206319165,
+        "sim_name": 0.5955224692630832,
+        "sim_group": 0.5955224692630832,
+        "sim_super": 0.27557366028212216,
+        "sim_afford": 0.15860679193237748,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Items and Collectibles",
+          "Environmental Object"
+        ]
+      }
+    ]
+  },
+  "warehouse_exterior": {
+    "restricted_to_characters": false,
+    "query_text": "warehouse_exterior",
+    "expected_affordances": [],
+    "candidate_affordances_top1": [
+      "Terrain"
+    ],
+    "affordance_match_top1": null,
+    "needs_review": true,
+    "review_reasons": {
+      "low_confidence": true,
+      "ambiguous_margin": true,
+      "affordance_mismatch": false
+    },
+    "margins": {
+      "top1_minus_top2": 0.0,
+      "top1_minus_top3": 0.0
+    },
+    "candidates": [
+      {
+        "image_path": "tiles/roomFloor11.png",
+        "total_score": 0.3836362003905886,
+        "sim_name": 0.4625653042224882,
+        "sim_group": 0.2931194501521256,
+        "sim_super": 0.3411661920885205,
+        "sim_afford": 0.30301094024854747,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roomFloor12.png",
+        "total_score": 0.3836362003905886,
+        "sim_name": 0.4625653042224882,
+        "sim_group": 0.2931194501521256,
+        "sim_super": 0.3411661920885205,
+        "sim_afford": 0.30301094024854747,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      },
+      {
+        "image_path": "tiles/roomFloor13.png",
+        "total_score": 0.3836362003905886,
+        "sim_name": 0.4625653042224882,
+        "sim_group": 0.2931194501521256,
+        "sim_super": 0.3411661920885205,
+        "sim_afford": 0.30301094024854747,
+        "weights": {
+          "name": 0.5,
+          "group": 0.3,
+          "super": 0.1,
+          "afford": 0.1
+        },
+        "candidate_affordances": [
+          "Terrain"
+        ]
+      }
+    ]
+  }
+}

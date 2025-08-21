@@ -1,0 +1,27 @@
+{
+  "story_id": "5",
+  "num_objects_total": 12,
+  "num_objects_with_afford_pred": 11,
+  "n_intersection_fuzzy": 7,
+  "afford_expect_known_intersect": 7,
+  "afford_expect_match_intersect": 3,
+  "afford_expect_match_rate_intersect": 0.42857142857142855,
+  "mean_top1_total_intersect": 0.44241704989585734,
+  "mean_margin_top1_top2_intersect": 0.01761084106881638,
+  "mean_margin_top1_top3_intersect": 0.025675867647494483,
+  "pct_high_conf_at_1_intersect": 0.0,
+  "result_diversity_intersect": 1.0,
+  "only_in_matched_after_fuzzy_sample": [
+    "Jax",
+    "Jax unlocks the power of the amulet",
+    "Sinister sorcerer",
+    "ancient ruins",
+    "urban"
+  ],
+  "only_in_afford_after_fuzzy_sample": [
+    "Ancient power",
+    "City skyline",
+    "ancient power",
+    "loose cobblestone"
+  ]
+}
