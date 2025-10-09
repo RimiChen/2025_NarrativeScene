@@ -71,9 +71,9 @@ conda env create -f environment.yml
 
 ---
 
-### Citation
+### Citation If you found the project interesting or used the dataset and pipeline in your project or research, please cite.
 
-bibTex:
+bibTex (Game Assets with Semantic Labels for names, collected from OpenGameArt.com, follow CC-by-license, the attribution for the assedts are in Attributions-self.txt):
 
 ```
 @article{chen2025gametilenet,
@@ -82,6 +82,19 @@ bibTex:
   journal={arXiv preprint arXiv:2507.02941},
   year={2025}
 }
+```
+
+bibTex (Narrative to Scene Generation Pipeline, including LLM script for initial story generation):
+
+```
+@article{chen2025narrative,
+  title={Narrative-to-Scene Generation: An LLM-Driven Pipeline for 2D Game Environments},
+  author={Chen, Yi-Chun and Jhala, Arnav},
+  journal={arXiv preprint arXiv:2509.04481},
+  year={2025}
+}
+```
+
 
 ```
  
