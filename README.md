@@ -99,7 +99,7 @@ Narrative2Scene_EXAG/
 ---
 
 ## Installation
-```
+
 Conda environment for the scripts and models:
 ```
 conda env create -f environment.yml
