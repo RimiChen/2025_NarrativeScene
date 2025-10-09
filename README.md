@@ -95,6 +95,4 @@ bibTex (Narrative to Scene Generation Pipeline, including LLM script for initial
 }
 ```
 
-
-```
  
