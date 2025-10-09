@@ -254,5 +254,6 @@ All tiles and sprites retain their original OpenGameArt licenses listed in `Attr
 **Yi-Chun Chen**  
 Postdoctoral Associate, Yale University  
 Email: ychen74@alumni.ncsu.edu | yi-chun.chen@yale.edu 
+
 Website: https://sites.google.com/view/rimichen-web/bio
 Linkedin: https://www.linkedin.com/in/rimiycc/
