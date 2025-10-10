@@ -187,7 +187,7 @@ All visual assets originate from the **GameTileNet Dataset** (AIIDE 2025), which
 
 **References**
 - GameTileNet Dataset Paper (AIIDE 2025) — coming soon  
-- Dataset Repository: https://github.com/GameTileNet-Dataset
+- Dataset Repository: [https://github.com/RimiChen/2024-GameTileNet](https://github.com/RimiChen/2024-GameTileNet)
 
 See `Attributions-self.txt` for all CC0 and CC BY sources from OpenGameArt.org.
 
