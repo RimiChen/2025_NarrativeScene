@@ -335,7 +335,11 @@ All tiles and sprites retain their original OpenGameArt licenses listed in `Attr
 ## Contact
 **Yi-Chun (Rimi) Chen**  
 Postdoctoral Associate, Yale University
+
 Linkedin: https://www.linkedin.com/in/rimiycc/  
+
 Website: https://sites.google.com/view/rimichen-web/bio
+
 Email: ychen74@alumni.ncsu.edu | yi-chun.chen@yale.edu 
+
 
